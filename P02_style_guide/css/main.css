@@ -154,8 +154,9 @@
 /* Styling for In-Text Link */
   .in-text-link {
     font-family: Avenir-Book; 
-    font-size: 1.1rem;
-   /color: #5E5E5E;
+    font-size: .875rem;
+    color: #5E5E5E;
+    letter-spacing: 0.05em;
   }
   .in-text-link a {
     font-family: Avenir-Roman;
@@ -173,11 +174,11 @@
   /* Default/Primary Button */
   .button-default {
     font-family: AGaramond-Regular;
-    font-size: 1.125rem;
-    letter-spacing: 0.15rem;
+    font-size: .875rem;
+    letter-spacing: 0.2rem;
     text-transform: uppercase;
     color: #C1B087;
-    border: 2px solid #C1B087;
+    border: 1px solid #C1B087;
     background: none;
     padding: 0.8rem 1.5rem;
     cursor: pointer;
@@ -191,8 +192,8 @@
 
   .button-secondary {
   font-family: AGaramond-Regular;
-  font-size: 1.125rem;
-  letter-spacing: 0.15rem;
+  font-size: .875rem;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
   color: #7D7D7D;
   border: none;
@@ -259,33 +260,45 @@
   }
 
 
+  @font-face {
+      font-family: Avenir-Heavy;
+      src: url(fonts/Avenir-Heavy.ttf);   
+  }
+
+
   
 
 
 /* Styling for Headings */
   #sample-head1 {
-    font-family: Avenir-Black;
-    text-transform: uppercase;
-    font-size: 1.25rem;
+    font-family: AGaramond-Regular;
+    font-size: 1.56rem;
     letter-spacing: 0.1rem;
-    color: #5E5E5E;
+    color: #454545;
     margin-bottom: 0.5em;
   }
 
   #sample-head2 {
-    font-family: Avenir-Medium;
+    font-family: Avenir-Heavy;
     text-transform: uppercase;
-    font-size: 1.06rem;
-    letter-spacing: 0.1rem;
+    font-size: 1.56rem;
+    letter-spacing: 0..025rem;
     color: #5E5E5E;
     margin-bottom: 0.5em;
   }
 
   #sample-head3 {
-    font-family: Avenir-Roman;
-    font-size: 0.875rem;
+    font-family: Avenir-Medium;
+    font-size: 1.125rem;
     letter-spacing: 0.05rem;
-    color: #7D7D7D;
+    color: #5e5e5e;
+    margin-bottom: 0.5em;
+  }
+   #sample-head4 {
+    font-family: Avenir-Roman;
+    font-size: 1.06rem;
+    letter-spacing: 0.05rem;
+    color: #7d7d7d;
     margin-bottom: 0.5em;
   }
 
@@ -293,16 +306,17 @@
 /* Styling for Content Text / Paragraph */
   #sample-paragraph {
     font-family: Avenir-Book;
-    font-size: 1.1rem;
+    font-size: .875rem;
     color: #5E5E5E;
   }
 
 
 /* Styling for Bulleted Lists (Filter Options) */
   #filter-menu {
-    font-family: Avenir-Roman;
+    font-family: AGaramond-Regular;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
     text-transform: uppercase;
-    font-size: 1.125rem;
     padding: 0;
     margin: 0;
     list-style-type: none;
@@ -401,8 +415,9 @@
 
   .product-name {
     font-family: Avenir-Medium;
-    font-size: 1.06rem;
+    font-size: 1.125rem;
     text-transform: uppercase;
+    letter-spacing: 0.05em;
     color: #5E5E5E;
     clear: left;
     margin-bottom: 0.18em;
@@ -414,7 +429,7 @@
 
   .product-caption {
     font-family: Avenir-Roman;
-    font-size: 0.875rem;
+    font-size: 1.06rem;
     color: #7D7D7D;
     clear: left;
     overflow: auto;
