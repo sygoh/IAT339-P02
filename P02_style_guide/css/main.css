@@ -92,11 +92,11 @@
     color: #7D7D7D;
     text-decoration: none;
     display: block;
-    padding: 0.8rem 1.25em;
+    padding: 0.8rem 0.8em;
     margin: 0 1.25rem;
     font-family: Avenir-Roman;
     letter-spacing: 0.15rem;
-    font-size: 1.125rem;
+    font-size: 0.875rem;
     text-transform: uppercase;
     position: relative;
   }
@@ -120,13 +120,13 @@
     width: 0;
     background: #C1B087;
     
-    /*animation speed left to right
+    /*animation speed left to right*/
     -webkit-transition: width .25s;
     -moz-transition: width .25s;
     -ms-transition: width .25s;
     -o-transition: width .25s;
     transition: width .25s;
-    */
+    
   }
 
   .nav-menu ul li.active a:before {
@@ -313,26 +313,38 @@
 
 
 /* Styling for Bulleted Lists (Filter Options) */
-  #filter-menu {
-    font-family: AGaramond-Regular;
-    font-size: 1rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
+  ul.filter-menu li{
+    list-style-type: none;
     padding: 0;
     margin: 0;
-    list-style-type: none;
-    color: #7D7D7D;
+    margin-bottom: 0.5em;
+   
   }
 
-  ul li {
-    margin-bottom: 0.8em;
+  ul.filter-menu li a {
+    font-family: AGaramond-Regular;
+    font-size: 0.81rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    
+    color: #7D7D7D;
+    text-decoration: none;
   }
+
+  ul.filter-menu li a:hover {
+    color: #C1B087;
+  } 
+
+  ul.filter-menu li a:active {
+    color: #C1B087;
+  } 
+
 
 
 /* Styling for Numbered Lists */
   #numbered-lists {
     font-family: Avenir-Book;
-    font-size: 1.1rem;
+    font-size: 0.81rem;
     color: #5E5E5E;
     padding: 0;
     margin: 0 0 0 1.5em;
@@ -426,15 +438,12 @@
     */
   }
 
+
   .product-caption {
     font-family: Avenir-Roman;
-    font-size: 1.06rem;
+    font-size: 0.875rem;
     color: #7D7D7D;
     clear: left;
     overflow: auto;
   }
-
-
-
-
 
