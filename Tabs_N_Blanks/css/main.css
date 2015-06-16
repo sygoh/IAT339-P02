@@ -1,0 +1,38 @@
+/*
+  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+
+  CREATED BY: IAT339 D101 WINONA HUANG 301165181
+                          JOANNE GOH 301140652;
+*/
+
+  /* loading fonts */
+
+  @font-face {
+      font-family: AGaramond-Regular;
+      src: url(fonts/AGaramondPro-Regular.otf);   
+  }
+
+  @font-face {
+      font-family: AGaramond-Italics;
+      src: url(fonts/AGaramondPro-Italic.otf);   
+  }
+
+  @font-face {
+      font-family: Avenir-Heavy;
+      src: url(fonts/Avenir-Heavy.ttf);   
+  }
+
+  @font-face {
+      font-family: Avenir-Medium;
+      src: url(fonts/Avenir-Medium.ttf);   
+  }
+
+  @font-face {
+      font-family: Avenir-Roman;
+      src: url(fonts/Avenir-Roman.ttf);   
+  }
+
+  @font-face {
+      font-family: Avenir-Book;
+      src: url(fonts/Avenir-Book.ttf);   
+  }
