@@ -183,7 +183,7 @@
     width: 100%;
   }
 
-
+/* yet to fix the media queries */
   @media (max-width: 40rem) {
     ul.nav-menu li {
       float: none;
