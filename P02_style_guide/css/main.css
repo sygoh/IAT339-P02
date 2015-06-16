@@ -210,6 +210,7 @@
 
 
 /* Styling for Form Text Fields and Labels */
+
   form {
     display: inline-block;
     background-color: white;
@@ -223,8 +224,6 @@
     margin-bottom: 0.3em;
     display: block;
   }
-
-
 
 
 /* 
