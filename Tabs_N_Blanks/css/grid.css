@@ -17,7 +17,6 @@
 	box-sizing: border-box;
 }
 
-
 /*
 	Here we are using a 'fancy' css selector that is 
 	specifying if the class of an item starts with
@@ -26,11 +25,68 @@
 [class^='grid-col-'] {
 	float: left;
 	padding: 0; 
-	text-align: center; /* center the content in this block */
+	padding-right: 30px;
+}
+
+
+[class^='grid-col-']:last-of-type {
+  padding-right: 0;
 }
 
 
 /*
+	Here we are defining our 20% wide column (for 2 columns of a 10 col grid)
+*/
+.grid-col-2of10 {
+	width: 20%;
+}
+
+
+/*
+	Using further @media queries, we specify that at a width of
+	less than 30em it should collapse the 2/10 columns into one stack
+*/
+@media (max-width: 30em) {
+
+	.grid-col-2of10 {
+		width: 100%;
+	}
+
+}
+
+.grid-col-3of10 {
+	width: 30%;
+}
+
+.grid-col-4of10 {
+	width: 40%;
+}
+
+@media (max-width: 40em) {
+
+	.grid-col-4of10 {
+		width: 100%;
+	}
+
+}
+
+
+/*
+<<<<<<< HEAD
+	Here we are defining our 20% wide column (for 2 columns of a 10 col grid)
+*/
+.grid-col-2of10 {
+	width: 20%;
+}
+
+/*
+	Using further @media queries, we specify that at a width of
+	less than 30em it should collapse the 2/10 columns into one stack
+*/
+@media (max-width: 30em) {
+
+	.grid-col-2of10 {
+=======
 	Here we are defining our 50% wide column (for a 10 col grid)
 */
 .grid-col-5of10 {
@@ -51,24 +107,11 @@
 }
 
 
-/*
-	Here we are defining our 20% wide column (for 2 columns of a 10 col grid)
-*/
-.grid-col-2of10 {
-	width: 20%;
+.grid-col-6of10 {
+	width: 60%;
 }
 
-/*
-	Using further @media queries, we specify that at a width of
-	less than 30em it should collapse the 2/10 columns into one stack
-*/
-@media (max-width: 30em) {
 
-	.grid-col-2of10 {
-		width: 100%;
-	}
-
-}
 
 /*
 	Much like last week, we are clearing the floating items so
@@ -79,6 +122,4 @@
 	display: block;
 	clear: both;
 }
-
-
 
