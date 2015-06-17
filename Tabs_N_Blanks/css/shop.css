@@ -107,6 +107,7 @@ ul.breadcrumb li:before {
   #product-listing ul {
     list-style-type: none;
     overflow: auto;
+
   }
 
   #product-listing li {
@@ -114,6 +115,7 @@ ul.breadcrumb li:before {
     padding: 1em;
     overflow: auto;
     float: left;
+
   }
 
   #product-listing li img {
@@ -121,6 +123,9 @@ ul.breadcrumb li:before {
     width: auto;
     padding-top: 1em;
     padding-right:1em;
+
+
+
    /* background-color: rgba(202, 201, 199, 0.75);*/
   }
 
@@ -144,6 +149,10 @@ ul.breadcrumb li:before {
     clear: left;
     overflow: auto;
   }
+
+ div .button-center {
+ 	text-align: center;
+ }
 
 
 
