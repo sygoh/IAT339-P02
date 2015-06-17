@@ -31,18 +31,34 @@ ul.img-list li {
 .coming-up-events {
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
+	width: 50%;
 	text-align: center;
 	width: ;
 }
+
+ul.img-list{
+	text-align: center;
+}
+
+.upcoming-events {
+	text-align: center;
+}
+
+
+
 
 /* Styling for Popular Events */
 .popular-events {
 	margin-left: auto;
 	margin-right: auto;
-	width: 60%;
+	width: 50%;
 	text-align: center;
 }
+.section-popular-events {
+	text-align: center;
+}
+
+/*STILL NEED TO CENTER BUTTON */
 
 .coming-up-events ul.img-list li h3 {
 	margin-top: 0.5em;
