@@ -37,7 +37,11 @@
   h2 {
     font-family: Avenir-Heavy;
     text-transform: uppercase;
+<<<<<<< HEAD
     font-size: 1.20rem;
+=======
+    font-size: 1.1rem;
+>>>>>>> Winona-Working
     letter-spacing: 0.025em;
     color: #5E5E5E;
   /*  margin-bottom: 0.5em; */
