@@ -1,0 +1,54 @@
+/*
+  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+
+  CREATED BY: IAT339 D101 WINONA HUANG 301165181
+                          JOANNE GOH 301140652;
+*/
+
+
+  *, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* entire product details section is shifted down */
+  #product-details {
+  	margin: 4em 0;
+  }
+
+  .product-img {
+  	float: right;
+  }
+
+  .product-gallery {
+    width: 500px;
+    float: right;
+    padding: 1em;
+    text-align: center;
+    background-color: #F2EDE7;
+  }
+
+  .product-details-content {
+  	text-align: left;
+    padding-left: 2em;
+  }
+
+  .product-details-content h2 {
+    margin-top: 0.5em;
+  }
+
+  .product-details-content h4 {
+    text-align: left;
+    margin-bottom: 1em;
+    margin-top: 2em;
+  }
+
+  .product-details-content p {
+    text-align: left;
+    margin: 0.3em 0;
+  }
+
+  .puzzle-level {
+    margin-bottom: 0.5em;
+  }
