@@ -61,6 +61,10 @@
 	width: 60%;
 }
 
+.grid-col-8of10 {
+	width: 80%;
+}
+
 
 /*
 	Much like last week, we are clearing the floating items so
