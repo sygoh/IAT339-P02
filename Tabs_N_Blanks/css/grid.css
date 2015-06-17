@@ -43,6 +43,10 @@
 
 /* Add media queries later on for to achieve responsive design */
 
+.grid-col-1of10 {
+	width: 10%;
+}
+
 .grid-col-2of10 {
 	width: 20%;
 }
