@@ -102,6 +102,8 @@
 /* 
   NAVIGATION MENU -----------------
 */
+
+  /* Main Navigation Menu */
   ul.nav-menu {
     width: auto; /* width of underline */
   }
@@ -112,6 +114,8 @@
     padding: 0;
     line-height: 1;
     display: block;
+
+    text-align: center;
   }
 
   ul.nav-menu li {
@@ -124,19 +128,21 @@
     float: left;
   }
 
+/*
   ul.nav-menu.align-center  {
     text-align: center;
   }
+*/
 
   ul.nav-menu li a {
     color: #7D7D7D;
     text-decoration: none;
     display: block;
-    padding: 0.8rem 0.8em;
+    padding: 0.8rem 1em;
     margin: 0 1.25rem;
     font-family: Avenir-Roman;
-    letter-spacing: 0.1rem;
-    font-size: 0.81rem;
+    letter-spacing: 0.15rem;
+    font-size: 0.825rem;
     text-transform: uppercase;
     position: relative;
   }
@@ -173,7 +179,7 @@
     width: 100%;
   }
 
-  /* Homepage is always active when stays at Home */
+  /* Indicate the Page that is currently active*/
   ul.nav-menu li.active a {
     color: #C1B087;
   }
@@ -197,3 +203,33 @@
       box-sizing: border-box;
     }
   }
+
+  /* Side Navigation Menu */
+  .side-nav {
+    text-align: right;
+  }
+
+  ul.nav-menu .side-nav li a {
+    font-family: AGaramond-Regular;
+    letter-spacing: 0.1rem;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  ul.nav-menu .side-nav li a:hover {
+    color: #C1B087;
+
+   }
+
+  ul.nav-menu .side-nav li a:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 0px; /*stroke weight */
+
+    
+  }
+  
