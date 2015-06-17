@@ -91,10 +91,10 @@ ul.breadcrumb li:before {
     color: #C1B087;
   } 
   .filter-menu h3 {
-  	padding-left: 6.9em;
-  	font-size: .8rem;
-/*  	text-transform: uppercase;
-*/  }
+  	padding-left: 5.4em;
+  	font-size: 1rem;
+  	text-transform: uppercase;
+  }
 
 #product-listing {
     width: 100%;
@@ -106,6 +106,7 @@ ul.breadcrumb li:before {
    
   #product-listing ul {
     list-style-type: none;
+    overflow: auto;
   }
 
   #product-listing li {
@@ -116,10 +117,36 @@ ul.breadcrumb li:before {
   }
 
   #product-listing li img {
-    margin-bottom: 1.2em;
+  /*  margin-bottom: 1.2em;*/
     width: auto;
+    padding-top: 1em;
+    padding-right:1em;
    /* background-color: rgba(202, 201, 199, 0.75);*/
   }
+
+ .product-name {
+    clear: left;
+    margin-bottom: 0;
+    font-family: Avenir-Medium;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    color: #5e5e5e;
+    text-transform: uppercase;
+/*    margin-bottom: 0.18em;*/
+  }
+
+
+ .product-caption{
+ 	font-family: Avenir-Roman;
+    font-size: 0.70rem;
+    letter-spacing: 0.05em;
+    color: #7d7d7d;
+    clear: left;
+    overflow: auto;
+  }
+
+
+
 
 
 
