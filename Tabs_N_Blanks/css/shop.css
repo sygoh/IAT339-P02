@@ -58,6 +58,9 @@ ul.breadcrumb li:before {
 	padding-left: 1.5rem;
 }
 
+.filter-menu{
+	padding-top: 1em;
+}
 .filter-menu ul {
 	margin-bottom: 2em;
 }
@@ -92,3 +95,36 @@ ul.breadcrumb li:before {
   	font-size: .8rem;
 /*  	text-transform: uppercase;
 */  }
+<<<<<<< HEAD
+=======
+
+#product-listing {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+    padding: 0;
+  }
+   
+  #product-listing ul {
+    list-style-type: none;
+  }
+
+  #product-listing li {
+    width: auto;
+    padding: 1em;
+    overflow: auto;
+    float: left;
+  }
+
+  #product-listing li img {
+    margin-bottom: 1.2em;
+    width: auto;
+   /* background-color: rgba(202, 201, 199, 0.75);*/
+  }
+
+
+
+
+
+>>>>>>> Joanne-Working
