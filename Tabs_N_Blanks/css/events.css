@@ -1,0 +1,51 @@
+/*
+  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+
+  CREATED BY: IAT339 D101 WINONA HUANG 301165181
+                          JOANNE GOH 301140652;
+*/
+
+  *, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+/* Styling for Coming Up Events */
+.coming-up-events {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	text-align: center;
+	width: ;
+}
+
+/* Styling for Popular Events */
+.popular-events {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	text-align: center;
+}
+
+.coming-up-events ul.img-list li h3 {
+	margin-top: 0.5em;
+	margin-bottom: 0.1em;
+
+}
+
+.coming-up-events ul.img-list li h4 {
+	margin-top: 0.2em;
+
+}
+
+.popular-events ul.img-list li h3 {
+	margin-top: 0.5em;
+	margin-bottom: 0.1em;
+
+}
+
+.popular-events ul.img-list li h4 {
+	margin-top: 0.2em;
+
+}
