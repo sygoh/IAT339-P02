@@ -27,8 +27,8 @@
   /* Different Levels of Headings */
   h1 {
     font-family: AGaramond-Regular;
-    font-size: 1.56rem;
-    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.1em;
     color: #5E5E5E; /* was originally #454545 on style guide */
     text-transform: uppercase;
   /*  margin-bottom: 0.5em; */
@@ -37,8 +37,8 @@
   h2 {
     font-family: Avenir-Heavy;
     text-transform: uppercase;
-    font-size: 1.20rem;
-    letter-spacing: 0..025rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.025em;
     color: #5E5E5E;
   /*  margin-bottom: 0.5em; */
   }
@@ -46,7 +46,7 @@
   h3 {
     font-family: Avenir-Medium;
     font-size: 1.125rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.05em;
     color: #5e5e5e;
   /*  margin-bottom: 0.5em; */
   }
@@ -54,7 +54,7 @@
   h4 {
     font-family: Avenir-Roman;
     font-size: 0.875rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.05em;
     color: #7d7d7d;
   /*  margin-bottom: 0.5em; */
   }
