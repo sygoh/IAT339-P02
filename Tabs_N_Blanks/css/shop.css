@@ -8,11 +8,6 @@ ul.breadcrumb {
 	margin-top: 2em;
 }
 
-/*
-.breadcrumb ul {
-	line-height: 0;
-}
-*/
 
 ul.breadcrumb li { 
 	float: left; 
@@ -42,6 +37,7 @@ ul.breadcrumb li:before {
 	font-size: 1rem;
 	color: #7D7D7D;
 
+	/* styling for forward slash that separates links */
 	content: '/';
 	display: inline-block;
 	margin-right: 0.5rem;
