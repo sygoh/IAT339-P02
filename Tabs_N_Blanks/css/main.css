@@ -63,6 +63,35 @@
     font-family: Avenir-Book;
     font-size: .81rem;
     color: #5E5E5E;
+    margin-bottom: 2rem;
+  }
+
+  a.button-default {
+    text-decoration: none;
+    font-family: AGaramond-Regular;
+    font-size: .6rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: #C1B087;
+    border: 1px solid #C1B087;
+    background: none;
+    cursor: pointer;
+    /*padding: height - width*/
+    padding: 10px 20px;
+  /*  margin: 100px 0 0 45%;  */
+  }
+
+  a.button-default:hover{
+    background: #C1B087;
+    color: white;
+  }
+
+  #new-collection {
+    margin-bottom: 3rem;
+  }
+
+  #about-us {
+    margin-bottom: 3rem;
   }
 
 
