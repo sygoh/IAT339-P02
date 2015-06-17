@@ -137,7 +137,7 @@
     margin: 0 0.5rem;
     font-family: Avenir-Roman;
     letter-spacing: 0.15rem;
-    font-size: 0.825rem;
+    font-size: 0.75rem;
     text-transform: uppercase;
     position: relative;
   }
@@ -206,8 +206,8 @@
 
   ul.nav-menu .side-nav li a {
     font-family: AGaramond-Regular;
-    letter-spacing: 0.1rem;
-    font-size: 0.75rem;
+    letter-spacing: 0.08rem;
+    font-size: 0.68rem;
     text-transform: uppercase;
     position: relative;
 
@@ -229,6 +229,7 @@
     height: 0px; /* no stroke weight */
   }
   
+
 
 /* 
   FOOTER 
