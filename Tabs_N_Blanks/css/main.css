@@ -78,6 +78,7 @@
     cursor: pointer;
     /*padding: height - width*/
     padding: 10px 20px;
+    text-align: center;
   /*  margin: 100px 0 0 45%;  */
   }
 
@@ -88,6 +89,8 @@
 
   #new-collection {
     margin-bottom: 3rem;
+    text-align: center;
+
   }
 
   #about-us {

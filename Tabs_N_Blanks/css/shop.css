@@ -56,5 +56,118 @@ ul.breadcrumb li:before {
 	margin-right: 0.5rem;
 	margin-top: 0.5rem;
 	padding-left: 1.5rem;
-
 }
+
+.filter-menu{
+	padding-top: 1em;
+}
+.filter-menu ul {
+	margin-bottom: 2em;
+}
+
+.filter-menu li{
+    list-style-type: none;
+    padding: 0;
+    padding-left:3em;
+    margin: 0;
+    margin-bottom: 0.5em;
+   
+  }
+
+ .filter-menu li a {
+    font-family: AGaramond-Regular;
+    font-size: 0.75rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #7D7D7D;
+    text-decoration: none;
+  }
+
+ .filter-menu li a:hover {
+    color: #C1B087;
+  } 
+
+ .filter-menu li a:active {
+    color: #C1B087;
+  } 
+  .filter-menu h3 {
+<<<<<<< HEAD
+  	padding-left: 6.9em;
+  	font-size: .8rem;
+/*  	text-transform: uppercase;
+*/  }
+<<<<<<< HEAD
+=======
+=======
+  	padding-left: 5.4em;
+  	font-size: 1rem;
+  	text-transform: uppercase;
+  }
+>>>>>>> Joanne-Working
+
+#product-listing {
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    float: left;
+    padding: 0;
+  }
+   
+  #product-listing ul {
+    list-style-type: none;
+    overflow: auto;
+
+  }
+
+  #product-listing li {
+    width: auto;
+    padding: 1em;
+    overflow: auto;
+    float: left;
+
+  }
+
+  #product-listing li img {
+  /*  margin-bottom: 1.2em;*/
+    width: auto;
+    padding-top: 1em;
+    padding-right:1em;
+
+
+
+   /* background-color: rgba(202, 201, 199, 0.75);*/
+  }
+
+ .product-name {
+    clear: left;
+    margin-bottom: 0;
+    font-family: Avenir-Medium;
+    font-size: 1rem;
+    letter-spacing: 0.05em;
+    color: #5e5e5e;
+    text-transform: uppercase;
+/*    margin-bottom: 0.18em;*/
+  }
+
+
+ .product-caption{
+ 	font-family: Avenir-Roman;
+    font-size: 0.70rem;
+    letter-spacing: 0.05em;
+    color: #7d7d7d;
+    clear: left;
+    overflow: auto;
+  }
+
+ div .button-center {
+ 	text-align: center;
+ }
+
+
+
+
+
+
+
+
+>>>>>>> Joanne-Working
