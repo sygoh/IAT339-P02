@@ -16,6 +16,16 @@ box-sizing: border-box;
 
 
 
+/* Styling for New Collection Section */
+#new-collection h1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	text-align: center;
+	width: ;
+}
+
+
 /* Styling for About-Us */
 #about-us {
 	margin-left: auto;
@@ -25,6 +35,7 @@ box-sizing: border-box;
 	width: ;
 }
 
+/* Styling for Contact-Us */
 #contact-us {
 	margin-left: auto;
 	margin-right: auto;

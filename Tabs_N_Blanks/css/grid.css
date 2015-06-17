@@ -1,3 +1,9 @@
+/*
+  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+
+  CREATED BY: IAT339 D101 WINONA HUANG 301165181
+                          JOANNE GOH 301140652;
+*/
 
 /* 
 	Reference Retrieved From:
@@ -65,6 +71,9 @@
 	width: 80%;
 }
 
+.grid-col-10of10 {
+	width: 100%;
+}
 
 /*
 	Much like last week, we are clearing the floating items so

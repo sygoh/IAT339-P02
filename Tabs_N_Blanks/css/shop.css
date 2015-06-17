@@ -1,4 +1,17 @@
-  /* BREADCRUMBS */ 
+/*
+  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+
+  CREATED BY: IAT339 D101 WINONA HUANG 301165181
+                          JOANNE GOH 301140652;
+*/
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+} 
+
+/* BREADCRUMBS */ 
 
 ul.breadcrumb { 
 	background: #F2EDE7;
@@ -8,11 +21,6 @@ ul.breadcrumb {
 	margin-top: 2em;
 }
 
-/*
-.breadcrumb ul {
-	line-height: 0;
-}
-*/
 
 ul.breadcrumb li { 
 	float: left; 
@@ -42,6 +50,7 @@ ul.breadcrumb li:before {
 	font-size: 1rem;
 	color: #7D7D7D;
 
+	/* styling for forward slash that separates links */
 	content: '/';
 	display: inline-block;
 	margin-right: 0.5rem;
