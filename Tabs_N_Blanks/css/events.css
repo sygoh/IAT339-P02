@@ -11,6 +11,22 @@
     box-sizing: border-box;
   }
 
+ul.img-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	/*text-align: center; centering img */
+}
+
+ul.img-list li {
+	display: inline-block;
+	height: 171px;
+	margin: 0 1em 1em 0;
+	position: relative;
+	width: 250px;
+	margin-bottom: 2rem;
+}
+
 /* Styling for Coming Up Events */
 .coming-up-events {
 	margin-left: auto;
