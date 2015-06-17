@@ -56,5 +56,34 @@ ul.breadcrumb li:before {
 	margin-right: 0.5rem;
 	margin-top: 0.5rem;
 	padding-left: 1.5rem;
-
 }
+
+.filter-menu ul {
+	margin-bottom: 2em;
+}
+
+.filter-menu li{
+    list-style-type: none;
+    padding: 0;
+    padding-left:3em;
+    margin: 0;
+    margin-bottom: 0.5em;
+   
+  }
+
+ .filter-menu li a {
+    font-family: AGaramond-Regular;
+    font-size: 0.81rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #7D7D7D;
+    text-decoration: none;
+  }
+
+ .filter-menu li a:hover {
+    color: #C1B087;
+  } 
+
+ .filter-menu li a:active {
+    color: #C1B087;
+  } 
