@@ -14,23 +14,46 @@
 
 		<!-- main.css includes styling for basic elements: text elements, navigation menu, footer, buttons?-->
 		<link href="css/main.css" rel="stylesheet">
-		<!-- other stylesheets link goes here 
+		<!-- grid.css specifies the grid structure-->
+		<link href="css/grid.css" rel="stylesheet">
+		<!-- other stylesheets link goes here -->
 
-		-->
+
 	</head>
 
 	<body>
 
 		<section>
-			<div class="">
+			<div class="grid">
+
 			<ul class="nav-menu">
-			  <li><a href="index.html"><span>Home</span></a></li>
-			  <li class="active"><a href="shop.html"><span>Shop</span></a></li>
-			  <li><a href="events.html"><span>Events</span></a></li>
-			  <li><a href="index.html#about-us"><span>About</span></a></li>
-			  <li><a href="index.html#contact-us"><span>Contact</span></a></li>
+				<!-- logo filler; styling not applied yet-->
+				<div class="grid-col-2of10">
+					<h2> LOGO</h2>
+				</div>
+					
+					<div class="grid-col-5of10">
+					<li><a href="index.html"><span>Home</span></a></li>
+					<li class="active"><a href="shop.html"><span>Shop</span></a></li>
+					<li><a href="events.html"><span>Events</span></a></li>
+					</div>
+
+					<!-- move to footer
+					<li><a href="#about-us"><span>About</span></a></li>
+					<li><a href="#contact-us"><span>Contact</span></a></li>
+					</div>
+					-->
+
+					<div class="grid-col-3of10">
+						<div class="side-nav">
+						<li><a href="#"><span>Search</span></a></li>
+						<li><a href="#"><span>Cart</span></a></li>
+						</div>
+					</div>
+
 			</ul>
-			</div>
+			</div> <!-- closing <div class="grid"-->
+				
 		</section>
 
 	</body>
