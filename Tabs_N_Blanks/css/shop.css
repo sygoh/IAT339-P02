@@ -17,7 +17,6 @@ ul.breadcrumb {
 	background: #F2EDE7;
 	list-style: none; 
 	overflow: hidden; 
-
 	margin-top: 2em;
 }
 
@@ -59,10 +58,11 @@ ul.breadcrumb li:before {
 }
 
 .filter-menu{
-	padding-top: 1em;
+	padding-top: 2em;
 }
 .filter-menu ul {
 	margin-bottom: 2em;
+
 }
 
 .filter-menu li{
@@ -109,6 +109,7 @@ ul.breadcrumb li:before {
   #product-listing ul {
     list-style-type: none;
     overflow: auto;
+    padding:0;
 
   }
 
@@ -152,7 +153,8 @@ ul.breadcrumb li:before {
     overflow: auto;
   }
 
- .button-center {
+ .button-padding {
  	text-align: center;
+ 	padding-right: 5em;
  }
 

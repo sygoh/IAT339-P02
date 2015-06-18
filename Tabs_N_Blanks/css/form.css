@@ -1,0 +1,40 @@
+/*
+  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+
+  CREATED BY: IAT339 D101 WINONA HUANG 301165181
+                          JOANNE GOH 301140652;
+*/
+
+  *, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* Styling for Form Text Fields and Labels */
+
+.form-field {
+    font-family: Avenir-Book;
+    text-transform: uppercase;
+    width:270px;
+    background: transparent;
+    margin-top:10px;
+    border: 1px solid #d8d8d8;
+    padding: 8px 15px;
+    -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
+
+.message-box {
+  font-family: Avenir-Book;
+  text-transform: uppercase;
+  width:270px;
+  height:100px;
+  padding: 8px 15px;
+  background: transparent;
+  margin-top:10px;
+  border: 1px solid #d8d8d8;
+}
