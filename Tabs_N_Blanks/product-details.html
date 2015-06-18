@@ -10,7 +10,7 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>Home - Tabs N' Blanks</title>
+		<title>Shop - Tabs N' Blanks</title>
 
 		<!-- main.css includes styling for basic elements: text elements, navigation menu, footer, buttons?-->
 		<link href="css/main.css" rel="stylesheet">
@@ -19,6 +19,9 @@
 		
 		<!-- other stylesheets link goes here -->
 		<link href="css/shop.css" rel="stylesheet">
+		<link href="css/product-details.css" rel="stylesheet">
+		<!-- 
+		<link href="css/img-styling.css" rel="stylesheet"> -->
 		
 	</head>
 
@@ -56,7 +59,7 @@
 					</div>
 
 			</ul>
-			</div> <!-- closing <div class="grid"-->
+			</div> <!-- closing <div class="grid">-->
 				
 		</section>
 
@@ -64,19 +67,121 @@
 			<ul class="breadcrumb">
 			<li><a href="shop.html">shop</a></li>
 			<!-- the default puzzle category, may be changed -->
-			<li><a href="">Most Popular</a></li>
-			<li><a href="">Product Name</a></li>
+			<li><a href="shop.html">new collection</a></li>
+			<li><a href="">black swan</a></li>
 			</ul>
 		</section>
 		
-	</div> <!-- close <div class="container" div -->
+
+		<!-- Product Details (Content)-->
+		<section id="product-details"> 
+			<div class="grid">
+				<div class="grid-col-5of10">
+					<div class="product-img">
+						<img src="img/black-swan-500px.jpg" width="500" height="313"/>
+					</div>
+					
+					<div class="product-gallery">
+						<img src="http://placehold.it/150x100">
+						<img src="http://placehold.it/150x100">
+						<img src="http://placehold.it/150x100">
+					</div>
+				
+				</div> <!-- closing <div class="grid-col-4of10">-->
+
+				<div class="grid-col-4of10">
+				<div class="product-details-content">
+					<h2> Black Swan </h2>
+					
+					<!-- Star Rating Goes Here-->
+					<!-- 9733=filled stars, 9734=hollows stars-->
+					<div class="product-rating">
+						<span>&#9733;</span>
+						<span>&#9733;</span>
+						<span>&#9733;</span>
+						<span>&#9733;</span>
+						<span>&#9734;</span>
+					</div>
+					
+					
+					<h1> &#36; 45 </h1>
+					<!-- enables the Cart modal -->
+					<a href="#" class="button-default"title="Cart">Add to Cart</a>
+					
+					<div class="puzzle-level">
+					<h4> Intermediate Level</h4>
+					<p> Aliquam urna ex, volutpat vitae varius eget, ornare sed quam. Integer tristique ut velit eget auctor. Pellentesque porttitor mauris vitae quam ullamcorper pulvinar. Aliquam nec odio nisl. Suspendisse facilisis velit quam, sit amet porttitor ipsum semper in.</p>
+					</div>	
+					
+					<div class="puzzle-dimensions">
+					<h4> Puzzle Dimensions</h4>
+					<p> 15 x 11 x 4.5cm</p>
+					<p> 5.9" x 4.3" x 1.7"</p>
+					</div>
+
+				</div>
+				</div> <!-- closing <div class="grid-col-6of10">-->
+
+			</div> <!-- closing <div class="grid">-->
+
+		</section>
+
+		<hr/> <!-- section divider line-->
+
+		<!-- People Also Viewed -->
+		<section class="recommendations">
+			<h3> People Also Viewed</h3>
+				<ul class="img-list">
+			  	<li>		   
+			    	<a href="shop.html"> <img src="http://placehold.it/150x100">
+				    	<span class="text-content">
+				    		<h3>Product Name</h3>
+				    	</span>
+			    	</a>
+			    </li>
+			    <li>		   
+					<a href="shop.html"> <img src="http://placehold.it/150x100">
+				    	<span class="text-content">
+				    		<h3>Product Name</h3>
+				    	</span>			    
+				    </a>
+				</li>
+			    </ul>
+		</section> <!-- closing <section class="recommendations"> -->
+
+		<hr/> <!-- section divider line-->
+
+		<section class="review">
+			<h3>Reviews</h3>
+			<a href="#" class="button-default"title="Cart">Write a Review</a>
+
+			<div class="review-posts">
+			<figure>
+				<img src="http://placehold.it/60x60">
+				<figcaption>puzzluver</figcaption>
+			</figure>
+
+			<div class="product-rating">
+				<span>&#9733;</span>
+				<span>&#9733;</span>
+				<span>&#9733;</span>
+				<span>&#9734;</span>
+				<span>&#9734;</span>
+			</div>
+			<h4>Really Challenging Puzzle Set</h4>
+			<p>Sed urna diam, blandit sed neque quis, tempor congue purus. Suspendisse in tincidunt lectus. Nullam pretium mi quis mauris luctus, sit amet pretium risus posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sed risus ac mauris tempus porta. Donec mauris velit, lobortis non vehicula quis, dapibus congue leo. Mauris non quam venenatis, condimentum sem eu, ullamcorper dolor. In ornare ante vel odio rhoncus, et scelerisque nulla rutrum.</p>
+			</div> <!-- closing <div class="review-posts"> -->
+
+		</section> <!-- closing section class review -->
+
+	</div> <!-- close <div class="container"> -->
 
 	<div class="footer">
 		<!-- filler for social media icons-->
 		<h3>social media icons go here</h3>
 		<p> copyright Tabs N' Blanks </p>
 
-	</div>
+	</div> <!-- close <div class="footer"> -->
 
 	</body>
 

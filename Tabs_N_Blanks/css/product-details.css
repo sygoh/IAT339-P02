@@ -1,0 +1,239 @@
+/*
+  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+
+  CREATED BY: IAT339 D101 WINONA HUANG 301165181
+                          JOANNE GOH 301140652;
+*/
+
+
+  *, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+
+
+  /* 
+    PRODUCT DETAILS SECTION 
+  */
+
+    /* Styling for Product Image and Gallery */
+    
+    #product-details {
+    	margin: 4em 0; /* entire product details section is shifted down */
+    }
+
+    .product-img {
+    	float: right;
+    }
+
+    .product-gallery {
+      width: 500px; /* max width of the main image */
+      float: right;
+      padding: 1em;
+      text-align: center; /* aligning 3 additional imgs to center */
+      background-color: #F2EDE7;
+    }
+
+
+    /* Styling for Product Details Content */
+    .product-details-content {
+    	text-align: left;
+      padding-left: 2em;
+    }
+
+    .product-details-content h1 {
+      margin-bottom: 1.5em;
+    }
+
+    .product-details-content h2 {
+      margin-top: 1.5em;
+    }
+
+    /* Styling for Product Rating */
+    .product-rating {
+      color: #C1B087;
+      font-size: 1rem;
+    }
+
+    .product-details-content h4 {
+      text-align: left;
+      margin-bottom: 1em;
+      margin-top: 2em;
+    }
+
+    .product-details-content p {
+      text-align: left;
+      margin: 0.3em 0;
+    }
+
+    .product-details-content a {
+      margin: 1em 0;
+    }
+
+    .puzzle-level {
+      margin-bottom: 0.5em;
+    }
+
+
+
+    /*
+      SECTION DIVIDER 
+    */
+
+    /* Styling for the section dividing line */
+    hr {
+      display: block;
+      height: 1px;
+      border: 0;
+      border-top: 1px solid #C1B087;
+      margin: 1em 0;
+      padding: 0;
+      width: 80%;
+      margin-left: 6em;
+    }
+
+
+
+    /* 
+      PEOPLE ALSO VIEWED (RECOMMENDATION) SECTION
+    */
+
+    .recommendations {
+      margin-left: 6em;
+    }
+
+    .recommendations img {
+      margin-right: 0.5em;
+    }
+
+    /* Styling for Recommended Image Gallery Hover */
+    ul.img-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      /*text-align: center; centering img */
+    }
+
+    ul.img-list li {
+      display: inline-block;
+      height: 100px;
+      margin: 0 1em 1em 0;
+      position: relative;
+      width: 150px;
+      margin-bottom: 2rem;
+    }
+
+    span.text-content span {
+      display: table-cell; /* behave like a <td> (table cell) element */
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    span.text-content h3 {
+      display: table-cell; /* behave like a <td> (table cell) element */
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+      text-transform: uppercase;
+    }
+
+
+    ul.img-list li a:hover span.text-content {
+      opacity: 1;
+    }
+
+    span.text-content {
+      background-color: rgba(94, 94, 94, 0.5);
+      cursor: pointer;
+      display: table; /* behave like a <table> element */
+      height: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 150px;
+      opacity: 0;
+
+      -webkit-transition: opacity 500ms;
+      -moz-transition: opacity 500ms;
+      -o-transition: opacity 500ms;
+      transition: opacity 500ms;
+    }
+
+
+
+    /* 
+      REVIEW SECTION
+    */
+
+    .review {
+      margin-left: 6em; 
+    }
+
+    .review figure {
+      float: left;
+      margin: 0;
+    }
+
+    .review figcaption {
+      font-family: AGaramond-Italics;
+      font-size: 0.6rem;
+      color: #7D7D7D;
+      margin-left: 0.5em;
+    }
+
+    .review h4 {
+      text-transform: uppercase;
+      margin-bottom: 0.2em;
+      margin-top: 0;
+      margin-left: 6.5em;
+    }
+
+    .review p {
+      width: 80%;
+      margin-left: 7em;
+    }
+
+    .review a {
+      float: right;
+
+      /* to position the button */
+      /*IS THIS HOW WE SUPPOSED TO DO IT?*/
+      margin-right: 14em;
+      margin-top: -3em;
+    }
+
+    .review-posts {
+      margin-top: 3em;
+      width: 70%;
+    }
+
+    .review-posts .product-rating {
+        margin-left: 5.6em;
+        margin-bottom: 0.5em;
+    }
+
+    /* Styling for Giving how many Ratings in Review Modal 
+        Reference Retrieved from: https://css-tricks.com/star-ratings/;
+    */
+
+    /* Come back to it after Review Modal is complete
+    .give-rating > span:hover:before {
+      content: "\2605";
+      position: absolute;
+    }
+
+    .give-rating {
+      unicode-bidi: bidi-override;
+      direction: ltr; /* direction of the span tag (top to bottom is equal to left to right)
+      color: #C1B087;
+      font-size: 1rem;
+    }
+
+    .give-rating > span:hover:before,
+    .give-rating > span:hover ~ span:before {
+       content: "\2605";
+       position: absolute;
+    }
+*/
