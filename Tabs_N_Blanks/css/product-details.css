@@ -43,8 +43,18 @@
       padding-left: 2em;
     }
 
+    .product-details-content h1 {
+      margin-bottom: 1.5em;
+    }
+
     .product-details-content h2 {
       margin-top: 0.5em;
+    }
+
+    /* Styling for Product Rating */
+    .product-rating {
+      color: #C1B087;
+      font-size: 1rem;
     }
 
     .product-details-content h4 {
@@ -56,6 +66,10 @@
     .product-details-content p {
       text-align: left;
       margin: 0.3em 0;
+    }
+
+    .product-details-content a {
+      margin: 1em 0;
     }
 
     .puzzle-level {
@@ -194,3 +208,32 @@
       margin-top: 3em;
       width: 70%;
     }
+
+    .review-posts .product-rating {
+        margin-left: 5.6em;
+        margin-bottom: 0.5em;
+    }
+
+    /* Styling for Giving how many Ratings in Review Modal 
+        Reference Retrieved from: https://css-tricks.com/star-ratings/;
+    */
+
+    /* Come back to it after Review Modal is complete
+    .give-rating > span:hover:before {
+      content: "\2605";
+      position: absolute;
+    }
+
+    .give-rating {
+      unicode-bidi: bidi-override;
+      direction: ltr; /* direction of the span tag (top to bottom is equal to left to right)
+      color: #C1B087;
+      font-size: 1rem;
+    }
+
+    .give-rating > span:hover:before,
+    .give-rating > span:hover ~ span:before {
+       content: "\2605";
+       position: absolute;
+    }
+*/
