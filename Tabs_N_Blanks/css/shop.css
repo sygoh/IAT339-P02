@@ -11,7 +11,12 @@
 	box-sizing: border-box;
 } 
 
-/* BREADCRUMBS */ 
+
+
+
+/* 
+  BREADCRUMBS 
+*/ 
 
 ul.breadcrumb { 
 	background: #F2EDE7;
@@ -19,7 +24,6 @@ ul.breadcrumb {
 	overflow: hidden; 
 	margin-top: 2em;
 }
-
 
 ul.breadcrumb li { 
 	float: left; 
@@ -57,104 +61,117 @@ ul.breadcrumb li:before {
 	padding-left: 1.5rem;
 }
 
+
+
+/*
+  FILTER MENU 
+*/
+
 .filter-menu{
 	padding-top: 2em;
 }
+
 .filter-menu ul {
 	margin-bottom: 2em;
+}
+
+.filter-menu li {
+  list-style-type: none;
+  padding: 0;
+  padding-left:3em;
+  margin: 0;
+  margin-bottom: 0.5em;   
+}
+
+.filter-menu li a {
+  font-family: AGaramond-Regular;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #7D7D7D;
+  text-decoration: none;
+  }
+
+.filter-menu li a:hover {
+  color: #C1B087;
+} 
+
+.filter-menu li a:active {
+  color: #C1B087;
+} 
+
+.filter-menu h3 {
+	padding-left: 5.4em;
+	font-size: 1rem;
+	text-transform: uppercase;
+}
+
+
+
+/*
+  PRODUCT LISTING 
+*/
+
+#product-listing {
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
+  float: left;
+  padding: 0;
+  padding-bottom: 5em; /* avoid the view more button border bottom getting cut off by the footer*/
+}
+   
+#product-listing ul {
+  list-style-type: none;
+  overflow: auto;
+  padding:0;
 
 }
 
-.filter-menu li{
-    list-style-type: none;
-    padding: 0;
-    padding-left:3em;
-    margin: 0;
-    margin-bottom: 0.5em;
-   
-  }
+#product-listing li {
+  width: auto;
+  padding: 1em;
+  overflow: auto;
+  float: left;
 
- .filter-menu li a {
-    font-family: AGaramond-Regular;
-    font-size: 0.75rem;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: #7D7D7D;
-    text-decoration: none;
-  }
+}
 
- .filter-menu li a:hover {
-    color: #C1B087;
-  } 
-
- .filter-menu li a:active {
-    color: #C1B087;
-  } 
-
-  .filter-menu h3 {
-  	padding-left: 5.4em;
-  	font-size: 1rem;
-  	text-transform: uppercase;
-  }
+#product-listing li img {
+/*  margin-bottom: 1.2em;*/
+  width: auto;
+  padding-top: 1em;
+  padding-right:1em;
+ /* background-color: rgba(202, 201, 199, 0.75);*/
+}
 
 
-#product-listing {
-    width: 100%;
-    margin: 0 auto;
-    overflow: auto;
-    float: left;
-    padding: 0;
-  }
-   
-  #product-listing ul {
-    list-style-type: none;
-    overflow: auto;
-    padding:0;
+/* Styling for Product Name and Product Caption under the Product Imgs*/
+/* need to fix this */
+.product-name {
+  clear: left;
+  margin-bottom: 0;
+  font-family: Avenir-Medium;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+  color: #5e5e5e;
+  text-transform: uppercase;
+/* margin-bottom: 0.18em;*/
+}
 
-  }
-
-  #product-listing li {
-    width: auto;
-    padding: 1em;
-    overflow: auto;
-    float: left;
-
-  }
-
-  #product-listing li img {
-  /*  margin-bottom: 1.2em;*/
-    width: auto;
-    padding-top: 1em;
-    padding-right:1em;
+.product-caption{
+	font-family: Avenir-Roman;
+  font-size: 0.70rem;
+  letter-spacing: 0.05em;
+  color: #7d7d7d;
+  clear: left;
+  overflow: auto;
+}
 
 
+/* Styling for the View More button that follows the product listing */
 
-   /* background-color: rgba(202, 201, 199, 0.75);*/
-  }
-
- .product-name {
-    clear: left;
-    margin-bottom: 0;
-    font-family: Avenir-Medium;
-    font-size: 1rem;
-    letter-spacing: 0.05em;
-    color: #5e5e5e;
-    text-transform: uppercase;
-/*    margin-bottom: 0.18em;*/
-  }
-
-
- .product-caption{
- 	font-family: Avenir-Roman;
-    font-size: 0.70rem;
-    letter-spacing: 0.05em;
-    color: #7d7d7d;
-    clear: left;
-    overflow: auto;
-  }
-
- .button-padding {
- 	text-align: center;
- 	padding-right: 5em;
- }
+.button-view-more {
+	text-align: center;
+	padding-right: 5em;
+}
 
