@@ -63,6 +63,11 @@
     }
 
 
+
+    /*
+      SECTION DIVIDER 
+    */
+
     /* Styling for the section dividing line */
     hr {
       display: block;
@@ -73,8 +78,8 @@
       padding: 0;
       width: 80%;
       margin-left: 6em;
-
     }
+
 
 
     /* 
@@ -152,6 +157,40 @@
       margin-left: 6em; 
     }
 
+    .review figure {
+      float: left;
+      margin: 0;
+    }
 
+    .review figcaption {
+      font-family: AGaramond-Italics;
+      font-size: 0.6rem;
+      color: #7D7D7D;
+      margin-left: 0.5em;
+    }
 
+    .review h4 {
+      text-transform: uppercase;
+      margin-bottom: 0.2em;
+      margin-top: 0;
+      margin-left: 6.5em;
+    }
 
+    .review p {
+      width: 80%;
+      margin-left: 7em;
+    }
+
+    .review a {
+      float: right;
+
+      /* to position the button */
+      /*IS THIS HOW WE SUPPOSED TO DO IT?*/
+      margin-right: 14em;
+      margin-top: -3em;
+    }
+
+    .review-posts {
+      margin-top: 3em;
+      width: 70%;
+    }
