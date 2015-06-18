@@ -13,34 +13,28 @@
 
   /* Styling for Form Text Fields and Labels */
 
-  form {
-    display: inline-block;
-    background-color: white;
-  }
-
- /* label {
-    font-family: Avenir-Book;
-    font-size: 0.8em;
-    letter-spacing: .1em;
-    color: #5E5E5E;
-    margin-top: 0.8em;
-    margin-bottom: 0.3em;
-    display: block;
-    text-transform: uppercase;
-  }
-*/
-.grid-col-4of10 {
-  padding-left: 7em;
-}
 .form-field {
+    font-family: Avenir-Book;
+    text-transform: uppercase;
     width:270px;
     background: transparent;
-     margin-top:10px;
-     border: 1px solid #c1b087 ;
-     padding: 8px 15px;
+    margin-top:10px;
+    border: 1px solid #d8d8d8;
+    padding: 8px 15px;
     -webkit-transition: all 0.2s ease;
      -moz-transition: all 0.2s ease;
        -o-transition: all 0.2s ease;
       -ms-transition: all 0.2s ease;
           transition: all 0.2s ease;
+}
+
+.message-box {
+  font-family: Avenir-Book;
+  text-transform: uppercase;
+  width:270px;
+  height:100px;
+  padding: 8px 15px;
+  background: transparent;
+  margin-top:10px;
+  border: 1px solid #d8d8d8;
 }
