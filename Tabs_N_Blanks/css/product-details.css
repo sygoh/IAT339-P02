@@ -89,6 +89,60 @@
       margin-right: 0.5em;
     }
 
+    /* Styling for Recommended Image Gallery Hover */
+    ul.img-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      /*text-align: center; centering img */
+    }
+
+    ul.img-list li {
+      display: inline-block;
+      height: 100px;
+      margin: 0 1em 1em 0;
+      position: relative;
+      width: 150px;
+      margin-bottom: 2rem;
+    }
+
+    span.text-content span {
+      display: table-cell; /* behave like a <td> (table cell) element */
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    span.text-content h3 {
+      display: table-cell; /* behave like a <td> (table cell) element */
+      text-align: center;
+      vertical-align: middle;
+      color: white;
+      text-transform: uppercase;
+    }
+
+
+    ul.img-list li a:hover span.text-content {
+      opacity: 1;
+    }
+
+    span.text-content {
+      background-color: rgba(94, 94, 94, 0.5);
+      cursor: pointer;
+      display: table; /* behave like a <table> element */
+      height: 100px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 150px;
+      opacity: 0;
+
+      -webkit-transition: opacity 500ms;
+      -moz-transition: opacity 500ms;
+      -o-transition: opacity 500ms;
+      transition: opacity 500ms;
+    }
+
+
 
     /* 
       REVIEW SECTION
@@ -97,5 +151,7 @@
     .review {
       margin-left: 6em; 
     }
+
+
 
 
