@@ -1,0 +1,28 @@
+/*
+  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+
+  CREATED BY: IAT339 D101 WINONA HUANG 301165181
+                          JOANNE GOH 301140652;
+*/
+
+  *, *::after, *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  /* Styling for Form Text Fields and Labels */
+
+  form {
+    display: inline-block;
+    background-color: white;
+    padding: 0;
+  }
+
+  label {
+    font-family: Avenir-Book;
+    color: #5E5E5E;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+    display: block;
+  }
