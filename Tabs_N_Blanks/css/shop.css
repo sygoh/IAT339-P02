@@ -90,20 +90,13 @@ ul.breadcrumb li:before {
  .filter-menu li a:active {
     color: #C1B087;
   } 
+
   .filter-menu h3 {
-<<<<<<< HEAD
-  	padding-left: 6.9em;
-  	font-size: .8rem;
-/*  	text-transform: uppercase;
-*/  }
-<<<<<<< HEAD
-=======
-=======
   	padding-left: 5.4em;
   	font-size: 1rem;
   	text-transform: uppercase;
   }
->>>>>>> Joanne-Working
+
 
 #product-listing {
     width: 100%;
@@ -159,15 +152,7 @@ ul.breadcrumb li:before {
     overflow: auto;
   }
 
- div .button-center {
+ .button-center {
  	text-align: center;
  }
 
-
-
-
-
-
-
-
->>>>>>> Joanne-Working
