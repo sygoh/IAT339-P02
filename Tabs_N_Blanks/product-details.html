@@ -20,7 +20,9 @@
 		<!-- other stylesheets link goes here -->
 		<link href="css/shop.css" rel="stylesheet">
 		<link href="css/product-details.css" rel="stylesheet">
-		<!-- 
+		<link href="css/modal.css" rel="stylesheet">
+
+		<!-- img hover styling was is included in the product-detail.css
 		<link href="css/img-styling.css" rel="stylesheet"> -->
 		
 	</head>
@@ -54,7 +56,8 @@
 					<div class="grid-col-2of10">
 						<div class="side-nav">
 						<li><a href="#"><span>Search</span></a></li>
-						<li><a href="#"><span>Cart</span></a></li>
+						<!-- triggers the cart modal with id modal-one -->
+						<li><a href="#modal-cart"><span>Cart</span></a></li>
 						</div>
 					</div>
 
@@ -106,7 +109,7 @@
 					
 					<h1> &#36; 45 </h1>
 					<!-- enables the Cart modal -->
-					<a href="#" class="button-default"title="Cart">Add to Cart</a>
+					<a href="#modal-cart" class="button-default"title="Cart">Add to Cart</a>
 					
 					<div class="puzzle-level">
 					<h4> Intermediate Level</h4>
@@ -174,7 +177,40 @@
 
 		</section> <!-- closing section class review -->
 
+	 
+		<!-- Cart Modal -->
+		<div class="modal" id="modal-cart" aria-hidden="true">
+		  
+		  <div class="modal-dialog">
+		    
+		    <div class="modal-header">
+				<h3>My Cart</h3>
+				<a href="#close" class="button-close-modal" aria-hidden="true">×</a> <!--CHANGED TO "#close"-->
+		    </div>
+		    
+		    <div class="modal-body">
+		    	<img src="http://placehold.it/100x80">
+				<h3>Product Name</h3>
+				<h4>1X</h4>
+				<!-- need button-secondary here for REMOVE
+				<div> </div>
+				-->
+		    </div>
+		    
+		    <div class="modal-footer">
+		    	<h3>Subtotal</h3>
+		    	<h3>&#36; 45</h3>
+				<a href="product-details-checkout.html" class="button-default">Check Out</a>  <!--CHANGED TO "#close"-->
+		    </div>
+		  
+		  </div> <!-- closing <div class="modal-dialog">-->
+		
+		</div> <!-- closing <div class="modal">-->
+
+
+
 	</div> <!-- close <div class="container"> -->
+
 
 	<div class="footer">
 		<!-- filler for social media icons-->
