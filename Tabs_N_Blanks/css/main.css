@@ -306,7 +306,7 @@
   /* copyright Tabs N' Blanks*/
   .footer p {
     font-size: 0.625rem;
-    clar: float;
+    clear: float;
     float: right;
     display: inline-block;
   }
