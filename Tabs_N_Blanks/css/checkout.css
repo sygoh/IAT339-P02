@@ -9,21 +9,88 @@
 /* 
   DEFAULT STYLING
 */
-
-.order-summary{
-  /*background: hsla(0,0%,0%,.1);*/
-  height: $bh + px;
-  width: $bw + px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin: $bh2 + px 0px 0px $bw2 + px;
-  background-image: linear-gradient(rgba(140,255,255,1), rgba(10,255,255,1));
-  box-shadow: 0 1px 3px rgba(black, 0.2);
-  padding: 20px;
-  color: white;
-  font-family: Sniglet;
-  font-size: 40px;
-  border: 2px solid;
-  border-radius: 5px;
+.grid-col-3of10{
+  margin:2em;
+  border: 1px solid #c1b087;
 }
+
+.order-summary-header{
+  margin-left:1em;
+  margin-bottom:1em;
+  color: white;
+  border-bottom: #F2EDE7 solid 1px;
+  width: 90%;
+}
+
+.order-summary-body img{
+  float: left;
+  margin-left:1em;
+}
+
+.order-summary-body h4 {
+  float: left;
+  margin-left: 1em;
+}
+
+.order-summary-body p.quantity {
+  margin-top: 1.5em;
+  margin-left: 2.5em;
+  float: left;
+}
+
+.order-summary-body p.price {
+  margin-top: 1.5em;
+  margin-right: 1.5em;
+  float: right;
+}
+
+.order-taxes {
+  border-top: #F2EDE7 solid 1px;
+  width:90%;
+  float: left;
+  margin-top: 2em;
+  margin-left:1em;
+}
+.order-taxes p.subtotal {
+  float: left;
+}
+.order-taxes p.subtotal-amount{
+  float:right;
+}
+.order-taxes p.shipping {
+  clear:left;
+  float:left;
+}
+.order-taxes p.shipping-amount{
+  float:right;
+}
+.order-taxes p.taxes {
+  clear:left;
+  float:left;
+}
+.order-taxes p.taxes-amount{
+  float:right;
+}
+
+.payment {
+  border-top: #F2EDE7 solid 1px;
+  width:90%;
+  float: left;
+  margin-left:1em;
+}
+
+.payment p.payment-due {
+  clear:left;
+  float:left;
+}
+.payment p.payment-amount{
+  float:right;
+}
+
+
+
+
+
+
+
+
