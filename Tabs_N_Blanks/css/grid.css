@@ -71,6 +71,15 @@
 	width: 60%;
 }
 
+/* for the navigation menu */
+@media (max-width: 40rem) {
+    ul.nav-menu li {
+		background: pink;
+		float: none;
+		display: block;
+    }
+  }
+
 .grid-col-7of10 {
 	width: 70%;
 }
