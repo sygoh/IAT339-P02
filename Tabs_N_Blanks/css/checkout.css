@@ -1,0 +1,96 @@
+/*
+  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+
+  CREATED BY: IAT339 D101 WINONA HUANG 301165181
+                          JOANNE GOH 301140652;
+*/
+
+
+/* 
+  DEFAULT STYLING
+*/
+.grid-col-3of10{
+  margin:2em;
+  border: 1px solid #c1b087;
+}
+
+.order-summary-header{
+  margin-left:1em;
+  margin-bottom:1em;
+  color: white;
+  border-bottom: #F2EDE7 solid 1px;
+  width: 90%;
+}
+
+.order-summary-body img{
+  float: left;
+  margin-left:1em;
+}
+
+.order-summary-body h4 {
+  float: left;
+  margin-left: 1em;
+}
+
+.order-summary-body p.quantity {
+  margin-top: 1.5em;
+  margin-left: 2.5em;
+  float: left;
+}
+
+.order-summary-body p.price {
+  margin-top: 1.5em;
+  margin-right: 1.5em;
+  float: right;
+}
+
+.order-taxes {
+  border-top: #F2EDE7 solid 1px;
+  width:90%;
+  float: left;
+  margin-top: 2em;
+  margin-left:1em;
+}
+.order-taxes p.subtotal {
+  float: left;
+}
+.order-taxes p.subtotal-amount{
+  float:right;
+}
+.order-taxes p.shipping {
+  clear:left;
+  float:left;
+}
+.order-taxes p.shipping-amount{
+  float:right;
+}
+.order-taxes p.taxes {
+  clear:left;
+  float:left;
+}
+.order-taxes p.taxes-amount{
+  float:right;
+}
+
+.payment {
+  border-top: #F2EDE7 solid 1px;
+  width:90%;
+  float: left;
+  margin-left:1em;
+}
+
+.payment p.payment-due {
+  clear:left;
+  float:left;
+}
+.payment p.payment-amount{
+  float:right;
+}
+
+
+
+
+
+
+
+
