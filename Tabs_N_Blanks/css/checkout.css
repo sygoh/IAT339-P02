@@ -9,9 +9,12 @@
 /* 
   DEFAULT STYLING
 */
-.grid-col-3of10{
-  margin:2em;
+.order-summary{
+  margin-top:2em;
+  margin-left:5em;
   border: 1px solid #c1b087;
+  float:left;
+  width: 80%;
 }
 
 .order-summary-header{
@@ -86,6 +89,27 @@
 .payment p.payment-amount{
   float:right;
 }
+
+/*end of ORDER SUMMARY section*/
+
+/*start of BILLING information*/
+.shipping-information{
+  margin-top:3em;
+}
+
+.shipping-information .form-field{
+  margin-right:2em;
+}
+
+.billing-information h3 {
+  margin-top:3em;
+}
+
+.billing-information .form-field{
+  margin-right:2em;
+}
+
+/*end of billing information*/
 
 
 
