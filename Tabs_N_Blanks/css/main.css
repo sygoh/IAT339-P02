@@ -187,10 +187,9 @@
     width: 100%;
   }
 
-/* trying out the media queries
-  @media (max-width: 60em) {
+/* yet to fix the media queries */
+  @media (max-width: 40rem) {
     ul.nav-menu li {
-      background: pink;
       float: none;
       display: block;
     }
@@ -202,7 +201,6 @@
       box-sizing: border-box;
     }
   }
-*/
 
   /* Side Navigation Menu */
   .side-nav {
@@ -233,6 +231,8 @@
     bottom: 0;
     height: 0px; /* no stroke weight */
   }
+  
+
 
 /* 
   FOOTER 
