@@ -47,43 +47,128 @@
 	width: 10%;
 }
 
+
+/*@media (max-width: 10em) {
+
+	.grid-col-1of10 {
+		width: 100%;
+	}
+
+}
+*/
+
 .grid-col-2of10 {
 	width: 20%;
 }
 
+/*@media (max-width: 20em) {
+
+	.grid-col-2of10 {
+		width: 100%;
+	}
+
+}*/
 
 .grid-col-3of10 {
 	width: 30%;
 }
 
+/*@media (max-width: 30em) {
+
+	.grid-col-3of10 {
+		width: 100%;
+	}
+
+}*/
 
 .grid-col-4of10 {
 	width: 40%;
 }
 
+/*@media (max-width: 40em) {
+
+	.grid-col-4of10 {
+		width: 100%;
+	}
+
+}*/
 
 .grid-col-5of10 {
 	width: 50%;
 }
+
+/*@media (max-width: 50em) {
+
+	.grid-col-5of10 {
+		width: 100%;
+	}
+
+}*/
 
 
 .grid-col-6of10 {
 	width: 60%;
 }
 
+@media (max-width: 50em) {
+
+	/*
+	.grid-col-6of10 {
+		background: pink;
+		width: 100%;
+	}
+	*/
+
+    ul.nav-menu li {
+      background: pink;
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+    ul.nav-menu li a {
+      width: 100%;
+	
+}
+
+
 .grid-col-7of10 {
 	width: 70%;
 }
+
+/*@media (max-width: 70em) {
+
+	.grid-col-7of10 {
+		width: 100%;
+	}
+
+}*/
 
 
 .grid-col-8of10 {
 	width: 80%;
 }
 
+/*@media (max-width: 80em) {
+
+	.grid-col-8of10 {
+		width: 100%;
+	}
+
+}*/
+
 .grid-col-10of10 {
 	width: 100%;
 }
 
+/*@media (max-width: 50em) {
+
+	.grid-col-10of10 {
+		width: 100%;
+	}
+
+}
+*/
 /*
 	Much like last week, we are clearing the floating items so
 	that our 'grid' structure can be stacked on others

@@ -33,7 +33,13 @@ ul.img-list li {
 
 /* Styling for Coming Up Events */
 
-.coming-up-events {
+#coming-up { /* section id tag */
+	text-align: center;
+	margin-bottom: 3em;
+	padding: 2em;
+}
+
+.coming-up-events { /* div tag */
 	margin-bottom: 2em;
 }
 
@@ -48,11 +54,27 @@ ul.img-list li {
 	text-align: center;
 }
 
+.coming-up-events ul.img-list li h3 {
+	margin-top: 0.5em;
+	margin-bottom: 0.1em;
+
+}
+
+.coming-up-events ul.img-list li h4 {
+	margin-top: 0.2em;
+
+}
 
 
 /* Styling for Popular Events */
 
-.popular-events {
+#popular { /* section id tag */
+	text-align: center;
+	margin-bottom: 3em;
+	padding: 2em;
+}
+
+.popular-events { /* div tag */
 	margin-bottom: 2em;
 }
 
@@ -68,18 +90,6 @@ ul.img-list li {
 }
 
 
-
-.coming-up-events ul.img-list li h3 {
-	margin-top: 0.5em;
-	margin-bottom: 0.1em;
-
-}
-
-.coming-up-events ul.img-list li h4 {
-	margin-top: 0.2em;
-
-}
-
 .popular-events ul.img-list li h3 {
 	margin-top: 0.5em;
 	margin-bottom: 0.1em;
@@ -89,17 +99,4 @@ ul.img-list li {
 .popular-events ul.img-list li h4 {
 	margin-top: 0.2em;
 
-}
-
-#coming-up {
-	text-align: center;
-	margin-bottom: 3em;
-	padding: 2em;
-}
-
-
-#popular {
-	text-align: center;
-	margin-bottom: 3em;
-	padding: 2em;
 }
