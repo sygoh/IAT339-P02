@@ -313,3 +313,23 @@
     color: white;
   }
 
+a.button-secondary {
+    text-decoration: none;
+    font-family: AGaramond-Regular;
+    font-size: .6rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    color: #7d7d7d;
+    background: none;
+    cursor: pointer;
+    /*padding: height - width*/
+    padding: 10px 20px;
+    text-align: center;
+}
+  a.button-secondary:hover{
+    color: #C1B087;
+  }
+
+
+
+
