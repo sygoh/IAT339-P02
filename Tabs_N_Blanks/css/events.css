@@ -11,6 +11,9 @@
     box-sizing: border-box;
   }
 
+
+/* Styling for the events posts */
+
 ul.img-list {
 	list-style-type: none;
 	margin: 0;
@@ -27,38 +30,44 @@ ul.img-list li {
 	margin-bottom: 2rem;
 }
 
+
 /* Styling for Coming Up Events */
+
 .coming-up-events {
+	margin-bottom: 2em;
+}
+
+.coming-up-events h1, .coming-up-events p {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 	text-align: center;
-	width: ;
 }
 
-ul.img-list{
+.coming-up-events ul.img-list{
 	text-align: center;
 }
-
-.upcoming-events {
-	text-align: center;
-}
-
 
 
 
 /* Styling for Popular Events */
+
 .popular-events {
+	margin-bottom: 2em;
+}
+
+.popular-events h1, .popular-events p {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
 	text-align: center;
 }
-.section-popular-events {
+
+.popular-events ul.img-list{
 	text-align: center;
 }
 
-/*STILL NEED TO CENTER BUTTON */
+
 
 .coming-up-events ul.img-list li h3 {
 	margin-top: 0.5em;
@@ -80,4 +89,17 @@ ul.img-list{
 .popular-events ul.img-list li h4 {
 	margin-top: 0.2em;
 
+}
+
+#coming-up {
+	text-align: center;
+	margin-bottom: 3em;
+	padding: 2em;
+}
+
+
+#popular {
+	text-align: center;
+	margin-bottom: 3em;
+	padding: 2em;
 }

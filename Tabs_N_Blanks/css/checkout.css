@@ -1,0 +1,29 @@
+/*
+  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+
+  CREATED BY: IAT339 D101 WINONA HUANG 301165181
+                          JOANNE GOH 301140652;
+*/
+
+
+/* 
+  DEFAULT STYLING
+*/
+
+.box{
+  /*background: hsla(0,0%,0%,.1);*/
+  height: $bh + px;
+  width: $bw + px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: $bh2 + px 0px 0px $bw2 + px;
+  background-image: linear-gradient(rgba(140,255,255,1), rgba(10,255,255,1));
+  box-shadow: 0 1px 3px rgba(black, 0.2);
+  padding: 20px;
+  color: white;
+  font-family: Sniglet;
+  font-size: 40px;
+  border: 2px solid;
+  border-radius: 5px;
+}
