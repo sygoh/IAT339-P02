@@ -204,9 +204,12 @@
   margin-right: 1em;
 }
 
-/* .button-secondary:hover {
-    color: #CECECE;
-  }*/
+ .button-secondary:hover{
+    color: #C1B087;
+  }
+
+
+
 
 
 /* Styling for Form Text Fields and Labels */
@@ -224,6 +227,21 @@
     margin-bottom: 0.3em;
     display: block;
   }
+
+.form-field {
+    font-family: Avenir-Book;
+    text-transform: uppercase;
+    width:30em;
+    background: transparent;
+    margin-top:1em;
+    border: 1px solid #d8d8d8;
+    padding: 1em 1em;
+    -webkit-transition: all 0.2s ease;
+     -moz-transition: all 0.2s ease;
+       -o-transition: all 0.2s ease;
+      -ms-transition: all 0.2s ease;
+          transition: all 0.2s ease;
+}
 
 
 /* 
@@ -323,7 +341,7 @@
 
   ul.filter-menu li a {
     font-family: AGaramond-Regular;
-    font-size: 0.81rem;
+    font-size: 0.75rem;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     
@@ -419,10 +437,10 @@
   }
 */
 
-  #product-listing li img:hover {
+  /*#product-listing li img:hover {
   -webkit-box-shadow: 0px 0px 7px #C1B087;
   box-shadow: 0px 0px 7px #C1B087;
-  }
+  }*/
 
   .product-name {
     font-family: Avenir-Medium;
