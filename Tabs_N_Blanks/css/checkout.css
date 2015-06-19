@@ -10,7 +10,7 @@
   DEFAULT STYLING
 */
 
-.box{
+.order-summary{
   /*background: hsla(0,0%,0%,.1);*/
   height: $bh + px;
   width: $bw + px;
