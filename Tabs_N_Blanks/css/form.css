@@ -16,7 +16,7 @@
 .form-field {
     font-family: Avenir-Book;
     text-transform: uppercase;
-    width:30em;
+    width:50%;
     background: transparent;
     margin-top:1em;
     border: 1px solid #d8d8d8;
@@ -28,10 +28,14 @@
           transition: all 0.2s ease;
 }
 
+.grid-col-4of10 .form-field {
+  width:100%;
+}
+
 .message-box {
   font-family: Avenir-Book;
   text-transform: uppercase;
-  width:30em;
+  width:80%;
   height:10em;
   padding: 1em 1em;
   background: transparent;

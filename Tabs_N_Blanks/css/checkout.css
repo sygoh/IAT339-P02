@@ -113,7 +113,10 @@
   margin-top:2em;
 }
 
-
+.order-summary p {
+  margin:0;
+  padding:1em;
+}
 
 
 /*end of billing information*/
