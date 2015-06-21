@@ -32,7 +32,6 @@
     letter-spacing: 0.1em;
     color: #5E5E5E; /* was originally #454545 on style guide */
     text-transform: uppercase;
-  /*  margin-bottom: 0.5em; */
   }
 
   h2 {
@@ -41,7 +40,6 @@
     font-size: 1.1rem;
     letter-spacing: 0.025em;
     color: #5E5E5E;
-  /*  margin-bottom: 0.5em; */
   }
 
   h3 {
@@ -50,7 +48,6 @@
     letter-spacing: 0.05em;
     color: #5e5e5e;
     text-transform: uppercase;
-  /*  margin-bottom: 0.5em; */
   }
 
   h4 {
@@ -58,15 +55,13 @@
     font-size: 0.875rem;
     letter-spacing: 0.05em;
     color: #7d7d7d;
-  /*  margin-bottom: 0.5em; */
   }
 
   p {
     font-family: Avenir-Book;
     font-size: .81rem;
     color: #5E5E5E;
-    margin: 0 17% 0 17%;
-  /*  margin-bottom: 5%;*/
+   /* margin: 0 17% 0 17%;*/
   }
 
 
@@ -129,16 +124,17 @@
     margin: 0;
   }
 
+  /*
   ul.nav-menu.align-left li {
     float: left;
   }
+  */
 
   ul.nav-menu li a {
     color: #7D7D7D;
     text-decoration: none;
     display: block;
-    padding: 0.8rem 1.5em;
-    margin: 0 0.5rem;
+    padding: 0.8rem 2em;
     font-family: Avenir-Roman;
     letter-spacing: 0.15rem;
     font-size: 0.75rem;
@@ -160,11 +156,11 @@
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 2px; /*stroke weight */
+    height: 2px; /* stroke weight */
     width: 0;
     background: #C1B087;
     
-    /*animation speed left to right*/
+    /*animation speed left to right */
     -webkit-transition: width .25s;
     -moz-transition: width .25s;
     -ms-transition: width .25s;
@@ -188,21 +184,6 @@
     width: 100%;
   }
 
-/* yet to fix the media queries
-  @media (max-width: 40rem) {
-    ul.nav-menu li {
-      float: none;
-      display: block;
-    }
-
-    ul.nav-menu li a {
-      width: 100%;
-      -moz-box-sizing: border-box;
-      -webkit-box-sizing: border-box;
-      box-sizing: border-box;
-    }
-  }
-*/
 
   /* Side Navigation Menu */
   .side-nav {
@@ -289,9 +270,12 @@
   }
 
 
-  /* 
-    BUTTON DEFAULT 
-  */
+
+/* 
+  BUTTONS
+*/
+
+  /* Default Button Styling */
 
   a.button-default {
     text-decoration: none;
@@ -314,22 +298,25 @@
     color: white;
   }
 
-a.button-secondary {
-    text-decoration: none;
-    font-family: AGaramond-Regular;
-    font-size: .6rem;
-    letter-spacing: 0.2rem;
-    text-transform: uppercase;
-    color: #7d7d7d;
-    background: none;
-    cursor: pointer;
-    /*padding: height - width*/
-    padding: 10px 20px;
-    text-align: center;
-}
-  a.button-secondary:hover{
-    color: #C1B087;
+
+  /* Secondary Button Styling */
+
+  a.button-secondary {
+      text-decoration: none;
+      font-family: AGaramond-Regular;
+      font-size: .6rem;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
+      color: #7d7d7d;
+      background: none;
+      cursor: pointer;
+      /*padding: height - width*/
+      padding: 10px 20px;
+      text-align: center;
   }
+    a.button-secondary:hover{
+      color: #C1B087;
+    }
 
 
 
