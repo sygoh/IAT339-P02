@@ -12,52 +12,37 @@ box-sizing: border-box;
 }
 
 
-/* Styling for the landing image */
+/* 
+	LANDING IMG 
+*/
+
+	#landing-img {
+		margin: 1em 0;
+	}
 
 
 
-/* Styling for New Collection Section */
 
-#new-collection {
-	margin-bottom: 3rem;
-	text-align: center;
+/* 
+	NEW COLLECTION 
+*/
 
-}
+	#new-collection {
+		margin-bottom: 3rem; /* space to separate from footer */
+		text-align: center;
 
-#new-collection h1 {
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-	text-align: center;
+	}
 
-}
+	#new-collection h1 {
+		/*
+		margin-left: auto;
+		margin-right: auto;
+		*/
+		width: 100%;
+		text-align: center;
 
+	}
 
-/* Styling for About-Us */
-
-#about-us {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 3rem;
-
-	width: 60%;
-	text-align: center;
-	width: ;
-}
-
-
-/* Styling for Contact-Us */
-#contact-us {
-	margin-left: auto;
-	margin-right: auto;
-	width: 60%;
-	text-align: center;
-	margin-bottom:3em;
-}
-
-/*#contact-us .grid-col-4of10 {
-	margin-left:1em;
-}*/
 
 
 
