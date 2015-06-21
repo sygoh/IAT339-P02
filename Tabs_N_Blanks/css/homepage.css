@@ -17,7 +17,8 @@ box-sizing: border-box;
 */
 
 	#landing-img {
-		margin: 1em 0;
+		margin-top: 1em;
+		margin-bottom: 3em;
 	}
 
 
@@ -32,17 +33,7 @@ box-sizing: border-box;
 		text-align: center;
 
 	}
-
-	#new-collection h1 {
-		/*
-		margin-left: auto;
-		margin-right: auto;
-		*/
-		width: 100%;
-		text-align: center;
-
+	
+	#new-collection .grid-col-8of10 {
+		padding-right: 0; /* to reverse the gutter width in order to center the imgs and button with the title */
 	}
-
-
-
-
