@@ -20,6 +20,7 @@
 		<!-- other stylesheets link goes here -->
 		<link href="css/shop.css" rel="stylesheet">
 		<link href="css/checkout.css" rel="stylesheet">
+		<link href="css/form.css" rel="stylesheet">
 		
 	</head>
 
@@ -63,57 +64,91 @@
 
 		<section> 
 			<ul class="breadcrumb">
-			<li><a href="shop.html">shop</a></li>
+			<li><a href="shop.html">Shop</a></li>
 			<!-- the default puzzle category, may be changed -->
-			<li><a href="">Most Popular</a></li>
-			<li><a href="">Product Name</a></li>
-			<li><a href="">Checkout</a></li>
+			<li><a href="shop.html">New Collection</a></li>
+			<li><a href="product-details.html">Black Swan</a></li>
+			<li><a href="#">Checkout</a></li>
 
 			</ul>
 		</section>
 
 
 		<div class="grid">
-			  <div class="grid-col-3of10">
-				  	<div class="order-summary-header">
-				  		<h3> Order Summary </h3>
-				  	</div> <!-- closes .order-summary -->
-				  	
-				  	<div class="order-summary-body">
-				  		<img src="http://placehold.it/100x80">
-						<h4>Product Name</h4>
-						<p class="quantity">1X</p>
-						<p class="price"> &#36;45 </p>
+			  <div class="grid-col-4of10">
+			  		<div class="order-summary">
+					  	<div class="order-summary-header">
+					  		<h3> Order Summary </h3>
+					  	</div> <!-- closes .order-summary -->
+					  	
+						  	<div class="order-summary-body">
+						  		<img src="http://placehold.it/100x80">
+								<h4>Product Name</h4>
+								<p class="quantity">1X</p>
+								<p class="price"> &#36;45 </p>
 
-				  	</div> <!-- closes .order-summary-body -->
+						  	</div> <!-- closes .order-summary-body -->
 
-				  	<div class="order-taxes">
-				  		<p class="subtotal"> Subtotal: </p>
-				  			<p class="subtotal-amount"> &#36;45 </p>
-				  		<p class="shipping"> Shipping: </p>
-				  			<p class="shipping-amount"> &#36;3 </p>
-				  		<p class="taxes"> Taxes: </p>
-				  			<p class="taxes-amount"> &#36; 2</p>
-				  	</div> <!-- closes .order-taxes -->
+						  	<div class="order-taxes">
+						  		<p class="subtotal"> Subtotal: </p>
+						  			<p class="subtotal-amount"> &#36;45 </p>
+						  		<p class="shipping"> Shipping: </p>
+						  			<p class="shipping-amount"> &#36;3 </p>
+						  		<p class="taxes"> Taxes: </p>
+						  			<p class="taxes-amount"> &#36; 2</p>
+						  	</div> <!-- closes .order-taxes -->
 
-				  	<div class="payment">
-				  		<p class="payment-due"> Payment </p>
-				  		<p class="payment-amount"> &#36;50 </p>
-				  	</div> <!-- closes .payment-due -->
+						  	<div class="payment">
+						  		<p class="payment-due"> Payment </p>
+						  		<p class="payment-amount"> &#36;50 </p>
+						  	</div> <!-- closes .payment-due -->
+					</div> <!-- closes .order-summary -->
 
-
-
-			  
 				</div> <!-- closes .grid3of10 -->
+		
+			<div class="grid-col-6of10">
+				<div class="shipping-information">
+					<h3> Shipping Information </h3>
+					
+						<input class="form-field" placeholder="Full Name" name="name"> </input>
 
-		</div> <!-- closes .ordersummary -->
+						 <input class="form-field" placeholder="Address" name="Address"> </input>
+
+						 <input class="form-field" placeholder="City" name="City"> </input>
+
+						 <input class="form-field" placeholder="Province" name="Province"> </input>
+
+						 <input class="form-field" placeholder="Postal Code" name="Postal Code"> </input>
+
+				</div> <!-- closes .shipping info -->
+
+				<div class="billing-information">
+
+					<h3> Billing Information </h3>
+						<input class="form-field" placeholder="Full Name on Card" name="name on card"> </input>
+
+						 <input class="form-field" placeholder="Card Number" name="Card Number"> </input>
+
+						 <input class="form-field" placeholder="Security Code" name="Security Code"> </input>
+
+						 <input class="form-field" placeholder="Expiry Date (MM/YY)" name="Expiry Date"> </input>
+				</div> <!-- closes .contact-information -->
+
+				<div class="confirmation">
+
+					<a href="#" class="button-default" title="place order">Place Order</a>
+
+					<a href="#" class="button-secondary" title="Cancel"> Cancel </a>
+				</div> <!-- closes .confirmation -->
+					
+			</div> <!-- closes .6of10 -->
 
 
 
 
+		</div> <!--- closes .grid -->
 
 
-		</div> <!-- closes .grid -->
 
 
 

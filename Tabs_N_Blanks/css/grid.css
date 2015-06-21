@@ -9,8 +9,7 @@
 	Reference Retrieved From:
 	http://css-tricks.com/dont-overthink-it-grids/
 
-	Basic Grid structure retrieved from Andrew's Week 3 Tutorial from IAT 339 
-*/
+	Basic Grid & Media Queries examples retrieved from Andrew's Grid and Media Queries Tutorial */
 
 
 /*
@@ -30,77 +29,95 @@
 	'grid-col-', then we should apply the styling listed
 */
 
-[class^='grid-col-'] {
-	float: left;
-	padding: 0; 
-	padding-right: 30px;
-}
-
-/* last child will not have a right padding */
-[class^='grid-col-']:last-of-type {
-  padding-right: 0;
-}
-
-/* Add media queries later on for to achieve responsive design */
-
-.grid-col-1of10 {
-	width: 10%;
-}
-
-.grid-col-2of10 {
-	width: 20%;
-}
+/*
+	BLANK CLASS 
+*/
+	
+	/* yet to test the correct max-width
+	@media (max-width: 46.875em) {
+		.blank {
+			display: none;
+		}
+	}
+	*/
 
 
-.grid-col-3of10 {
-	width: 30%;
-}
-
-
-.grid-col-4of10 {
-	width: 40%;
-}
-
-
-.grid-col-5of10 {
-	width: 50%;
-}
-
-
-.grid-col-6of10 {
-	width: 60%;
-}
-
-/* for the navigation menu */
-@media (max-width: 40rem) {
-    ul.nav-menu li {
-		background: pink;
-		float: none;
-		display: block;
-    }
-  }
-
-.grid-col-7of10 {
-	width: 70%;
-}
-
-
-.grid-col-8of10 {
-	width: 80%;
-}
-
-.grid-col-10of10 {
-	width: 100%;
-}
 
 /*
-	Much like last week, we are clearing the floating items so
-	that our 'grid' structure can be stacked on others
-*/
-.grid:after {
-	content: "";
-	display: block;
-	clear: both;
-}
+	GRID STRUCTURE 
+*/	
+
+	[class^='grid-col-'] {
+		float: left;
+		padding: 0; 
+		padding-right: 30px; /* gutter width */
+	}
+
+	/* last child will not have a right padding */
+	[class^='grid-col-']:last-of-type {
+	  padding-right: 0;
+	}
+
+	/* Add media queries later on for to achieve responsive design */
+
+	.grid-col-1of10 {
+		width: 10%;
+	}
+
+	.grid-col-2of10 {
+		width: 20%;
+	}
+
+
+	.grid-col-3of10 {
+		width: 30%;
+	}
+
+
+	.grid-col-4of10 {
+		width: 40%;
+	}
+
+
+	.grid-col-5of10 {
+		width: 50%;
+	}
+
+
+	.grid-col-6of10 {
+		width: 60%;
+	}
+
+	/* for the navigation menu */
+	@media (max-width: 40rem) {
+	    ul.nav-menu li {
+			background: pink;
+			float: none;
+			display: block;
+	    }
+	  }
+
+	.grid-col-7of10 {
+		width: 70%;
+	}
+
+
+	.grid-col-8of10 {
+		width: 80%;
+	}
+
+	.grid-col-10of10 {
+		width: 100%;
+	}
+
+	/*
+		Much like last week, we are clearing the floating items so
+		that our 'grid' structure can be stacked on others
+	*/
+	.grid:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
 
 

@@ -108,6 +108,11 @@
 		float: left;
 		margin: 2em 3em;
 	}
+	.modal-body a {
+		float: left;
+	  	margin-top: 2.5em;
+	  	margin-left:10em;
+	}
 
 
 	/* Styling for the header in the modal dialog */
