@@ -23,6 +23,7 @@ ul.breadcrumb {
 	list-style: none; 
 	overflow: hidden; 
 	margin-top: 2em;
+  padding-left: 4em;
 }
 
 ul.breadcrumb li { 
@@ -36,8 +37,7 @@ ul.breadcrumb li a {
 	font-size: 0.875rem;
 	letter-spacing: 0.025em;
 	text-decoration: none; 
-	padding: 8px 0 8px 30px;
-	
+  padding: 10px 0 8px 1em;
 	position: relative; 
 	display: block;
 	float: left;
@@ -56,7 +56,6 @@ ul.breadcrumb li:before {
 	/* styling for forward slash that separates links */
 	content: '/';
 	display: inline-block;
-	margin-right: 0.5rem;
 	margin-top: 0.5rem;
 	padding-left: 1.5rem;
 }
@@ -67,18 +66,19 @@ ul.breadcrumb li:before {
   FILTER MENU 
 */
 
-.filter-menu{
-	padding-top: 2em;
+.filter-menu {
+	margin-top: 2em;
+  padding-left: 5em;
 }
 
 .filter-menu ul {
 	margin-bottom: 2em;
+  padding-left: 0;
 }
 
 .filter-menu li {
   list-style-type: none;
   padding: 0;
-  padding-left:3em;
   margin: 0;
   margin-bottom: 0.5em;   
 }
@@ -100,12 +100,6 @@ ul.breadcrumb li:before {
   color: #C1B087;
 } 
 
-.filter-menu h3 {
-	padding-left: 5.4em;
-	font-size: 1rem;
-	text-transform: uppercase;
-}
-
 
 
 /*
@@ -113,37 +107,37 @@ ul.breadcrumb li:before {
 */
 
 #product-listing {
-  width: 100%;
   margin: 0 auto;
   overflow: auto;
   float: left;
-  padding: 0;
+  padding-left: 4em;
   padding-bottom: 5em; /* avoid the view more button border bottom getting cut off by the footer*/
+  text-align: center;
 }
    
 #product-listing ul {
   list-style-type: none;
   overflow: auto;
-  padding:0;
 
 }
 
 #product-listing li {
-  width: auto;
-  padding: 1em;
+  padding: 0.5em;
   overflow: auto;
   float: left;
-
+  margin-bottom: 1.5em;
+  
 }
 
 #product-listing li img {
-/*  margin-bottom: 1.2em;*/
   width: auto;
-  padding-top: 1em;
-  padding-right:1em;
- /* background-color: rgba(202, 201, 199, 0.75);*/
+  text-align: center;
+  margin-bottom: 0.5em;
 }
 
+#product-listing .button-default {
+  margin-right: 4em;
+}
 
 /* Styling for Product Name and Product Caption under the Product Imgs*/
 /* need to fix this */
@@ -165,13 +159,5 @@ ul.breadcrumb li:before {
   color: #7d7d7d;
   clear: left;
   overflow: auto;
-}
-
-
-/* Styling for the View More button that follows the product listing */
-
-.button-view-more {
-	text-align: center;
-	padding-right: 5em;
 }
 
