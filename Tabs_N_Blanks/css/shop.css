@@ -139,25 +139,8 @@ ul.breadcrumb li:before {
   margin-right: 4em;
 }
 
-/* Styling for Product Name and Product Caption under the Product Imgs*/
-/* need to fix this */
-.product-name {
-  clear: left;
-  margin-bottom: 0;
-  font-family: Avenir-Medium;
-  font-size: 1rem;
-  letter-spacing: 0.05em;
-  color: #5e5e5e;
-  text-transform: uppercase;
-/* margin-bottom: 0.18em;*/
+#product-listing ul li h4 {
+  font-size: 0.70rem;
 }
 
-.product-caption{
-	font-family: Avenir-Roman;
-  font-size: 0.70rem;
-  letter-spacing: 0.05em;
-  color: #7d7d7d;
-  clear: left;
-  overflow: auto;
-}
 

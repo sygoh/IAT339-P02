@@ -14,89 +14,50 @@
 
 /* Styling for the events posts */
 
-ul.img-list {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	/*text-align: center; centering img */
-}
+	.coming-up-events {
+		text-align: center;
+	}
 
-ul.img-list li {
-	display: inline-block;
-	height: 171px;
-	margin: 0 1em 1em 0;
-	position: relative;
-	width: 250px;
-	margin-bottom: 2rem;
-}
+	.coming-up-events ul.img-list {
+		list-style-type: none;
+		overflow: auto;
+		padding: 0;
+	}
 
+	.coming-up-events li, 
+	.popular-events li {
+	  padding: 0.5em;
+	  float: left;
+	  margin-bottom: 1.5em;
+	  text-align: center;
+	}
 
-/* Styling for Coming Up Events */
+	.coming-up-events li img, 
+	.popular-events li img {
+	  width: auto;
+	  text-align: center;
+	  margin-bottom: 0.5em;
+	}
 
-#coming-up { /* section id tag */
-	text-align: center;
-	margin-bottom: 3em;
-	padding: 2em;
-}
-
-.coming-up-events { /* div tag */
-	margin-bottom: 2em;
-}
-
-.coming-up-events h1, .coming-up-events p {
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	text-align: center;
-}
-
-.coming-up-events ul.img-list{
-	text-align: center;
-}
-
-.coming-up-events ul.img-list li h3 {
-	margin-top: 0.5em;
-	margin-bottom: 0.1em;
-
-}
-
-.coming-up-events ul.img-list li h4 {
-	margin-top: 0.2em;
-
-}
+	.coming-up-events h1, 
+	.coming-up-events p,
+	.popular-events h1, 
+	.popular-events p {
+		margin-left: auto;
+		margin-right: auto;
+		width: 70%;
+		text-align: center;
+	}
 
 
-/* Styling for Popular Events */
 
-#popular { /* section id tag */
-	text-align: center;
-	margin-bottom: 3em;
-	padding: 2em;
-}
+	.coming-up-events ul.img-list li h3 {
+		/*margin-top: 0.5em;
+		margin-bottom: 0.1em;*/
+	}
 
-.popular-events { /* div tag */
-	margin-bottom: 2em;
-}
+	.coming-up-events ul.img-list li h4 {
+		/*margin-top: 0.2em;*/
+		font-size: 0.70rem; /* replace initial size */
+	}
 
-.popular-events h1, .popular-events p {
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;
-	text-align: center;
-}
-
-.popular-events ul.img-list{
-	text-align: center;
-}
-
-
-.popular-events ul.img-list li h3 {
-	margin-top: 0.5em;
-	margin-bottom: 0.1em;
-
-}
-
-.popular-events ul.img-list li h4 {
-	margin-top: 0.2em;
-
-}
