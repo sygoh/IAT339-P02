@@ -15,46 +15,39 @@
 /* Styling for the events posts */
 
 	.coming-up-events {
-		text-align: center;
-	}
-
-	.coming-up-events ul.img-list {
-		list-style-type: none;
-		overflow: auto;
-		padding: 0;
-	}
-
-	.coming-up-events li, 
-	.popular-events li {
-	  padding: 0.5em;
+	  /*margin: 0 auto;
+	  overflow: auto;*/
 	  float: left;
-	  margin-bottom: 1.5em;
+	  padding-bottom: 5em; /* avoid the view more button border bottom getting cut off by the footer*/
 	  text-align: center;
 	}
+	   
+	.coming-up-events ul.img-list {
+	  list-style-type: none;
+	  overflow: auto;
+	}
 
-	.coming-up-events li img, 
-	.popular-events li img {
+	.coming-up-events ul.img-list li {
+	  padding: 0.5em;
+	  /*overflow: auto;*/
+	  float: left;
+	  margin-bottom: 1.5em;
+	}
+
+	.coming-up-events ul.img-list li img {
 	  width: auto;
 	  text-align: center;
 	  margin-bottom: 0.5em;
 	}
 
-	.coming-up-events h1, 
-	.coming-up-events p,
-	.popular-events h1, 
-	.popular-events p {
+	.coming-up-events h1
+	{
 		margin-left: auto;
 		margin-right: auto;
-		width: 70%;
+		width: 40%;
 		text-align: center;
 	}
 
-
-
-	.coming-up-events ul.img-list li h3 {
-		/*margin-top: 0.5em;
-		margin-bottom: 0.1em;*/
-	}
 
 	.coming-up-events ul.img-list li h4 {
 		/*margin-top: 0.2em;*/

@@ -139,8 +139,13 @@ ul.breadcrumb li:before {
   margin-right: 4em;
 }
 
+#product-listing ul li h3 {
+  text-align: left;
+}
+
 #product-listing ul li h4 {
   font-size: 0.70rem;
+  text-align: left;
 }
 
 
