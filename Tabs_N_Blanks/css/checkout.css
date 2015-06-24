@@ -7,124 +7,68 @@
 
 
 /* 
-  DEFAULT STYLING
+  ORDER SUMMARY
 */
-.order-summary{
-  margin-top:2em;
-  margin-left:5em;
-  border: 1px solid #c1b087;
-  float:left;
-  width: 80%;
-}
 
-.order-summary-header{
-  margin-left:1em;
-  margin-bottom:1em;
-  color: white;
-  border-bottom: #F2EDE7 solid 1px;
-  width: 90%;
-}
+  .order-summary{
+    margin-top: 2em; 
+    margin-left: 5em;
+    border: 1px solid #c1b087;
+  }
 
-.order-summary-body img{
-  float: left;
-  margin-left:1em;
-}
+  .order-summary-header{
+    padding: 1em 0;
+    margin: 0 0 1em 1em;
+    border-bottom: #F2EDE7 solid 1px;
+    width: 90%;
+  }
 
-.order-summary-body h4 {
-  float: left;
-  margin-left: 1em;
-}
+  .cart-items {
+    margin: 0 0 1em 1em;
+    width: 90%;
+  }
 
-.order-summary-body p.quantity {
-  margin-top: 1.5em;
-  margin-left: 2.5em;
-  float: left;
-}
+  .cart-items h4 {
+    margin-top: 2em;
+  }
 
-.order-summary-body p.price {
-  margin-top: 1.5em;
-  margin-right: 1.5em;
-  float: right;
-}
+  .cart-items p {
+    margin-top: 2.2em;
+  }
 
-.order-taxes {
-  border-top: #F2EDE7 solid 1px;
-  width:90%;
-  float: left;
-  margin-top: 2em;
-  margin-left:1em;
-}
-.order-taxes p.subtotal {
-  float: left;
-}
-.order-taxes p.subtotal-amount{
-  float:right;
-}
-.order-taxes p.shipping {
-  clear:left;
-  float:left;
-}
-.order-taxes p.shipping-amount{
-  float:right;
-}
-.order-taxes p.taxes {
-  clear:left;
-  float:left;
-}
-.order-taxes p.taxes-amount{
-  float:right;
-}
-
-.payment {
-  border-top: #F2EDE7 solid 1px;
-  width:90%;
-  float: left;
-  margin-left:1em;
-}
-
-.payment p.payment-due {
-  clear:left;
-  float:left;
-}
-.payment p.payment-amount{
-  float:right;
-}
-
-/*end of ORDER SUMMARY section*/
-
-/*start of BILLING information*/
-.shipping-information{
-  margin-top:3em;
-}
-
-.shipping-information .form-field{
-  margin-right:2em;
-}
-
-.billing-information h3 {
-  margin-top:3em;
-}
-
-.billing-information .form-field{
-  margin-right:2em;
-}
-
-.confirmation {
-  margin-top:2em;
-}
-
-.order-summary p {
-  margin:0;
-  padding:1em;
-}
+  .subtotal,
+  .payment-footer {
+    border-top: #F2EDE7 solid 1px;
+    width:90%;
+    margin-left:1em;
+  }
 
 
-/*end of billing information*/
+/*
+  CHECKOUT FORMS 
+*/
+
+  .checkout {
+    padding-bottom: 4em;
+  }
+
+  .checkout h3 {
+    margin-bottom: 1em;
+  }
 
 
+  /* Styling for Shipping Information Section */
+
+    .shipping-information {
+      margin: 2em 0;
+    }
 
 
-
+  /* Styling for Billing Information Section */
+    
+    .billing-information{
+      margin: 3em 0 4em 0;
+    }
 
 
 
