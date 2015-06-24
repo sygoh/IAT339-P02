@@ -18,7 +18,7 @@
     text-transform: uppercase;
     width:100%;
     background: transparent;
-    margin-top:1em; /* between form fields */
+    margin: 0.5em 0; 
     border: 1px solid #d8d8d8;
     padding: 1em 1em; /* form field */
     -webkit-transition: all 0.2s ease;
