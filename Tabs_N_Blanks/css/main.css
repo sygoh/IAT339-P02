@@ -325,7 +325,23 @@
       color: #C1B087;
     }
 
+.sm-icons img {
+  width: 10%;
+  height: 10%;
+}
 
+ul.sm-icons {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+}
+
+ul.sm-icons li {
+  float: none;
+  text-align: center;
+  display: inline-block;
+  width:30%;
+}
 
 
 
