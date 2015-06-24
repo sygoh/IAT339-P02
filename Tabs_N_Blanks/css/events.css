@@ -13,99 +13,46 @@
 
 
 /* Styling for the events posts */
-
+	
 	.coming-up-events {
-	  /*margin: 0 auto;
-	  overflow: auto;*/
-	  float: left;
-	  padding-bottom: 5em; /* avoid the view more button border bottom getting cut off by the footer*/
-	  text-align: center;
+		margin-top: 2em; /*temporary needs to be changed */
+	}
+
+	.coming-up-events,
+	.popular-events {
+		text-align: center;
+		padding-bottom: 5em; /*avoid the view more button border bottom getting cut off by the footer*/
+		padding-right: 0; /* reverses gutter */
 	}
 	   
-	.coming-up-events ul.img-list {
-	  list-style-type: none;
-	  overflow: auto;
-	  margin-left: 4em;
+	.coming-up-events ul.img-list,
+	.popular-events ul.img-list {
+		list-style-type: none;
+		display: block;
+		padding-left: 0;
 	}
 
-	.coming-up-events ul.img-list li {
+	.coming-up-events ul.img-list li,
+	.popular-events ul.img-list li {
 	  padding: 0.5em;
-	  /*overflow: auto;*/
-	  float: left;
 	  margin-bottom: 1.5em;
+	  display: inline-block;
 	}
 
-	.coming-up-events ul.img-list li img {
-	  width: auto;
-	  text-align: center;
+	.coming-up-events ul.img-list li img, 
+	.popular-events ul.img-list li img {
 	  margin-bottom: 0.5em;
 	}
 
-	.coming-up-events h1
-	{
-		margin-left: auto;
-		margin-right: auto;
-		width: 40%;
-		text-align: center;
-	}
-
-
-	.coming-up-events p {
+	.coming-up-events p,
+	.popular-events p {
 		width:40%;
-		text-align: center;
 		margin: auto;
 		margin-top:1em;
 	}
 
 
-	.coming-up-events ul.img-list li h4 {
-		/*margin-top: 0.2em;*/
-		font-size: 0.70rem; /* replace initial size */
-	}
-
-/*Styling for Popular Events Posts*/
-
-	.popular-events h1 {
-		margin: auto;
-		width: 40%;
-		text-align: center;
-	}
-	.popular-events p {
-		width:40%;
-		text-align: center;
-		margin: auto;
-		margin-top: 1em;
-	}
-
-
-
-	.popular-events {
-	  /*margin: 0 auto;
-	  overflow: auto;*/
-	  float: left;
-	  padding-bottom: 5em; /* avoid the view more button border bottom getting cut off by the footer*/
-	  text-align: center;
-	}
-	   
-	.popular-events ul.img-list {
-	  list-style-type: none;
-	  overflow: auto;
-	  margin-left: 4em;
-	}
-
-	.popular-events ul.img-list li {
-	  padding: 0.5em;
-	  /*overflow: auto;*/
-	  float: left;
-	  margin-bottom: 1.5em;
-	}
-
-	.popular-events ul.img-list li img {
-	  width: auto;
-	  text-align: center;
-	  margin-bottom: 0.5em;
-	}
-
+	.coming-up-events ul.img-list li h4,
 	.popular-events ul.img-list li h4 {
 		/*margin-top: 0.2em;*/
 		font-size: 0.70rem; /* replace initial size */
