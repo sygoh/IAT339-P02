@@ -112,6 +112,10 @@
 */
 
   /* Main Navigation Menu */
+  ul.nav-menu .grid-col-6of10 {
+    padding-right: 0;
+  }
+
   ul.nav-menu {
     width: auto; /* width of underline */
   }
@@ -132,11 +136,6 @@
     margin: 0;
   }
 
-  /*
-  ul.nav-menu.align-left li {
-    float: left;
-  }
-  */
 
   ul.nav-menu li a {
     color: #7D7D7D;
@@ -198,7 +197,7 @@
     text-align: right;
   }
 
-  ul.nav-menu .side-nav li a {
+  ul.side-nav.nav-menu li a {
     font-family: AGaramond-Regular;
     letter-spacing: 0.08rem;
     font-size: 0.68rem;
@@ -209,12 +208,12 @@
 
   }
 
-  ul.nav-menu .side-nav li a:hover {
+  ul.side-nav.nav-menu li a:hover {
     color: #C1B087;
 
    }
 
-  ul.nav-menu .side-nav li a:before {
+  ul.side-nav.nav-menu li a:before {
     content: "";
     display: block;
     position: absolute;
