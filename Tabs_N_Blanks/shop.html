@@ -25,31 +25,27 @@
 	<body>
 	<div class="container">
 
-
-
-			<section class="grid">
+		<section class="grid">
 			<!-- logo filler; styling not applied yet-->
 			<div class="grid-col-2of10">
 				<a href="index.html"><h2> LOGO</h2></a>
-			</div>
+			</div> <!-- closing <div class="grid-col-2of10"> -->
 
-			<ul class="nav-menu">
-
-				<div class="grid-col-6of10">
-					<li><a href="shop.html"><span>Shop</span></a></li>
+			<div class="grid-col-6of10 main-nav">
+				<ul class="nav-menu">
+					<li class="active"><a href="shop.html"><span>Shop</span></a></li>
 					<li><a href="events.html"><span>Events</span></a></li>
 					<li><a href="company.html"><span>Company</span></a></li>
-				</div>
+				</ul>
+			</div> <!-- closing <div class="grid-col-6of10"> -->
 
-				<div class="grid-col-2of10">
-					<div class="side-nav">
+			<div class="grid-col-2of10">
+				<ul class="side-nav nav-menu">
 					<li><a href="#"><span>Search</span></a></li>
 					<li><a href="#"><span>Cart</span></a></li>
-					</div>
-				</div>
-
-			</ul> <!-- closing <ul class="nav-menu"> -->
-				
+				</ul>
+			</div> <!-- closing <div class="grid-col-2of10"> -->
+			
 		</section> <!-- closing <div class="grid"> -->
 	
 
@@ -144,12 +140,20 @@
 	</div> <!-- closes container -->
 	
 
-	<div class="footer">
-		<!-- filler for social media icons-->
-		<h3>social media icons go here</h3>
-		<p> copyright Tabs N' Blanks </p>
-
-	</div>
+	<div class="footer grid">
+		<div class="grid-col-2of10 blank">
+				&nbsp;
+		</div> <!-- closing .blank and .gri-col-2of10 -->
+		
+		<div class="grid-col-6of10">
+			<!-- filler for social media icons-->
+			<h3>social media icons go here</h3>
+		</div> <!-- closing.gri-col-6of10 -->
+		
+		<div class="grid-col-2of10">
+			<p> copyright Tabs N' Blanks </p>
+		</div> <!-- closing .gri-col-2of10 -->
+	</div> <!-- closing <div class="footer" -->
 
 	</body>
 
