@@ -44,10 +44,6 @@ ul.breadcrumb li a {
 	float: left;
 }
 
-ul.breadcrumb li.selected a {
-  color: #C1B087;
-}
-
 ul.breadcrumb li a:hover {
 	color: #C1B087;
 /*	text-decoration: underline;*/

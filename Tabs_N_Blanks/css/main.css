@@ -112,7 +112,8 @@
 */
 
   /* Main Navigation Menu */
-  ul.nav-menu .grid-col-6of10 {
+
+  .grid-col-6of10.main-nav {
     padding-right: 0;
   }
 
@@ -123,7 +124,6 @@
   ul.nav-menu {
     list-style: none;
     margin-top: 1em;
-    padding: 0;
     line-height: 1;
     display: block;
 
