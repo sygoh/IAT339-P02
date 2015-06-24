@@ -31,6 +31,7 @@ ul.breadcrumb li {
 	display: inline;
 }
 
+
 ul.breadcrumb li a {
 	color: #7D7D7D;
 	font-family: AGaramond-Italics;
@@ -41,6 +42,10 @@ ul.breadcrumb li a {
 	position: relative; 
 	display: block;
 	float: left;
+}
+
+ul.breadcrumb li.selected a {
+  color: #C1B087;
 }
 
 ul.breadcrumb li a:hover {
