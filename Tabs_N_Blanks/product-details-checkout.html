@@ -64,82 +64,119 @@
 
 
 		<div class="grid">
-			  <div class="grid-col-4of10">
-			  		<div class="order-summary">
-					  	<div class="order-summary-header">
-					  		<h3> Order Summary </h3>
-					  	</div> <!-- closes .order-summary -->
-					  	
-						  	<div class="order-summary-body">
-						  		<img src="http://placehold.it/100x80">
-								<h4>Product Name</h4>
-								<p class="quantity">1X</p>
-								<p class="price"> &#36;45 </p>
+			<div class="grid-col-4of10">
+			  		
+		  		<div class="order-summary">
 
-						  	</div> <!-- closes .order-summary-body -->
+				  	<div class="order-summary-header">
+				  		<h3> Order Summary </h3>
+				  	</div> <!-- closes .order-summary header -->
+			  	
+				  	<div class="cart-items grid">
+				  		<div class="grid-col-2of6">
+				  			<img src="http://placehold.it/100x80">
+				  		</div> <!-- closing .grid-col-2of6 -->
+						<h4 class="grid-col-2of6">Product Name</h4>	
+						<p class="grid-col-1of6">1X</p>
+						<p class="grid-col-1of6"> &#36; 45</p>
+				  	</div> <!-- closes .cart-items and .grid-->
 
-						  	<div class="order-taxes">
-						  		<p class="subtotal"> Subtotal: </p>
-						  			<p class="subtotal-amount"> &#36;45 </p>
-						  		<p class="shipping"> Shipping: </p>
-						  			<p class="shipping-amount"> &#36;3 </p>
-						  		<p class="taxes"> Taxes: </p>
-						  			<p class="taxes-amount"> &#36; 2</p>
-						  	</div> <!-- closes .order-taxes -->
+				  	<div class="subtotal">
 
-						  	<div class="payment">
-						  		<p class="payment-due"> Payment </p>
-						  		<p class="payment-amount"> &#36;50 </p>
-						  	</div> <!-- closes .payment-due -->
-					</div> <!-- closes .order-summary -->
+				  		<div class="grid">
+				  			<p class="grid-col-2of6"> Subtotal:</p>
 
-				</div> <!-- closes .grid3of10 -->
+					  		<div class="grid-col-3of6 blank"> &nbsp; </div>
+					  		
+					  		<p class="grid-col-1of6"> &#36; 45</p>
+					  	</div> <!-- closing first .grid in .subtotal -->
+
+					  	<div class="grid">
+					  		<p class="grid-col-2of6"> 
+					  		Shipping:</p>
+
+					  		<div class="grid-col-3of6 blank"> &nbsp; </div>
+
+				  			<p class="grid-col-1of6"> &#36; 3</p>
+				  		</div> <!-- closing second .grid in .subtotal -->
+
+				  		<div class="grid">
+					  		<p class="grid-col-2of6"> Taxes:</p>
+
+					  		<div class="grid-col-3of6 blank"> &nbsp; </div>
+
+					  		<p class="grid-col-1of6"> &#36; 2</p>
+
+					  	</div> <!-- closing third .grid in .subtotal -->
+
+					</div> <!-- closing .subtotal -->
+
+
+				  	<div class="payment-footer grid">
+				  		<p class="grid-col-2of6"> Payment</p>
+
+				  		<div class="grid-col-3of6 blank"> &nbsp; </div>
+
+				  		<p class="grid-col-1of6"> &#36; 50</p>
+				  	</div> <!-- closes .payment-footer and .grid -->
+
+
+				</div> <!-- closes .order-summary -->
+
+			</div> <!-- closes .grid4of10 -->
+
+
+
+			<div class="grid-col-1of10 blank">
+				&nbsp;
+			</div> <!-- closing .blank and .gri-col-1of10 -->
 		
-			<div class="grid-col-6of10">
+
+			<div class="grid-col-4of10 checkout">
+
 				<div class="shipping-information">
 					<h3> Shipping Information </h3>
-					
-						<input class="form-field" placeholder="Full Name" name="name"> </input>
+				
+					<input class="form-field" placeholder="Full Name" name="name"> </input>
 
-						 <input class="form-field" placeholder="Address" name="Address"> </input>
+					 <input class="form-field" placeholder="Address" name="Address"> </input>
 
-						 <input class="form-field" placeholder="City" name="City"> </input>
+					 <input class="form-field" placeholder="City" name="City"> </input>
 
-						 <input class="form-field" placeholder="Province" name="Province"> </input>
+					 <input class="form-field" placeholder="Province" name="Province"> </input>
 
-						 <input class="form-field" placeholder="Postal Code" name="Postal Code"> </input>
+					 <input class="form-field" placeholder="Postal Code" name="Postal Code"> </input>
 
-				</div> <!-- closes .shipping info -->
+				</div> <!-- closes .shipping-information -->
+
 
 				<div class="billing-information">
 
 					<h3> Billing Information </h3>
-						<input class="form-field" placeholder="Full Name on Card" name="name on card"> </input>
 
-						 <input class="form-field" placeholder="Card Number" name="Card Number"> </input>
+					<input class="form-field" placeholder="Full Name on Card" name="name on card"> </input>
 
-						 <input class="form-field" placeholder="Security Code" name="Security Code"> </input>
+					 <input class="form-field" placeholder="Card Number" name="Card Number"> </input>
 
-						 <input class="form-field" placeholder="Expiry Date (MM/YY)" name="Expiry Date"> </input>
-				</div> <!-- closes .contact-information -->
+					 <input class="form-field" placeholder="Security Code" name="Security Code"> </input>
 
-				<div class="confirmation">
+					 <input class="form-field" placeholder="Expiry Date (MM/YY)" name="Expiry Date"> </input>
 
-					<a href="#" class="button-default" title="place order">Place Order</a>
+				</div> <!-- closes .billing-information -->
 
-					<a href="#" class="button-secondary" title="Cancel"> Cancel </a>
-				</div> <!-- closes .confirmation -->
+				<a href="#" class="button-default" title="place order">Place Order</a>
+
+				<a href="#" class="button-secondary" title="Cancel"> Cancel </a>
 					
-			</div> <!-- closes .6of10 -->
+			</div> <!-- closes .4of10 -->
 
 
+			<div class="grid-col-1of10 blank">
+				&nbsp;
+			</div> <!-- closing .blank and .gri-col-1of10 -->
 
 
 		</div> <!--- closes .grid -->
-
-
-
-
 
 
 	</div> <!-- close <div class="container" div -->
