@@ -21,6 +21,7 @@
 		<link href="css/company.css" rel="stylesheet">
 		<link href="css/form.css" rel="stylesheet">
 		<link href="css/breadcrumb.css" rel="stylesheet">
+		<link href="css/modal.css" rel="stylesheet">
 
 		
 	</head>
@@ -47,7 +48,7 @@
 				<div class="grid-col-2of10">
 					<ul class="side-nav nav-menu">
 						<li><a href="#"><span>Search</span></a></li>
-						<li><a href="#"><span>Cart</span></a></li>
+						<li><a href="#modal-cart"><span>Cart</span></a></li>
 					</ul>
 				</div> <!-- closing <div class="grid-col-2of10"> -->
 				
@@ -104,7 +105,7 @@
 
 			
 					<div class="grid-col-5of10">
-							 <textarea class="message-box" placeholder="Message" name="Message"> </textarea>
+							 <textarea class="message-box" placeholder="Message" name="Message"></textarea>
 					</div> <!-- closes .grid-5of10 -->
 
 				</div> <!-- closes .grid and .contact-form -->
@@ -112,6 +113,33 @@
 				<a href="#" class="button-default" title="Submit">Submit</a>
 
 			</section> <!-- closing #contact-us -->
+
+
+			<!-- Cart Modal -->
+			<div class="modal" id="modal-cart" aria-hidden="true">
+			  
+			  <div class="modal-dialog">
+			    
+			    <div class="modal-header">
+					<h3>My Cart</h3>
+					<a href="#close" class="button-close-modal" aria-hidden="true">×</a>
+			    </div> <!-- closing .modal-head -->
+
+			    <div class="modal-body">
+			    	<h4> Your cart is currently empty.</h4>
+			    </div> <!-- closing .modal-body -->
+
+			    <div class="modal-footer">
+
+					<a href="shop.html" class="button-default">Continue Shopping</a>
+
+			    </div> <!-- closing .modal-footer -->
+			  
+			  </div> <!-- closing <div class="modal-dialog">-->
+			
+			</div> <!-- closing <div class="modal">-->
+
+
 
 		</div> <!-- close <div class="container" div -->
 
