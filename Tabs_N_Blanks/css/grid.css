@@ -23,11 +23,6 @@
 }
 
 
-/*
-	Here we are using a 'fancy' css selector that is 
-	specifying if the class of an item starts with
-	'grid-col-', then we should apply the styling listed
-*/
 
 /*
 	BLANK CLASS 
@@ -47,6 +42,11 @@
 	GRID STRUCTURE 
 */	
 
+	/*
+		using a 'fancy' css selectoR
+		specifying the styling of the classes that starts with 'grid-col-'
+	*/
+
 	[class^='grid-col-'] {
 		float: left;
 		padding: 0; 
@@ -57,6 +57,7 @@
 	[class^='grid-col-']:last-of-type {
 	  padding-right: 0;
 	}
+
 
 	/* Add media queries later on for to achieve responsive design */
 
@@ -97,6 +98,7 @@
 	    }
 	  }
 
+
 	.grid-col-7of10 {
 		width: 70%;
 	}
@@ -131,6 +133,9 @@
 	.grid-col-4of6 {
 		width: 66.667%;
 	}
+
+
+
 
 	/*
 		Much like last week, we are clearing the floating items so
