@@ -13,15 +13,24 @@
 
 
 /* Styling for the events posts */
+
+	hr {
+      display: block;
+      border: 0;
+      border-top: 35px solid #F2EDE7;
+      margin: 0.7em 0 0 0;
+      padding: 0;
+    }
+
 	
 	.coming-up-events {
-		margin-top: 2em; /*temporary needs to be changed */
+		margin-top: 3em; /*temporary needs to be changed */
 	}
 
 	.coming-up-events,
 	.popular-events {
 		text-align: center;
-		padding-bottom: 5em; /*avoid the view more button border bottom getting cut off by the footer*/
+		padding-bottom: 4em; /*avoid the view more button border bottom getting cut off by the footer*/
 		padding-right: 0; /* reverses gutter */
 	}
 	   
