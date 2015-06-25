@@ -245,7 +245,6 @@
   .footer {
     background-color: #F2EDE7;
     text-align: center;
-
     font-size: 0.875rem;
     clear: both;
     position: relative;
@@ -269,13 +268,15 @@
     font-size: 0.625rem;
     clear: left;
     /*display: inline-block;*/
-    line-height: 3em; /* to vertically align middle */
+    line-height: 4em; /* to vertically align middle */
   }
 
+  .footer .grid-col-6of10 {
+    padding-right: 0;
+  }
   .container { 
     padding-bottom: 4em; 
   }
-
 
 
 /* 
@@ -325,23 +326,6 @@
       color: #C1B087;
     }
 
-.sm-icons img {
-  width: 10%;
-  height: 10%;
-}
-
-ul.sm-icons {
-  list-style-type: none;
-  display: inline-block;
-  text-align: center;
-}
-
-ul.sm-icons li {
-  float: none;
-  text-align: center;
-  display: inline-block;
-  width:30%;
-}
 
 
 
