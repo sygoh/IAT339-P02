@@ -13,62 +13,12 @@
 
 
 
-
-/* 
-  BREADCRUMBS 
-*/ 
-
-ul.breadcrumb { 
-	background: #F2EDE7;
-	list-style: none; 
-	overflow: hidden; 
-	margin-top: 0.7em;
-  padding-left: 4em;
-}
-
-ul.breadcrumb li { 
-	float: left; 
-	display: inline;
-}
-
-
-ul.breadcrumb li a {
-	color: #7D7D7D;
-	font-family: AGaramond-Italics;
-	font-size: 0.875rem;
-	letter-spacing: 0.025em;
-	text-decoration: none; 
-  padding: 10px 0 8px 1.5em;
-	position: relative; 
-	display: block;
-	float: left;
-}
-
-ul.breadcrumb li a:hover {
-	color: #C1B087;
-/*	text-decoration: underline;*/
-}
-
-ul.breadcrumb li::before { 
-	font-family: AGaramond-Italics;
-	font-size: 1rem;
-	color: #7D7D7D;
-
-	/* styling for forward slash that separates links */
-	content: '/';
-	display: inline-block;
-	margin-top: 0.5rem;
-	padding-left: 1.5rem;
-}
-
-
-
 /*
   FILTER MENU 
 */
 
 .filter-menu {
-	margin-top: 2em;
+	margin-top: 3em;
   padding-left: 5em;
 }
 
@@ -109,6 +59,7 @@ ul.breadcrumb li::before {
 
 #product-listing {
   margin: 0 auto;
+  margin-top: 3em;
   overflow: auto;
   float: left;
   padding-left: 4em;
@@ -119,11 +70,11 @@ ul.breadcrumb li::before {
 #product-listing ul {
   list-style-type: none;
   overflow: auto;
-
+  margin-top: 0;
 }
 
 #product-listing li {
-  padding: 0.5em;
+  padding: 0 0.5em 0.5em 0.5em;
   overflow: auto;
   float: left;
   margin-bottom: 1.5em;
