@@ -33,9 +33,14 @@ box-sizing: border-box;
 #contact-us {
 	margin-left: auto;
 	margin-right: auto;
-	width: 70%;
+	width: 60%;
 	text-align: center;
 	margin-bottom: 3em;
+}
+
+#contact-us p {
+	width:50%;
+	margin: 1em auto 2em auto;
 }
 
 /* margin bottom form the entire form */
@@ -43,6 +48,11 @@ box-sizing: border-box;
 	margin-bottom: 2em;
 }
 
-
+.sm-icons img {
+	color: #7d7d7d;
+	margin:1.5em .7em 0 .7em ;
+	margin-bottom: 1em;
+	margin-top:0;
+}
 
 

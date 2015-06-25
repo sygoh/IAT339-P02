@@ -45,3 +45,10 @@
   margin-top:.5em;
   border: 1px solid #d8d8d8;
 }
+
+.message-box:focus {
+  color: #c1b087;
+   border: 1px solid #c1b087;
+   outline:none;
+
+}
