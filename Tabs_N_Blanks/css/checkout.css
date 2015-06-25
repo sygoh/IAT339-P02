@@ -59,6 +59,11 @@
 
   /* Styling for Shipping Information Section */
 
+    .shipping-information, 
+    .billing-information {
+      width: 80%
+    }
+    
     .shipping-information {
       margin: 2em 0;
     }
