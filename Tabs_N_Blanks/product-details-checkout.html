@@ -21,6 +21,7 @@
 		<link href="css/breadcrumb.css" rel="stylesheet">
 		<link href="css/checkout.css" rel="stylesheet">
 		<link href="css/form.css" rel="stylesheet">
+		<link href="css/modal.css" rel="stylesheet">
 		
 	</head>
 
@@ -164,7 +165,7 @@
 
 				</div> <!-- closes .billing-information -->
 
-				<a href="#" class="button-default" title="place order">Place Order</a>
+				<a href="#modal-cart" class="button-default" title="place order">Place Order</a>
 
 				<a href="product-details-blackswan.html" class="button-secondary" title="Cancel"> Cancel </a>
 					
@@ -177,6 +178,31 @@
 
 
 		</div> <!--- closes .grid -->
+
+
+			<!-- Cart Modal -->
+			<div class="modal" id="modal-cart" aria-hidden="true">
+			  
+			  <div class="modal-dialog">
+			    
+			    <div class="modal-header">
+					<h3>Order Successful</h3>
+					<a href="#close" class="button-close-modal" aria-hidden="true">×</a>
+			    </div> <!-- closing .modal-head -->
+
+			    <div class="modal-body">
+			    	<h4> Thank you for shopping with us&#33;</h4>
+			    </div> <!-- closing .modal-body -->
+
+			    <div class="modal-footer">
+
+					<a href="shop.html" class="button-default">Continue Shopping</a>
+
+			    </div> <!-- closing .modal-footer -->
+			  
+			  </div> <!-- closing <div class="modal-dialog">-->
+			
+			</div> <!-- closing <div class="modal">-->
 
 
 	</div> <!-- close <div class="container" div -->

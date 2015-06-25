@@ -124,12 +124,16 @@
 	.modal-footer {
 		border-top: #F2EDE7 solid 1px;
 		width: 90%;
-		margin: 1.5em 0;
+		margin: 1.5em 2em;
 		padding: 1em 0;
+	}
+
+	.modal-footer .grid {
+		margin-right: 1.5em;
 	}
 
 
 	.modal-footer a.button-default {
 		float: right;
-		margin: 2em 2em 2em 0;
+		margin: 2em 3.5em 2em 0;
 	}
