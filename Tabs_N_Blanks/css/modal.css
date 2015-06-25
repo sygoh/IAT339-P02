@@ -16,25 +16,9 @@
 	http://codepen.io/maccadb7/pen/nbHEg */
 
 
-	/* Styling for the "X" on the top right to close modal */
-
-	.button-close-modal {
-		color: #7D7D7D;
-		font-size: 2rem;
-		text-decoration: none;
-		position: absolute;
-		right: 1em;
-		top: 1em;
-	}
-
-	.button-close-modal:hover {
-	  color: #C1B087;
-	}
-
-
 	/* Pseudo Element for Modal */
 
-	.modal:before {
+	.modal::before {
 	  content: "";
 	  display: none;
 	  background: rgba(255, 255, 255, 0.6);
@@ -48,7 +32,7 @@
 	}
 
 
-	.modal:target:before {
+	.modal:target::before {
 	  display: block;
 	}
 
@@ -60,6 +44,7 @@
 	  -ms-transform: translate(0, 0);
 	  transform: translate(0, 0);
 	  top: 20%;
+/*	  margin-top: 15em;*/
 	}	
 
 
@@ -69,12 +54,15 @@
 		background: white;
 		border: #C1B087 solid 1px;
 		/* border-radius: 2px; the rounded corner for the dialog box */
-		margin-left: -200px;
+		margin-left: -150px;
 		position: fixed;
 		left: 35%;
 		top: -100%;
 		z-index: 11;
-		width: 50em;
+		width: 40em;
+
+		/*position: relative;
+		margin: auto;*/
 
 		/* Modal Animation Coming Top Down */
 		-webkit-transform: translate(0, -500%);
@@ -87,41 +75,47 @@
 	}
 
 
-	/* Styling for the cart item displays */
-
-	.modal-body {
-		float: left;
-		margin: 1em 4em;
-		padding: 1em 0;
-	}
-
-	.modal-body img {
-		float: left;
-	}
-
-	.modal-body h3 {
-		float: left;
-		margin: 1.5em 4em;
-	}
-
-	.modal-body h4 {
-		float: left;
-		margin: 2em 3em;
-	}
-	.modal-body a {
-		float: left;
-	  	margin-top: 2.5em;
-	  	margin-left:10em;
-	}
-
-
 	/* Styling for the header in the modal dialog */
 
 	.modal-header {
 		border-bottom: #F2EDE7 solid 1px;
-		width: 85%;
-		margin: 1em 4em;
-		padding: 1em 0;
+	    padding: 1.5em 0;
+		width: 90%;
+		margin-left: 2em;
+	}
+
+	/* Styling for the "X" on the top right to close modal */
+
+	.button-close-modal {
+		color: #7D7D7D;
+		font-size: 2rem;
+		text-decoration: none;
+		position: fixed;
+		top: 0.2em;
+		right: 1em;
+	}
+
+	.button-close-modal:hover {
+	  color: #C1B087;
+	}
+
+
+	/* Styling for the cart item displays */
+
+	.modal-body {
+		margin: 1.5em 2em;
+	}
+
+	.modal-body h4 {
+		margin-top: 2em;
+	}
+
+	.modal-body p {
+		margin-top: 2.2em;
+	}
+
+	.modal-body .grid-col-2of10 {
+		margin-top: 1.5em;
 	}
 
 
@@ -129,19 +123,13 @@
 
 	.modal-footer {
 		border-top: #F2EDE7 solid 1px;
-		width: 85%;
-		margin: 1em 4em;
-		padding: 1em 0em;
-		text-align: right;
-		clear: left;
+		width: 90%;
+		margin: 1.5em 2em;
+		padding: 1em 0;
 	}
 
-	.modal-footer h3 {
-		margin-right: 1.5em;
+
+	.modal-footer a.button-default {
+		float: right;
+		margin: 2em 2.5em 2em 0;
 	}
-	
-	/*ADDED TO STOP SCROLLING TO TOP
-	#close {
-	  display: none;
-	}
-	*/

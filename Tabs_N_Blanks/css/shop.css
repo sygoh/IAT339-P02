@@ -22,7 +22,7 @@ ul.breadcrumb {
 	background: #F2EDE7;
 	list-style: none; 
 	overflow: hidden; 
-	margin-top: 2em;
+	margin-top: 0.7em;
   padding-left: 4em;
 }
 
@@ -49,7 +49,7 @@ ul.breadcrumb li a:hover {
 /*	text-decoration: underline;*/
 }
 
-ul.breadcrumb li:before { 
+ul.breadcrumb li::before { 
 	font-family: AGaramond-Italics;
 	font-size: 1rem;
 	color: #7D7D7D;
