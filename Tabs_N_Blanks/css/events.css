@@ -68,4 +68,27 @@
 	}
 
 
+	/*
+		RESPONSIVE for the events post listing 
+	*/
+
+	@media (max-width: 64.063em) {
+		#coming-up .grid-col-1of10.blank,
+		 #popular .grid-col-1of10.blank {
+			display: none;
+		}
+
+		#coming-up .grid-col-8of10.coming-up-events,
+		 #popular .grid-col-8of10.popular-events {
+			width: 100%;
+		}
+
+	}
+
+	@media (max-width: 51.375em) {
+		.coming-up-events p,
+		.popular-events p {
+			width: 60%;
+		}
+	}
 
