@@ -41,11 +41,11 @@ box-sizing: border-box;
 		RESPONSIVE for ABOUT US
 	*/
 
-	@media (max-width: 73.5em) {
+/*	@media (max-width: 73.5em) {
 		#about-us .grid-col-6of10 {
 			width: 80%;
 		}
-	}
+	}*/
 
 	@media (max-width: 55.375em) {
 		#about-us .grid-col-2of10.blank {
@@ -138,31 +138,20 @@ box-sizing: border-box;
 
 	}
 
-	@media (max-width: 43.45em) {
+	@media (max-width: 46em) {
 		#contact-us {
 			width: 90%;
-		}
-
-		#contact-us p {
-			width: 60%;
-		}
-
-	}
-
-	@media (max-width: 38.438em) {
-		.contact-form .grid-col-5of10 {
-			padding-right: 0;
-		}
-
-		.contact-form .grid-col-5of10 {
-			width: 80%;
-			margin-left: 3em;
 		}
 
 		#contact-us p {
 			width: 70%;
 		}
 
+		.contact-form .grid-col-5of10 {
+			width: 80%;
+			margin-left: 3em;
+			padding-right: 0;
+		}
 
 	}
 
