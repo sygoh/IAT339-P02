@@ -16,6 +16,10 @@
 	http://codepen.io/maccadb7/pen/nbHEg */
 
 
+/*
+	CART MODAL 
+*/
+
 	/* Pseudo Element for Modal */
 
 	.modal::before {
@@ -43,8 +47,7 @@
 	  -webkit-transform: translate(0, 0);
 	  -ms-transform: translate(0, 0);
 	  transform: translate(0, 0);
-	  top: 20%;
-/*	  margin-top: 15em;*/
+	  top: 5%;
 	}	
 
 
@@ -54,15 +57,16 @@
 		background: white;
 		border: #C1B087 solid 1px;
 		/* border-radius: 2px; the rounded corner for the dialog box */
-		margin-left: -150px;
+/*		margin-left: -150px;
 		position: fixed;
 		left: 35%;
-		top: -100%;
+		top: -100%;*/
+		position: fixed;
+		top: 0;
+		left: 25%;
+
 		z-index: 11;
 		width: 40em;
-
-		/*position: relative;
-		margin: auto;*/
 
 		/* Modal Animation Coming Top Down */
 		-webkit-transform: translate(0, -500%);
@@ -128,8 +132,56 @@
 		padding: 1em 0;
 	}
 
-
-	.modal-footer a.button-default {
-		float: right;
-		margin: 2em 2.5em 2em 0;
+	.modal-footer .grid {
+		margin-right: 1.5em;
 	}
+
+
+	#modal-cart .modal-footer a.button-default {
+		float: right;
+		margin: 2em 3.5em 2em 0;
+	}
+
+
+/*
+	REVIEW MODAL
+*/
+
+  /* Styling for Giving how many Ratings in Review Modal 
+        Reference Retrieved from: https://css-tricks.com/star-ratings/;
+   */
+
+	/*.give-rating > span:hover:before {
+      content: "\2605";
+      position: absolute;
+    }*/
+
+    #modal-review .modal-header {
+      border-bottom: none;
+    }
+
+    #modal-review .modal-footer {
+      border-top: none;
+      text-align: center; /* center-align the submit button */
+    }
+
+    .give-rating {
+      /* unicode-bidi: bidi-override;*/
+      direction: rtl; /* direction of the span tag (top to bottom is equal to left to right)*/
+      font-size: 2rem; /* size of the stars */
+      color: #F2EDE7;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    .give-rating > span:hover:before,
+    .give-rating > span:hover ~ span:before {
+       content: "\2605";
+       position: absolute;
+       color: #C1B087;
+    }
+
+    .review-form {
+    	width: 80%;
+    	margin: 0 3.5em;
+    }

@@ -21,6 +21,7 @@
 		<link href="css/breadcrumb.css" rel="stylesheet">
 		<link href="css/checkout.css" rel="stylesheet">
 		<link href="css/form.css" rel="stylesheet">
+		<link href="css/modal.css" rel="stylesheet">
 		
 	</head>
 
@@ -74,11 +75,11 @@
 			  	
 				  	<div class="cart-items grid">
 				  		<div class="grid-col-2of6">
-				  			<img src="http://placehold.it/100x80">
+				  			<img src="img/angelfish.jpg" width="100" height="80">
 				  		</div> <!-- closing .grid-col-2of6 -->
-						<h4 class="grid-col-2of6">Product Name</h4>	
+						<h4 class="grid-col-2of6">Elegant Angelfish</h4>	
 						<p class="grid-col-1of6">1X</p>
-						<p class="grid-col-1of6"> &#36; 45</p>
+						<p class="grid-col-1of6"> &#36; 60</p>
 				  	</div> <!-- closes .cart-items and .grid-->
 
 				  	<div class="subtotal">
@@ -164,7 +165,7 @@
 
 				</div> <!-- closes .billing-information -->
 
-				<a href="#" class="button-default" title="place order">Place Order</a>
+				<a href="#modal-cart" class="button-default" title="place order">Place Order</a>
 
 				<a href="product-details-blackswan.html" class="button-secondary" title="Cancel"> Cancel </a>
 					
@@ -177,6 +178,31 @@
 
 
 		</div> <!--- closes .grid -->
+
+
+			<!-- Cart Modal -->
+			<div class="modal" id="modal-cart" aria-hidden="true">
+			  
+			  <div class="modal-dialog">
+			    
+			    <div class="modal-header">
+					<h3>Order Successful</h3>
+					<a href="#close" class="button-close-modal" aria-hidden="true">×</a>
+			    </div> <!-- closing .modal-head -->
+
+			    <div class="modal-body">
+			    	<h4> Thank you for shopping with us&#33;</h4>
+			    </div> <!-- closing .modal-body -->
+
+			    <div class="modal-footer">
+
+					<a href="shop.html" class="button-default">Continue Shopping</a>
+
+			    </div> <!-- closing .modal-footer -->
+			  
+			  </div> <!-- closing <div class="modal-dialog">-->
+			
+			</div> <!-- closing <div class="modal">-->
 
 
 	</div> <!-- close <div class="container" div -->
