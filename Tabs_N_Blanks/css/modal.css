@@ -16,6 +16,10 @@
 	http://codepen.io/maccadb7/pen/nbHEg */
 
 
+/*
+	CART MODAL 
+*/
+
 	/* Pseudo Element for Modal */
 
 	.modal::before {
@@ -133,7 +137,51 @@
 	}
 
 
-	.modal-footer a.button-default {
+	#modal-cart .modal-footer a.button-default {
 		float: right;
 		margin: 2em 3.5em 2em 0;
 	}
+
+
+/*
+	REVIEW MODAL
+*/
+
+  /* Styling for Giving how many Ratings in Review Modal 
+        Reference Retrieved from: https://css-tricks.com/star-ratings/;
+   */
+
+	/*.give-rating > span:hover:before {
+      content: "\2605";
+      position: absolute;
+    }*/
+
+    #modal-review .modal-header {
+      border-bottom: none;
+    }
+
+    #modal-review .modal-footer {
+      border-top: none;
+      text-align: center; /* center-align the submit button */
+    }
+
+    .give-rating {
+      /* unicode-bidi: bidi-override;*/
+      direction: rtl; /* direction of the span tag (top to bottom is equal to left to right)*/
+      font-size: 2rem; /* size of the stars */
+      color: #F2EDE7;
+      text-align: center;
+      margin-bottom: 1em;
+    }
+
+    .give-rating > span:hover:before,
+    .give-rating > span:hover ~ span:before {
+       content: "\2605";
+       position: absolute;
+       color: #C1B087;
+    }
+
+    .review-form {
+    	width: 80%;
+    	margin: 0 3.5em;
+    }

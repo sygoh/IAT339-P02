@@ -181,26 +181,4 @@
       margin-left: 1em;
     }
 
-    /* Styling for Giving how many Ratings in Review Modal 
-        Reference Retrieved from: https://css-tricks.com/star-ratings/;
-    */
-
-    /* Come back to it after Review Modal is complete
-    .give-rating > span:hover:before {
-      content: "\2605";
-      position: absolute;
-    }
-
-    .give-rating {
-      unicode-bidi: bidi-override;
-      direction: ltr; /* direction of the span tag (top to bottom is equal to left to right)
-      color: #C1B087;
-      font-size: 1rem;
-    }
-
-    .give-rating > span:hover:before,
-    .give-rating > span:hover ~ span:before {
-       content: "\2605";
-       position: absolute;
-    }
-*/
+  

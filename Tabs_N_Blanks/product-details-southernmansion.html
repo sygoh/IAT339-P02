@@ -22,10 +22,8 @@
 		<link href="css/modal.css" rel="stylesheet">
 		<link href="css/breadcrumb.css" rel="stylesheet">
 		<link href="css/product-details.css" rel="stylesheet">
+		<link href="css/form.css" rel="stylesheet">
 
-		<!-- img hover styling was included in the product-detail.css
-		<link href="css/img-styling.css" rel="stylesheet"> -->
-		
 	</head>
 
 	<body>
@@ -192,7 +190,7 @@
 			</div> <!-- closing <div class="grid-col-7of10"> -->
 
 			<div class="grid-col-3of10">
-			<a href="#" class="button-default"title="Cart">Write a Review</a>
+			<a href="#modal-review" class="button-default"title="Cart">Write a Review</a>
 			</div>
 
 		</section> <!-- closing <section class="review grid"> -->
@@ -260,8 +258,44 @@
 		  
 		  </div> <!-- closing <div class="modal-dialog">-->
 		
-		</div> <!-- closing <div class="modal">-->
+		</div> <!-- closing <div class="modal" id="modal-cart">-->
 
+
+  		<!-- Review Modal -->
+		<div class="modal" id="modal-review" aria-hidden="true">
+		  
+		  <div class="modal-dialog">
+		    
+		    <div class="modal-header">
+				<a href="#close" class="button-close-modal" aria-hidden="true">×</a>
+		    </div> <!-- closing .modal-head-->
+
+		    <div class="modal-body">
+		    	<div class="give-rating">
+					<span>&#9734;</span>
+					<span>&#9734;</span>
+					<span>&#9734;</span>
+					<span>&#9734;</span>
+					<span>&#9734;</span>
+		    	</div> <!-- closing .give-rating -->
+		    	
+				<div class="review-form"> 
+					<input class="form-field" placeholder="Name" name="name"> </input>
+
+					 <input class="form-field" placeholder="Email" name="email"> </input>		
+
+					 <textarea class="message-box" placeholder="Message" name="Message"></textarea>
+				</div> <!-- closes .review-form -->
+
+		    </div> <!-- closing .modal-body -->
+
+		    <div class="modal-footer">
+				<a href="#" class="button-default">Submit Review</a>
+		    </div> <!-- closing .modal-footer -->
+		  
+		  </div> <!-- closing <div class="modal-dialog">-->
+		
+		</div> <!-- closing <div class="modal" id="modal-review">-->
 
 
 	</div> <!-- close <div class="container"> -->
