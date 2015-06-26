@@ -239,7 +239,7 @@
 
 
     /* Logo / Main Nav / Side Nav sit on its own row */
-    @media (max-width: 47.375em) {
+    @media (max-width: 57.5em) {
 
         .grid-col-2of10.logo {
           width: 100%;
