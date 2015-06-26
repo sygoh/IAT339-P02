@@ -37,3 +37,20 @@ box-sizing: border-box;
 	#new-collection .grid-col-8of10 {
 		padding-right: 0; /* to reverse the gutter width in order to center the imgs and button with the title */
 	}
+
+
+
+	/*
+		RESPONSIVE for #new-collection img-listing
+	*/
+
+	@media (max-width: 64.063em) {
+		#new-collection .grid-col-1of10.blank {
+			display: none;
+		}
+
+		#new-collection .grid-col-8of10 {
+			width: 100%;
+		}
+	}
+	

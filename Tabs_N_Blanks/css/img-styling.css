@@ -27,20 +27,6 @@ ul.img-list li {
 }
 
 
-/*
-span.text-content {
-background: rgba(0,0,0,0.5);
-color: white;
-cursor: pointer;
-display: table; /* behave like a <table> element 
-height: 316px;
-left: 0;
-position: absolute;
-top: 0;
-width: 316px;
-}
-*/
-
 span.text-content span {
 	display: table-cell; /* behave like a <td> (table cell) element */
 	text-align: center;

@@ -110,6 +110,16 @@
 /* 
   NAVIGATION MENU -----------------
 */
+  
+  /* Logo */
+  .logo a.logo-link {
+    display: block;
+  }
+
+  .logo img {
+    margin: 1.5em 0 0.5em 1.5em;
+  }
+
 
   /* Main Navigation Menu */
 
@@ -223,7 +233,9 @@
   }
 
 
-  /* RESPONSIVE for the navigation menu */
+  /* 
+    RESPONSIVE for the navigation menu 
+  */
 
     /* shrink the column of Main Nav */
     @media (max-width: 58.375em) {
@@ -239,7 +251,7 @@
 
 
     /* Logo / Main Nav / Side Nav sit on its own row */
-    @media (max-width: 57.5em) {
+    @media (max-width: 52.875em) {
 
         .grid-col-2of10.logo {
           width: 100%;
@@ -264,7 +276,6 @@
           padding: 0;
         }
     }
-
 
     /* Nav Menu goes single column */
     @media (max-width: 31.25em) {
@@ -322,13 +333,6 @@
     width: 100%
   }
 
-  /* filler for social media icons */
-  .footer h3 {
-    font-size: 0.75rem;
-    /*display: inline-block;*/
-    line-height: 5em; /* to vertically align middle */
-    margin-left: 30px; /* reverses gutter width to align center*/
-  }
 
   /* copyright Tabs N' Blanks*/
   .footer p {
