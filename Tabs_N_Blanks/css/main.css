@@ -279,7 +279,7 @@
     }
 
     /* Nav Menu goes single column */
-    @media (max-width: 31.25em) {
+    @media (max-width: 24.25em) {
       .main-nav ul.nav-menu {
         margin-top: 1.5em;
       }
