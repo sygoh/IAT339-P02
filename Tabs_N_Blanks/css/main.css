@@ -261,6 +261,7 @@
 
         .grid-col-6of10.main-nav {
           width: 100%;
+          padding-left: 0;
         }
 
         .grid-col-2of10.side-nav {
