@@ -233,6 +233,18 @@
   }
 
 
+
+  /* 
+    Nav-Combined 
+  */
+
+    /* Hidden by Default */
+    .main-nav .nav-combined .nav-menu {
+      display: none;
+    }
+
+
+
   /* 
     RESPONSIVE for the navigation menu 
   */
@@ -279,14 +291,23 @@
     }
 
     /* Nav Menu goes single column */
-    @media (max-width: 24.25em) {
+    @media (max-width: 34.438em) {
       .main-nav ul.nav-menu {
         margin-top: 1.5em;
+        background: #F2EDE7;
       }
 
       .main-nav ul.nav-menu li {
         display: block;
         margin-right: 2.5em;
+      }
+
+      .main-nav ul.nav-menu li a {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 1rem;
       }
 
       .side-nav ul.nav-menu li {
@@ -295,7 +316,23 @@
 
       .side-nav ul.nav-menu {
           margin-top: 1.5em;
-        }
+      }
+
+
+      /* Hiding the Main-Nav and Side-Nav*/
+      .main-nav .nav-menu {
+        display: none;
+      }
+
+      .side-nav .nav-menu {
+        display: none;
+      }
+      
+      /* Show the Combined-Nav */
+      .main-nav .nav-combined .nav-menu {
+        display: block;
+        margin-bottom: 2em;
+      }
 
     }
 
