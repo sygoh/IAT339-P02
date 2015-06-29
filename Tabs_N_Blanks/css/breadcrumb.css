@@ -88,4 +88,26 @@ box-sizing: border-box;
 				display: none;
 			}
 		
-	}
+		}
+
+
+	/* 
+		RESPONSIVE for shop.html
+	*/
+
+
+    @media (max-width: 54.875em) {
+
+		ul.breadcrumb {
+			padding-left: 2em;
+		}
+
+    }
+
+     @media (max-width: 48.625em) {
+
+		ul.breadcrumb {
+			padding-left: 3em;
+		}
+
+    }
