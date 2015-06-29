@@ -103,6 +103,15 @@ box-sizing: border-box;
 		margin-top:0;
 	}
 
+	/*splash image for company page */
+
+	#company-landingimg img {
+		max-width: 100%;
+  		width: auto;
+  		height: auto;
+
+  		/*image sourced from Cereal Magazine*/
+	}
 
 
 	/* 
