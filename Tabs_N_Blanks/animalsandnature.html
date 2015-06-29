@@ -20,48 +20,62 @@
 		<!-- other stylesheets link goes here -->
 		<link href="css/shop.css" rel="stylesheet">
 		<link href="css/breadcrumb.css" rel="stylesheet">
-		
+		<link href="css/modal.css" rel="stylesheet">
 	</head>
 
 	<body>
 	<div class="container">
 
 		<section class="grid">
+
 			<div class="grid-col-2of10 logo">
 				<a href="index.html" class="logo-link"><img src="img/logo.png" width="150" height="52.5"> </img></a>
 			</div> <!-- closing <div class="grid-col-2of10"> -->
 
 			<div class="grid-col-6of10 main-nav">
+				
 				<ul class="nav-menu">
-					<li class="active"><a href="shop.html"><span>Shop</span></a></li>
+					<li><a href="shop.html"><span>Shop</span></a></li>
 					<li><a href="events.html"><span>Events</span></a></li>
 					<li><a href="company.html"><span>Company</span></a></li>
 				</ul>
+			
+
+				<div class="nav-combined">
+					<a href="#" class="nav-toggle">Menu</a>
+				<ul class="nav-menu">
+					<li><a href="shop.html"><span>Shop</span></a></li>
+					<li><a href="events.html"><span>Events</span></a></li>
+					<li><a href="company.html"><span>Company</span></a></li>
+					<li><a href="#"><span>Search</span></a></li>
+					<li><a href="#"><span>Cart</span></a></li>
+				</ul>
+				</div> <!-- closing <div class="nav-combined"-->
+
 			</div> <!-- closing <div class="grid-col-6of10"> -->
 
 			<div class="grid-col-2of10 side-nav">
 				<ul class="nav-menu">
 					<li><a href="#"><span>Search</span></a></li>
-					<li><a href="#"><span>Cart</span></a></li>
+					<li><a href="#modal-cart"><span>Cart</span></a></li>
 				</ul>
 			</div> <!-- closing <div class="grid-col-2of10"> -->
-			
+				
 		</section> <!-- closing <div class="grid"> -->
 	
 
 		<section> 
 			<ul class="breadcrumb">
-
-					<li><a href="shop.html">Shop</a></li>
-					<li><a href="#">Animals &amp; Nature </a></li>
-					<!-- the default puzzle category, may be changed -->
-					<!-- <li><a href="shop.html">New Collection</a></li> -->
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="#">Animals &amp; Nature </a></li>
 			</ul> <!-- closing .breadcrumb -->
 		</section>
 		
 
 		<div class="grid">
-
+			<div class="grid-col-2of10 filter-toggle">
+				<a href="#modal-filter" class="button-default">Filter</a>
+			</div>
 
 			<div class="grid-col-2of10 filter-menu">
 				<h3> Puzzle Categories </h3>
@@ -82,60 +96,80 @@
 		            <li><a href="newcollection.html">New Collection</a></li>
 		            <li><a href="dollhouse.html">Sale Items</a></li>
 	        	</ul>
-
       		</div>	<!-- div closes .grid-col-2of10 and .filter-menu -->
 
 
-				<section id="product-listing" class="grid-col-8of10">
-          			<ul>
-          				<li>
-			              <a href="product-details-blackswan.html"><img src="img/swan4.jpg" height="171" width="250" alt="product listing image of black swan"></a>
-			              <h3> Black Swan</h3>
-			              <h4> Intermediate Level</h4>
-			            </li>
+			<section class="grid-col-8of10 product-listing">
+      			<ul>
+      				<li>
+		              <a href="product-details-blackswan.html"><img src="img/swan4.jpg" height="171" width="250" alt="product listing image of black swan"></a>
+		              <h3> Black Swan</h3>
+		              <h4> Intermediate Level</h4>
+		            </li>
 
-			            <li>
-			              <a href="#"><img src="img/buffalo.jpg" height="171" width="250" alt="product image of buffalo"></a>
-			              <h3> Buff Buffalo</h3>
-			              <h4> Expert Level</h4>
-			            </li>
+		            <li>
+		              <a href="#"><img src="img/buffalo.jpg" height="171" width="250" alt="product image of buffalo"></a>
+		              <h3> Buff Buffalo</h3>
+		              <h4> Expert Level</h4>
+		            </li>
 
-			            <li>
-			              <a href="product-details-angelfish.html"><img src="img/angelfish.jpg" height="171" width="250" alt="product listing image of angelfish"></a>
-			              <h3> Elegant Angelfish</h3>
-			              <h4> Expert Level</h4>
-			            </li>
+		            <li>
+		              <a href="product-details-angelfish.html"><img src="img/angelfish.jpg" height="171" width="250" alt="product listing image of angelfish"></a>
+		              <h3> Elegant Angelfish</h3>
+		              <h4> Expert Level</h4>
+		            </li>
 
-			            <li>
-			              <a href="#"><img src="img/frog.jpg" height="171" width="250" alt="product image of Frog"></a>
-			              <h3> Froggy Frog</h3>
-			              <h4> Beginner Level</h4>
-			            </li>
+		            <li>
+		              <a href="#"><img src="img/frog.jpg" height="171" width="250" alt="product image of Frog"></a>
+		              <h3> Froggy Frog</h3>
+		              <h4> Beginner Level</h4>
+		            </li>
 
-			            <li>
-			              <a href="#"><img src="img/grizzly.jpg" height="171" width="250" alt="product image of grizzly bear"></a>
-			              <h3> Grumpy Grizzly</h3>
-			              <h4> Intermediate Level</h4>
-			            </li>
+		            <li>
+		              <a href="#"><img src="img/grizzly.jpg" height="171" width="250" alt="product image of grizzly bear"></a>
+		              <h3> Grumpy Grizzly</h3>
+		              <h4> Intermediate Level</h4>
+		            </li>
 
-			            <li>
-			              <a href="#"><img src="img/pig.jpg" height="171" width="250" alt="product image of pig"></a>
-			              <h3> Pudgy Pig</h3>
-			              <h4> Beginner Level</h4>
-			            </li>
+		            <li>
+		              <a href="#"><img src="img/pig.jpg" height="171" width="250" alt="product image of pig"></a>
+		              <h3> Pudgy Pig</h3>
+		              <h4> Beginner Level</h4>
+		            </li>
 
-			           <li>
-			              <a href="#"><img src="img/turtle.jpg" height="171" width="250" alt="product image of turtle"></a>
-			              <h3> Slowpoke Turtle</h3>
-			              <h4> Beginner Level</h4>
-			            </li>
-       				</ul>
+		           <li>
+		              <a href="#"><img src="img/turtle.jpg" height="171" width="250" alt="product image of turtle"></a>
+		              <h3> Slowpoke Turtle</h3>
+		              <h4> Beginner Level</h4>
+		            </li>
+   				</ul>
 
-      				<a href="#" class="button-default" title="View More">View More</a>
+  				<a href="#" class="button-default" title="View More">View More</a>
 
-      			</section> <!-- closing #product-listing and .grid-col-8of10 -->
+  			</section> <!-- closing #product-listing and .grid-col-8of10 -->
 
 		</div> <!-- div closes for class "grid" -->
+
+
+		<!-- Filter Modal -->
+		<div class="modal" id="modal-filter" aria-hidden="true">
+		  <div class="modal-dialog">
+		    
+		    <div class="modal-header">
+				<h3>My Cart</h3>
+				<a href="#close" class="button-close-modal" aria-hidden="true">×</a>
+		    </div> <!-- closing .modal-head -->
+
+		    <div class="modal-body">
+		    	<h4> Your cart is currently empty.</h4>
+		    </div> <!-- closing .modal-body -->
+
+		    <div class="modal-footer">
+				<a href="shop.html" class="button-default">Continue Shopping</a>
+		    </div> <!-- closing .modal-footer -->
+		  
+		  </div> <!-- closing <div class="modal-dialog">-->
+		</div> <!-- closing <div class="modal">-->
 
 
 	</div> <!-- closes container -->
