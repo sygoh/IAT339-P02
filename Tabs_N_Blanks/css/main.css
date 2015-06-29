@@ -280,14 +280,15 @@
   */
 
     /* shrink the column of Main Nav */
+
     @media (max-width: 58.375em) {
 
         .grid-col-6of10.main-nav {
-          width: 50%;
+          width: 55%;
         }
 
         .grid-col-2of10.side-nav {
-          width: 30%;
+          width: 25%;
         }
     }
 
@@ -322,7 +323,7 @@
 
     /* Nav Menu goes single column */
     @media (max-width: 34.438em) {
-      .main-nav ul.nav-menu {
+ /*     .main-nav ul.nav-menu {
         margin-top: 1.5em;
         background: #F2EDE7;
       }
@@ -346,7 +347,7 @@
 
       .side-nav ul.nav-menu {
           margin-top: 1.5em;
-      }
+      }*/
 
 
       /* Hiding the Main-Nav and Side-Nav*/
@@ -359,11 +360,25 @@
       }
       
       /* Show the Combined-Nav */
-      .nav-combined .nav-menu {
+/*      .nav-combined .nav-menu {
         display: block;
         margin-bottom: 2em;
         margin-top: 0;
+        background: #F2EDE7;
       }
+
+      .nav-combined .nav-menu li {
+        display: block;
+        margin-right: 2.5em;
+      }
+
+      .nav-combined .nav-menu li a {
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 30%;
+        margin-right: 30%;
+        font-size: 1rem;
+      }*/
 
 
       .nav-combined a.nav-toggle {
@@ -371,7 +386,6 @@
       }
 
     }
-
 
   
 
