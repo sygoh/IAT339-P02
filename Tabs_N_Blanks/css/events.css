@@ -85,10 +85,47 @@
 
 	}
 
+	@media(max-width: 61.563em) {
+		.coming-up-events p,
+		.popular-events p {
+			width: 45%;
+		}
+	}
+
+	@media(max-width: 54.813em) {
+		.coming-up-events p,
+		.popular-events p {
+			width: 50%;
+		}
+	}
+
+
 	@media (max-width: 51.375em) {
 		.coming-up-events p,
 		.popular-events p {
 			width: 60%;
+		}
+	}
+
+	@media(max-width: 41.25em) {
+		.coming-up-events p,
+		.popular-events p {
+			width: 65%;
+		}
+	}
+
+	@media(max-width: 38.25em) {
+		.coming-up-events p,
+		.popular-events p {
+			width: 75%;
+		}
+	}
+
+
+	@media(max-width: 33.19em) {
+		.coming-up-events p,
+		.popular-events p {
+			width: 85%;
 		}
 	}
 

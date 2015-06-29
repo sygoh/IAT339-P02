@@ -38,6 +38,9 @@ box-sizing: border-box;
 		padding-right: 0; /* to reverse the gutter width in order to center the imgs and button with the title */
 	}
 
+	#new-collection ul.img-list li a {
+		display: block;
+	}
 
 
 	/*
@@ -51,6 +54,12 @@ box-sizing: border-box;
 
 		#new-collection .grid-col-8of10 {
 			width: 100%;
+		}
+	}
+
+	@media (max-width: 51.313em) {
+		#new-collection ul.img-list li {
+			margin-bottom: 1.5em;
 		}
 	}
 	
