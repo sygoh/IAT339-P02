@@ -239,8 +239,29 @@
   */
 
     /* Hidden by Default */
-    .main-nav .nav-combined .nav-menu {
+    .nav-combined .nav-menu {
       display: none;
+    }
+
+    .nav-combined a.nav-toggle {
+      display: none;
+
+      text-align: center;
+      text-decoration: none;
+      padding: 0.8em 2em;
+      background: #C1B087;
+      color: white;
+
+      font-family: AGaramond-Regular;
+      font-size: 1.2rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    .nav-combined a.nav-toggle:hover {
+      background: #BFA872;
+      -webkit-transition: background-color 0.3s;
+      transition: background-color 0.3s;
     }
 
 
@@ -320,18 +341,24 @@
 
 
       /* Hiding the Main-Nav and Side-Nav*/
-      .main-nav .nav-menu {
+      .main-nav ul.nav-menu {
         display: none;
       }
 
-      .side-nav .nav-menu {
+      .side-nav ul.nav-menu {
         display: none;
       }
       
       /* Show the Combined-Nav */
-      .main-nav .nav-combined .nav-menu {
+      .nav-combined ul.nav-menu {
         display: block;
         margin-bottom: 2em;
+        margin-top: 0;
+      }
+
+
+      .nav-combined a.nav-toggle {
+        display: block;
       }
 
     }
@@ -386,6 +413,28 @@
   .container { 
     padding-bottom: 4em; 
   }
+
+
+  /* 
+    RESPONSIVE for footer
+  */
+
+     @media (max-width: 34.438em) {
+
+      .footer {
+        margin-top: -2em;
+      }
+
+      .footer p {
+        line-height: 2em;
+      }
+
+      .container {
+        padding-bottom: 2em;
+      }
+
+     }
+
 
 
 /* 
