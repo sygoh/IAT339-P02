@@ -359,7 +359,7 @@
       }
       
       /* Show the Combined-Nav */
-      .nav-combined ul.nav-menu {
+      .nav-combined .nav-menu {
         display: block;
         margin-bottom: 2em;
         margin-top: 0;
