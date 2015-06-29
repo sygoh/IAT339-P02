@@ -248,7 +248,7 @@
   */
 
     /* Hidden by Default */
-    .nav-combined .nav-menu {
+    .nav-combined {
       display: none;
     }
 
@@ -359,7 +359,7 @@
       }
       
       /* Show the Combined-Nav */
-      .nav-combined .nav-menu {
+      .nav-combined{
         display: block;
         margin-bottom: 2em;
         margin-top: 0;
