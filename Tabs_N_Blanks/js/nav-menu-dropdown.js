@@ -18,9 +18,9 @@ $(document).ready(
 		}
 
 		$("a.nav-toggle").click( 
-			function() {
-				$(".nav-combined .nav-menu").slideToggle(500);
-			}
+				function() {
+					$(".nav-combined .nav-menu").slideToggle(500);
+				}
 			);
 	
 	}
