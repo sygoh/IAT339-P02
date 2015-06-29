@@ -14,12 +14,12 @@ $(document).ready(
 		// default value width < 350
 		if(width < 551) {
 			$(".nav-combined a.nav-toggle").css("display", "block");
-			$(".nav-combined ul.nav-menu").hide();
+			$(".nav-combined .nav-menu").hide();
 		}
 
 		$("a.nav-toggle").click( 
 			function() {
-				$(".nav-combined ul.nav-menu").slideToggle(500);
+				$(".nav-combined .nav-menu").slideToggle(500);
 			}
 			);
 	
