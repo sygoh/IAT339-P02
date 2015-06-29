@@ -120,13 +120,6 @@
 
     @media (max-width: 55.25em) {
 
-      .grid-col-2of10.filter-menu {
-        width: 30%;
-      }
-
-      #product-listing.grid-col-8of10 {
-        width: 70%;
-      }
 
     }
 
