@@ -281,7 +281,7 @@
 
     /* shrink the column of Main Nav */
 
-    @media (max-width: 58.375em) {
+    @media (max-width: 65em) {
 
         .grid-col-6of10.main-nav {
           width: 55%;
