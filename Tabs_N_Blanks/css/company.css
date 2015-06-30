@@ -164,3 +164,8 @@ box-sizing: border-box;
 
 	}
 
+	@media (max-width: 34.438em) {
+		.contact-form .grid-col-5of10 {
+			margin-left: 2em;
+		}
+	}

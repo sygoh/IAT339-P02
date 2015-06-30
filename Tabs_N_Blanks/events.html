@@ -10,6 +10,8 @@
 
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<title>Events - Tabs N' Blanks</title>
 
 		<!-- main.css includes styling for basic elements: text elements, navigation menu, footer, buttons?-->
@@ -30,16 +32,31 @@
 	<div class="container">
 
 		<section class="grid">
+
 			<div class="grid-col-2of10 logo">
 				<a href="index.html" class="logo-link"><img src="img/logo-pieced.png" width="150" height="52.5"> </img></a>
 			</div> <!-- closing <div class="grid-col-2of10"> -->
 
 			<div class="grid-col-6of10 main-nav">
+				
 				<ul class="nav-menu">
 					<li><a href="shop.html"><span>Shop</span></a></li>
-					<li class="active"><a href="events.html"><span>Events</span></a></li>
+					<li><a href="events.html"><span>Events</span></a></li>
 					<li><a href="company.html"><span>Company</span></a></li>
 				</ul>
+			
+
+				<div class="nav-combined">
+					<a href="#" class="nav-toggle">Menu</a>
+				<ul class="nav-menu">
+					<li><a href="shop.html"><span>Shop</span></a></li>
+					<li><a href="events.html"><span>Events</span></a></li>
+					<li><a href="company.html"><span>Company</span></a></li>
+					<li><a href="#"><span>Search</span></a></li>
+					<li><a href="#"><span>Cart</span></a></li>
+				</ul>
+				</div> <!-- closing <div class="nav-combined"-->
+
 			</div> <!-- closing <div class="grid-col-6of10"> -->
 
 			<div class="grid-col-2of10 side-nav">
@@ -181,6 +198,10 @@
 		&nbsp;
 		</div> <!-- closing .gri-col-2of10 -->
 	</div> <!-- closing <div class="footer" -->
+
+	<!-- loading javascript for the nav-menu dropdown -->
+	<script src="js/jquery.js"></script>
+	<script src="js/nav-menu-dropdown.js"></script>
 
 	</body>
 
