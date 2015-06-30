@@ -30,7 +30,7 @@
 	.coming-up-events,
 	.popular-events {
 		text-align: center;
-		padding-bottom: 4em; /*avoid the view more button border bottom getting cut off by the footer*/
+		margin-bottom: 5em; /*avoid the view more button border bottom getting cut off by the footer*/
 		padding-right: 0; /* reverses gutter */
 	}
 	   
