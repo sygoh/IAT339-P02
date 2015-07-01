@@ -72,8 +72,20 @@
 
 		<!-- splash image -->
 		<section id="company-landingimg">
-			<img 
-		      src="img/company-splash.jpg" alt="Clean minimalist image of an office space"> </img>
+			<!-- <img 
+		      src="img/company-splash.jpg" alt="Clean minimalist image of an office space"> </img> -->
+
+		     
+			       <picture>
+
+					      <source srcset="img/company-splash.jpg" media="(min-width: 1200px)">
+					      <source srcset="img/company-cropped-2x.jpg" media="(min-width: 800px)">    
+					      <source srcset="img/company-cropped-1x.jpg" media="(min-width: 500px)">
+
+					      <img srcset="img/company-cropped-1x.jpg" alt="">  
+
+				  </picture>
+			
 		</section>
 
 
