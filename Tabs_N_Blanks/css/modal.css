@@ -143,6 +143,126 @@
 		margin: 2em 3.5em 2em 0;
 	}
 
+	/* 
+		RESPONSIVE for cart modal 
+	*/
+
+	@media (max-width: 70em) {
+		#modal-cart .modal-dialog {
+			position: fixed;
+			left: 20%;
+		}
+	}
+
+	@media (max-width: 62.5em) {
+		#modal-cart .modal-dialog {
+			position: fixed;
+			left: 10%;
+		}
+	}
+
+	@media (max-width: 53.875em) {
+		#modal-cart .modal-dialog {
+			width: 30em;
+			position: fixed;
+			left: 20%;
+		}
+
+		#modal-cart .modal-body .grid-col-3of10 {
+			width: 40%;
+		}
+
+		#modal-cart .modal-body h4.grid-col-3of10 {
+			width: 60%;
+			margin-top: 0.5em; 
+		}
+
+		#modal-cart .modal-body p.grid-col-1of10 {
+			width: 20%;
+		}
+
+		#modal-cart .modal-body .grid-col-2of10 {
+			width: 20%;
+		}
+
+		#modal-cart .modal-footer .grid-col-7of10.blank {
+			width: 60%;
+		}
+
+		#modal-cart .modal-footer h3.grid-col-2of10 {
+			width: 30%;
+			font-size: 0.875rem;
+		}
+
+		#modal-cart .modal-footer h3.grid-col-1of10 {
+			width: 10%;
+			font-size: 0.875rem;
+		}
+
+		#modal-cart .modal-footer a.button-default {
+			margin-right: 3em;
+		}
+
+	}
+
+	@media (max-width: 43em) {
+		#modal-cart .modal-dialog {
+			position: fixed;
+			left: 10%;
+		}
+	}
+
+	@media (max-width: 34.438em) {
+
+		#modal-cart .modal-dialog {
+			width: 24em;
+			position: fixed;
+			left: 12%;
+		}
+
+		#modal-cart .modal-body .grid-col-3of10 {
+			width: 50%;
+		}
+
+		#modal-cart .modal-body h4.grid-col-3of10 {
+			width: 50%;
+			font-size: 1rem;
+		}
+
+		#modal-cart .modal-body p.grid-col-1of10 {
+			margin-top: 1.2em;
+		}
+
+		#modal-cart .modal-body .grid-col-2of10 {
+			display: none;
+		}
+
+		#modal-cart .modal-footer .grid-col-7of10.blank {
+			display: none;
+		}
+
+		#modal-cart .modal-footer h3.grid-col-2of10 {
+			width: 50%;
+		}
+
+		#modal-cart .modal-footer h3.grid-col-1of10 {
+			width: 50%;
+		}
+
+		#modal-cart .modal-footer {
+			text-align: center;
+		}
+
+		#modal-cart .modal-footer a.button-default {
+  			margin-right: 2em;
+		}
+
+
+	}
+
+
+
+
 
 /*
 	REVIEW MODAL

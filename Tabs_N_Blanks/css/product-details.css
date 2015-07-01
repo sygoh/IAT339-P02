@@ -28,6 +28,12 @@
     	margin-left: 5em;
     }
 
+/*    .product-img img {
+      max-width: 100%;
+      width: auto;
+      height: auto; 
+    }*/
+
     .product-gallery {
       width: 500px; /* max width of the main image */
       padding: 1em;

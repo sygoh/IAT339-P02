@@ -15,12 +15,17 @@ box-sizing: border-box;
 /* 
 	LANDING IMG 
 */
-
 	#landing-img {
 		margin-top: 0.7em;
 		margin-bottom: 3em;
 	}
 
+
+	#landing-img img {
+		max-width: 100%;
+		width: auto;
+		height: auto; 
+	}
 
 
 
