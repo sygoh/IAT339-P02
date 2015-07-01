@@ -294,7 +294,26 @@
 
 		#modal-cart .modal-footer {
 			margin: 1.5em 1em;
-			margin-right: 6em;
+		}
+
+		#modal-cart .modal-footer a.button-default {
+  			margin-right: 6em;
+		}
+
+
+	}
+
+	@media (max-width: 20em) {
+		#modal-cart .modal-dialog {
+			width: 20em;
+		}
+
+		#modal-cart .modal-footer {
+			margin: 1.5em;
+		}
+
+		#modal-cart .modal-footer a.button-default {
+  			margin-right: 5em;
 		}
 	}
 
