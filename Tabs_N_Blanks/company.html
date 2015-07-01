@@ -10,6 +10,8 @@
 
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 		<title>Home - Tabs N' Blanks</title>
 
 		<!-- main.css includes styling for basic elements: text elements, navigation menu, footer, buttons -->
@@ -31,125 +33,126 @@
 		<div class="container">		
 
 
-			<section class="grid">
-			
+		<section class="grid">
+
 			<div class="grid-col-2of10 logo">
 				<a href="index.html" class="logo-link"><img src="img/logo-pieced.png" width="150" height="52.5"> </img></a>
 			</div> <!-- closing <div class="grid-col-2of10"> -->
 
-				<div class="grid-col-6of10 main-nav">
-					<ul class="nav-menu">
-						<li><a href="shop.html"><span>Shop</span></a></li>
-						<li><a href="events.html"><span>Events</span></a></li>
-						<li class="active"><a href="company.html"><span>Company</span></a></li>
-					</ul>
-				</div> <!-- closing <div class="grid-col-6of10"> -->
-
-				<div class="grid-col-2of10 side-nav">
-					<ul class="nav-menu">
-						<li><a href="#"><span>Search</span></a></li>
-						<li><a href="#modal-cart"><span>Cart</span></a></li>
-					</ul>
-				</div> <!-- closing <div class="grid-col-2of10"> -->
+			<div class="grid-col-6of10 main-nav">
 				
-			</section> <!-- closing <div class="grid"> -->
-
-			<!-- <hr class="hidden"/>  --><!-- empty breadcrumb -->
-
-			<!-- splash image -->
-			<section id="company-landingimg">
-
-				<img 
-			      src="img/company-splash.jpg" alt="Clean minimalist image of an office space"> </img>
-			</section>
-
-
-			<section id="about-us" class="grid">
-				<div class="grid-col-2of10 blank">
-					&nbsp;
-				</div> <!-- closing .blank grid-col-2of10 -->
-
-				<div class="grid-col-6of10">
-					<div class="company-mission">
-						<h1> Our Mission </h1> 
-
-						<p> A one-stop-shop that sells a variety of 3D wooden puzzles. Also to provide the community monthly updates of current events in the puzzle industry. We strive to satisfy high quality 3D wooden puzzles for anyone just starting or the avid hobbyists.</p>
-					</div> <!-- closing .company-mission -->
-
-					 <a href="events.html" class="button-default"title="Shop">Shop Now</a>
-				</div> <!-- closing .grid-col-6of10 -->
-
-				<div class="grid-col-2of10 blank">
-					&nbsp;
-				</div> <!-- closing .blank grid-col-2of10 -->
-
-			</section> <!-- closing #about-us .grid -->
-
-
-			<section id="contact-us">
-				<h1> Contact Us </h1> 
-
-				<p> 
-					We are located in beautiful British Columbia seeking to provide you the best 3D wooden puzzles. </p>
-
-					<div class="sm-icons">
-
-						<img src="img/instagram12.svg" width="20" height="20"> </img> 
-						<img src="img/youtube29.svg" width="20" height="20"></img>
-						<img src="img/twitter35.svg" width="20" height="20"> </img> 
-						<img src="img/pinterest26.svg" width="20" height="20"> </img>
-
-					</div>
-
-					
-
-				<div class="grid contact-form"> 
-
-					<div class="grid-col-5of10">
-							<input class="form-field" placeholder="Name" name="name"> </input>
-
-							 <input class="form-field" placeholder="Email" name="email"> </input>		
-				  	</div> <!-- closes grid 5of10 -->
-
+				<ul class="nav-menu">
+					<li><a href="shop.html"><span>Shop</span></a></li>
+					<li><a href="events.html"><span>Events</span></a></li>
+					<li><a href="company.html"><span>Company</span></a></li>
+				</ul>
 			
-					<div class="grid-col-5of10">
-							 <textarea class="message-box" placeholder="Message" name="Message"></textarea>
-					</div> <!-- closes .grid-5of10 -->
 
-				</div> <!-- closes .grid and .contact-form -->
+				<div class="nav-combined">
+					<a href="#" class="nav-toggle">Menu</a>
+				<ul class="nav-menu">
+					<li><a href="shop.html"><span>Shop</span></a></li>
+					<li><a href="events.html"><span>Events</span></a></li>
+					<li><a href="company.html"><span>Company</span></a></li>
+					<li><a href="#"><span>Search</span></a></li>
+					<li><a href="#"><span>Cart</span></a></li>
+				</ul>
+				</div> <!-- closing <div class="nav-combined"-->
 
-				<a href="#" class="button-default" title="Submit">Submit</a>
+			</div> <!-- closing <div class="grid-col-6of10"> -->
 
-			</section> <!-- closing #contact-us -->
+			<div class="grid-col-2of10 side-nav">
+				<ul class="nav-menu">
+					<li><a href="#"><span>Search</span></a></li>
+					<li><a href="#modal-cart"><span>Cart</span></a></li>
+				</ul>
+			</div> <!-- closing <div class="grid-col-2of10"> -->
+				
+		</section> <!-- closing <div class="grid"> -->
 
-
-			<!-- Cart Modal -->
-			<div class="modal" id="modal-cart" aria-hidden="true">
-			  
-			  <div class="modal-dialog">
-			    
-			    <div class="modal-header">
-					<h3>My Cart</h3>
-					<a href="#close" class="button-close-modal" aria-hidden="true">×</a>
-			    </div> <!-- closing .modal-head -->
-
-			    <div class="modal-body">
-			    	<h4> Your cart is currently empty.</h4>
-			    </div> <!-- closing .modal-body -->
-
-			    <div class="modal-footer">
-
-					<a href="shop.html" class="button-default">Continue Shopping</a>
-
-			    </div> <!-- closing .modal-footer -->
-			  
-			  </div> <!-- closing <div class="modal-dialog">-->
-			
-			</div> <!-- closing <div class="modal">-->
+		<!-- splash image -->
+		<section id="company-landingimg">
+			<img 
+		      src="img/company-splash.jpg" alt="Clean minimalist image of an office space"> </img>
+		</section>
 
 
+		<section id="about-us" class="grid">
+			<div class="grid-col-2of10 blank">
+				&nbsp;
+			</div> <!-- closing .blank grid-col-2of10 -->
 
-		</div> <!-- close <div class="container" div -->
+			<div class="grid-col-6of10">
+				<div class="company-mission">
+					<h1> Our Mission </h1> 
+
+					<p> A one-stop-shop that sells a variety of 3D wooden puzzles. Also to provide the community monthly updates of current events in the puzzle industry. We strive to satisfy high quality 3D wooden puzzles for anyone just starting or the avid hobbyists.</p>
+				</div> <!-- closing .company-mission -->
+
+				 <a href="events.html" class="button-default"title="Shop">Shop Now</a>
+			</div> <!-- closing .grid-col-6of10 -->
+
+			<div class="grid-col-2of10 blank">
+				&nbsp;
+			</div> <!-- closing .blank grid-col-2of10 -->
+
+		</section> <!-- closing #about-us .grid -->
+
+
+		<section id="contact-us">
+			<h1> Contact Us </h1> 
+			<p> We are located in beautiful British Columbia seeking to provide you the best 3D wooden puzzles. </p>
+
+			<div class="sm-icons">
+				<img src="img/instagram12.svg" width="20" height="20"> </img> 
+				<img src="img/youtube29.svg" width="20" height="20"></img>
+				<img src="img/twitter35.svg" width="20" height="20"> </img> 
+				<img src="img/pinterest26.svg" width="20" height="20"> </img>
+			</div>
+				
+			<div class="grid contact-form"> 
+
+				<div class="grid-col-5of10">
+					<input class="form-field" placeholder="Name" name="name"> </input>
+					<input class="form-field" placeholder="Email" name="email"> </input>		
+			  	</div> <!-- closes grid 5of10 -->
+
+		
+				<div class="grid-col-5of10">
+						 <textarea class="message-box" placeholder="Message" name="Message"></textarea>
+				</div> <!-- closes .grid-5of10 -->
+
+			</div> <!-- closes .grid and .contact-form -->
+
+			<a href="#" class="button-default" title="Submit">Submit</a>
+
+		</section> <!-- closing #contact-us -->
+
+
+		<!-- Cart Modal -->
+		<div class="modal" id="modal-cart" aria-hidden="true">
+		  
+		  <div class="modal-dialog">
+		    
+		    <div class="modal-header">
+				<h3>My Cart</h3>
+				<a href="#close" class="button-close-modal" aria-hidden="true">×</a>
+		    </div> <!-- closing .modal-head -->
+
+		    <div class="modal-body">
+		    	<h4> Your cart is currently empty.</h4>
+		    </div> <!-- closing .modal-body -->
+
+		    <div class="modal-footer">
+				<a href="shop.html" class="button-default">Continue Shopping</a>
+		    </div> <!-- closing .modal-footer -->
+		  
+		  </div> <!-- closing <div class="modal-dialog">-->
+		
+		</div> <!-- closing <div class="modal">-->
+
+
+	</div> <!-- close <div class="container" div -->
 
 
 	<div class="footer grid">
@@ -166,6 +169,10 @@
 		&nbsp;
 		</div> <!-- closing .gri-col-2of10 -->
 	</div> <!-- closing <div class="footer" -->
+
+	<!-- loading javascript for the nav-menu dropdown -->
+	<script src="js/jquery.js"></script>
+	<script src="js/nav-menu-dropdown.js"></script>
 	
 	</body>
 

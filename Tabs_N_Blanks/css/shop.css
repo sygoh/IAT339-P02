@@ -25,10 +25,6 @@
     padding-right: 0;
   }
 
-  .filter-toggle a.button-default {
-    font-size: 0.875rem;
-  }
-
 
 /*
   FILTER MENU 
@@ -75,11 +71,11 @@
 */
 
   .product-listing {
-    margin: 0 auto;
+    /*margin: 0 auto;*/
     margin-top: 3em;
-    overflow: auto;
-    float: left;
-    padding-left: 4em;
+/*    overflow: auto;
+    float: left;*/
+    padding-left: 6em;
     padding-bottom: 5em; /* avoid the view more button border bottom getting cut off by the footer*/
     text-align: center;
   }
@@ -88,11 +84,12 @@
     list-style-type: none;
     overflow: auto;
     margin-top: 0;
+    padding: 0;
   }
 
   .product-listing li {
     padding: 0 0.5em 0.5em 0.5em;
-    overflow: auto;
+/*    overflow: auto;*/
     float: left;
     margin-bottom: 1.5em;
     
@@ -109,7 +106,7 @@
   }
 
   .product-listing .button-default {
-    margin-right: 4em;
+    margin-right: 6em;
   }
 
   .product-listing ul li h3 {
@@ -132,7 +129,7 @@
     @media (max-width: 65.25em) {
 
       .product-listing {
-        padding-left: 2em;
+        padding-left: 4em;
       }
 
       .product-listing.grid-col-8of10 {
@@ -162,7 +159,7 @@
 
       .product-listing.grid-col-8of10 {
         width: 75%;
-        padding-left: 0;
+        padding-left: 2em;
       }
 
     }
@@ -183,31 +180,56 @@
         padding-left: 4em;
       }
 
+      .product-listing a.button-default {
+        float: left;
+        margin-left: 3em;
+        margin-right: 0;
+      }
+
     }
 
     /* When navigation menu changes to single column; filter menu to be changed to toggle+modal */
 
-   @media (max-width: 34.438em) {
+  @media (max-width: 34.438em) {
       
-      .grid-col-2of10.filter-toggle {
-        width: 100%;
-        display: block;
-      }
+    .filter-toggle.grid-col-2of10 {
+      width: 100%;
+      display: block;
+      padding: 1em 0 2em 0;
+    }
 
-      .filter-menu.grid-col-2of10 {
-        display: none;
-      }
+    .filter-menu.grid-col-2of10 {
+      display: none;
+    }
 
-       .product-listing.grid-col-8of10 {
-        width: 100%;
-       }
+    .product-listing.grid-col-8of10 {
+      width: 100%;
+      padding-left: 8em;
+    }
+
+   .product-listing ul li h3 { 
+      text-align: center;
+    }
+
+    .product-listing ul li h4 {
+      text-align: center;
+    }
 
    }
 
-   @media (max-width: 26.5em) {
-      .product-listing.grid-col-8of10 {
-        padding-left: 2em;
-      }
+  @media (max-width: 26.5em) {
+
+    .product-listing.grid-col-8of10 {
+      padding-left: 4em;
+    }
+
+   }
+
+  @media (max-width: 23.25em) {
+    .product-listing.grid-col-8of10 {
+      padding-left: 2.5em;
+    }
+
    }
 
 

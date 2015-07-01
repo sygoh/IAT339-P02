@@ -106,15 +106,6 @@
   }
 
 
-/* 
-  LANDING IMAGE ----------------
-*/
-
-#landing-img img {
-  max-width: 100%;
-  width: auto;
-  height: auto; 
-}
 
 /* 
   NAVIGATION MENU -----------------
@@ -126,7 +117,8 @@
   }
 
   .logo img {
-    margin: 1.5em 0 0.5em 1.5em;
+    margin: 1.5em;
+    margin-left: 3.5em;
   }
 
 
@@ -142,7 +134,7 @@
 
   ul.nav-menu {
     list-style: none;
-    margin-top: 1.5em;
+    margin-top: 2em;
     line-height: 1;
     display: block;
 
@@ -257,7 +249,7 @@
 
       text-align: center;
       text-decoration: none;
-      padding: 0.8em 2em;
+      padding: 0.5em;
       background: #C1B087;
       color: white;
 
@@ -323,32 +315,12 @@
 
     /* Nav Menu goes single column */
     @media (max-width: 34.438em) {
- /*     .main-nav ul.nav-menu {
-        margin-top: 1.5em;
-        background: #F2EDE7;
+
+      /* Adjust Logo Spacing */
+      .logo img {
+        margin-top: 3em;
+        margin-left: 1.5em;
       }
-
-      .main-nav ul.nav-menu li {
-        display: block;
-        margin-right: 2.5em;
-      }
-
-      .main-nav ul.nav-menu li a {
-        padding-left: 0;
-        padding-right: 0;
-        margin-left: 30%;
-        margin-right: 30%;
-        font-size: 1rem;
-      }
-
-      .side-nav ul.nav-menu li {
-        display: block;
-      }
-
-      .side-nav ul.nav-menu {
-          margin-top: 1.5em;
-      }*/
-
 
       /* Hiding the Main-Nav and Side-Nav*/
       .main-nav ul.nav-menu {
@@ -364,7 +336,7 @@
       .nav-combined{
         display: block;
         margin-bottom: 2em;
-        margin-top: 0;
+        margin-top: 1em;
         background: #F2EDE7;
       }
 
@@ -515,5 +487,15 @@
 
 
 
+  /* 
+    RESPONSIVE for button default and button secondary
+  */
+
+  /* adjusting font-size when resolution gets smaller */
+  @media (max-width: 34.438em) {
+    a.button-default, a.button-secondary {
+      font-size: 1rem;
+    }
+  }
 
 

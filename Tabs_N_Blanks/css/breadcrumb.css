@@ -35,7 +35,7 @@ box-sizing: border-box;
 		background: #F2EDE7;
 		list-style: none; 
 		overflow: hidden; 
-		margin-top: 0.7em;
+		margin-top: 0.6em;
 	    padding-left: 4em;
 	}
 
@@ -99,15 +99,15 @@ box-sizing: border-box;
     @media (max-width: 54.875em) {
 
 		ul.breadcrumb {
-			padding-left: 2em;
+			padding-left: 3em;
 		}
 
     }
 
-     @media (max-width: 48.625em) {
+/*     @media (max-width: 48.625em) {
 
 		ul.breadcrumb {
 			padding-left: 3em;
 		}
 
-    }
+    }*/
