@@ -28,6 +28,12 @@
     	margin-left: 5em;
     }
 
+    .product-img img {
+        max-width: 100%;
+        width: auto;
+        height: auto; 
+    }
+
 /*    .product-img img {
       max-width: 100%;
       width: auto;
