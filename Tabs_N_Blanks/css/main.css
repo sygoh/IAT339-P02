@@ -72,6 +72,11 @@
    /* margin: 0 17% 0 17%;*/
   }
 
+  #new-collection p {
+    width: 40%;
+    margin: auto;
+    padding-bottom: 4em;
+  }
 
 /* loading fonts */
 
