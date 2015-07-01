@@ -99,15 +99,15 @@ box-sizing: border-box;
     @media (max-width: 54.875em) {
 
 		ul.breadcrumb {
-			padding-left: 2em;
+			padding-left: 3em;
 		}
 
     }
 
-     @media (max-width: 48.625em) {
+/*     @media (max-width: 48.625em) {
 
 		ul.breadcrumb {
 			padding-left: 3em;
 		}
 
-    }
+    }*/
