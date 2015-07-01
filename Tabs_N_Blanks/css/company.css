@@ -102,10 +102,16 @@ box-sizing: border-box;
 
 	/*splash image for company page */
 
+	#company-landingimg {
+		margin: auto;
+		display: table;
+	}
+
 	#company-landingimg img {
 		max-width: 100%;
-  		width: auto;
-  		height: auto;
+  	/*	width: auto;
+  		height: auto;*/
+  		 /*margin: 0 auto;*/
 
   		/*image sourced from Cereal Magazine*/
 	}
