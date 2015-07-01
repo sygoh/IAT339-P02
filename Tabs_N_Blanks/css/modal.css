@@ -95,7 +95,7 @@
 		font-size: 2rem;
 		text-decoration: none;
 		position: fixed;
-		top: 0.2em;
+		top: 0.4em;
 		right: 1em;
 	}
 
@@ -215,22 +215,37 @@
 	@media (max-width: 34.438em) {
 
 		#modal-cart .modal-dialog {
-			width: 24em;
+			width: 25em;
 			position: fixed;
+			top: 5%;
 			left: 12%;
+			/*height: 100%;*/
+			/*overflow: hidden;*/
+		}
+
+		#modal-cart .modal-header {
+			margin-left: 1.5em;
+			width: 82%;
+		}
+
+		#modal-cart .modal-body {
+			margin: 1.5em;
 		}
 
 		#modal-cart .modal-body .grid-col-3of10 {
 			width: 50%;
+			padding-right: 0;
 		}
 
 		#modal-cart .modal-body h4.grid-col-3of10 {
 			width: 50%;
 			font-size: 1rem;
+			margin-top: 0.1em;
 		}
 
 		#modal-cart .modal-body p.grid-col-1of10 {
-			margin-top: 1.2em;
+			margin: 0.5em 0;
+			font-size: 1rem;
 		}
 
 		#modal-cart .modal-body .grid-col-2of10 {
@@ -251,13 +266,36 @@
 
 		#modal-cart .modal-footer {
 			text-align: center;
+			font-size: 1rem;
 		}
 
 		#modal-cart .modal-footer a.button-default {
-  			margin-right: 2em;
+  			margin-right: 5em;
 		}
 
+	}
 
+	@media (max-width: 29.375em) {
+
+		#modal-cart .modal-dialog {
+			position: fixed;
+			top: 5%;
+			left: 5%;
+		}
+	}
+
+	@media (max-width: 25em) {
+
+		#modal-cart .modal-dialog {
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+
+		#modal-cart .modal-footer {
+			margin: 1.5em 1em;
+			margin-right: 6em;
+		}
 	}
 
 
