@@ -1,5 +1,5 @@
 /*
-  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+  A CSS stylesheet created for Pieced, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
 
   CREATED BY: IAT339 D101 WINONA HUANG 301165181
                           JOANNE GOH 301140652;
@@ -19,6 +19,7 @@
 /*
 	CART MODAL 
 */
+
 
 	/* Pseudo Element for Modal */
 
@@ -44,7 +45,6 @@
 
 
 	/* Modal Animation Coming Top Down*/
-
 	.modal:target .modal-dialog {
 	  -webkit-transform: translate(0, 0);
 	  -ms-transform: translate(0, 0);
@@ -58,14 +58,13 @@
 	.modal-dialog {
 		background: white;
 		border: #C1B087 solid 1px;
-		/* border-radius: 2px; the rounded corner for the dialog box */
 		
-		position: fixed;
+		position: fixed; /* listen to the viewport */
 		top: 0;
 		left: 25%;
 
 		z-index: 11;
-		width: 40em;
+		width: 40em; /* width of the modal */
 
 		/* Modal Animation Coming Top Down */
 		-webkit-transform: translate(0, -500%);
@@ -104,21 +103,23 @@
 	}
 
 
-
 	/* Styling for the cart item displays */
 
 	.modal-body {
 		margin: 1.5em 2em;
 	}
 
+	/* Product Name */
 	.modal-body h4 {
 		margin-top: 2em;
 	}
 
+	/* Product Quantity and Price */
 	.modal-body p {
 		margin-top: 2.2em;
 	}
 
+	/* Remove Button Positioning */
 	.modal-body .grid-col-2of10 {
 		margin-top: 1.5em;
 	}
@@ -151,6 +152,7 @@
 
 	/* repositioning of the modal-cart */
 	@media (max-width: 70em) {
+		
 		#modal-cart .modal-dialog {
 			position: fixed;
 			left: 20%;
@@ -159,6 +161,7 @@
 
 	/* repositioning of the modal-cart */
 	@media (max-width: 62.5em) {
+		
 		#modal-cart .modal-dialog {
 			position: fixed;
 			left: 10%;
@@ -168,6 +171,7 @@
 
 	/* adjust width of the modal-cart and make item details two rows */
 	@media (max-width: 53.875em) {
+		
 		#modal-cart .modal-dialog {
 			width: 30em;
 			position: fixed;
@@ -222,6 +226,7 @@
 
 	/* adjust positioning of modal-cart */
 	@media (max-width: 43em) {
+		
 		#modal-cart .modal-dialog {
 			position: fixed;
 			left: 10%;
@@ -340,6 +345,7 @@
 
 	/* adjust modal-cart width as resolution gets smaller */
 	@media (max-width: 20em) {
+		
 		#modal-cart .modal-dialog {
 			width: 20em;
 		}
@@ -356,10 +362,10 @@
 
 
 
-
 /*
 	REVIEW MODAL
 */
+
 
   /* Styling for Giving how many Ratings in Review Modal 
         Reference Retrieved from: https://css-tricks.com/star-ratings/;
@@ -399,3 +405,118 @@
     	width: 80%;
     	margin: 0 3.5em;
     }
+
+
+   	/* 
+		RESPONSIVE for review modal
+   	*/
+
+    @media (max-width: 70em) {
+		
+		#modal-reivew .modal-dialog {
+			position: fixed;
+			left: 20%;
+		}
+	}
+
+	/* repositioning of the modal-review */
+	@media (max-width: 62.5em) {
+		
+		#modal-review .modal-dialog {
+			position: fixed;
+			left: 10%;
+		}
+	}
+
+
+	@media (max-width: 53.875em) {
+		
+		#modal-review .modal-dialog {
+			width: 30em;
+			position: fixed;
+			left: 20%;
+		}
+
+		/* repositioning of the review form */
+		#modal-review .modal-body .review-form {
+			margin: 0 2.5em;
+		}
+
+
+	/* adjust positioning of modal-cart */
+	@media (max-width: 43em) {
+		
+		#modal-review .modal-dialog {
+			position: fixed;
+			left: 10%;
+		}
+	}
+
+
+	@media (max-width: 34.438em) {
+
+		#modal-review .modal-dialog {
+			width: 25em;
+			position: fixed;
+			top: 5%;
+			left: 12%;
+		}
+
+		#modal-review .modal-header {
+			margin-left: 1.5em;
+			width: 82%;
+		}
+
+		#modal-review .modal-body {
+			margin: 1.5em;
+		}
+
+		#modal-review .modal-body .review-form {
+			margin: 0 2em;
+		}
+
+		#modal-review .modal-footer {
+			margin-left: 1.5em;
+			width: 82%;
+		}
+
+
+	}
+
+
+	/* adjust modal-review positioning */
+	@media (max-width: 29.375em) {
+
+		#modal-review .modal-dialog {
+			position: fixed;
+			top: 5%;
+			left: 5%;
+		}
+	}
+
+	/* make modal-review align to the upper left corner on smaller resolution */
+	@media (max-width: 25em) {
+
+		#modal-review .modal-dialog {
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+
+		#modal-review .modal-footer {
+			margin: 1.5em 1em;
+		}
+	}
+
+
+	/* adjust modal-review width as resolution gets smaller */
+	@media (max-width: 20em) {
+		
+		#modal-review .modal-dialog {
+			width: 20em;
+		}
+
+		#modal-review .modal-footer {
+			margin: 1.5em;
+		}
+	}

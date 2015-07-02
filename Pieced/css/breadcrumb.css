@@ -16,7 +16,7 @@ box-sizing: border-box;
 	EMPTY BREADCRUMB
 */
 
-	hr {
+	hr.empty-breadcrumb {
 	  display: block;
 	  border: 0;
 	  border-top: 35px solid #F2EDE7;
