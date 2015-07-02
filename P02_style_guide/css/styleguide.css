@@ -69,7 +69,6 @@
 	}
 
 	.grid-col-5of10.rendered-element {
-		padding-top: 3em;
 	}
 	
 	.grid-col-5of10.rendered-element h3{
@@ -77,8 +76,9 @@
 		padding-bottom:0.5em;
 	}
 	
-  
-
+ 	.grid-col-5of10.rendered-element input {
+ 		width: 60%;
+ 	}
 
 
 
