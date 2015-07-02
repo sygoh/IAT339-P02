@@ -72,44 +72,46 @@
 		<!-- END OF NAVIGATION MENU SECTION -->
 
 
+		<!-- BREADCRUMB  -->
 		<section> 
 			<ul class="breadcrumb">
-			<li><a href="shop.html">Shop</a></li>
-			<!-- the default puzzle category, may be changed -->
-			<li><a href="newcollection.html">New Collection</a></li>
-			<li><a href="product-details-blackswan.html">Black Swan</a></li>
-			<li><a href="#">Checkout</a></li>
-
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="newcollection.html">New Collection</a></li>
+				<li><a href="product-details-blackswan.html">Black Swan</a></li>
+				<li><a href="#">Checkout</a></li>
 			</ul>
 		</section>
+		<!-- END OF BREADCRUMB  -->
 
 
+		
 		<div class="grid">
+			<!-- ORDER SUMMARY SECTION  -->
 			<div class="grid-col-4of10">
 			  		
 		  		<div class="order-summary">
 
 				  	<div class="order-summary-header">
 				  		<h3> Order Summary </h3>
-				  	</div> <!-- closes .order-summary header -->
+				  	</div> <!-- closes <div class="order-summary-header"> -->
 			  	
 				  	<div class="cart-items grid">
 				  		<div class="grid-col-2of6">
 				  			<img src="img/swan4.jpg" width="100" height="80">
-				  		</div> <!-- closing .grid-col-2of6 -->
+				  		</div> <!-- closing <div class="grid-col-2of6"> -->
 						<h4 class="grid-col-2of6">Black Swan</h4>	
 						<p class="grid-col-1of6">1X</p>
 						<p class="grid-col-1of6"> &#36; 45</p>
-				  	</div> <!-- closes .cart-items and .grid-->
+				  	</div> <!-- <div class="cart-items grid"> -->
 
 				  	<div class="cart-items grid">
 				  		<div class="grid-col-2of6">
 				  			<img src="img/angelfish.jpg" width="100" height="80">
-				  		</div> <!-- closing .grid-col-2of6 -->
+				  		</div> <!-- closing <div class="grid-col-2of6"> -->
 						<h4 class="grid-col-2of6">Elegant Angelfish</h4>	
 						<p class="grid-col-1of6">1X</p>
 						<p class="grid-col-1of6"> &#36; 60</p>
-				  	</div> <!-- closes .cart-items and .grid-->
+				  	</div> <!-- closes <div class="cart-items grid"> -->
 
 				  	<div class="cart-items grid">
 				  		<div class="grid-col-2of6">
@@ -118,34 +120,27 @@
 						<h4 class="grid-col-2of6">Southern Mansion</h4>	
 						<p class="grid-col-1of6">1X</p>
 						<p class="grid-col-1of6"> &#36; 100</p>
-				  	</div> <!-- closes .cart-items and .grid-->
+				  	</div> <!-- closes <div class="cart-items grid"> -->
 
 				  	<div class="subtotal">
 
 				  		<div class="grid">
 				  			<p class="grid-col-2of6"> Subtotal:</p>
-
 					  		<div class="grid-col-3of6 blank"> &nbsp; </div>
-					  		
 					  		<p class="grid-col-1of6"> &#36; 205</p>
 					  	</div> <!-- closing first .grid in .subtotal -->
 
 					  	<div class="grid">
 					  		<p class="grid-col-2of6"> 
 					  		Shipping:</p>
-
 					  		<div class="grid-col-3of6 blank"> &nbsp; </div>
-
 				  			<p class="grid-col-1of6"> &#36; 3</p>
 				  		</div> <!-- closing second .grid in .subtotal -->
 
 				  		<div class="grid">
 					  		<p class="grid-col-2of6"> Taxes:</p>
-
 					  		<div class="grid-col-3of6 blank"> &nbsp; </div>
-
 					  		<p class="grid-col-1of6"> &#36; 2</p>
-
 					  	</div> <!-- closing third .grid in .subtotal -->
 
 					</div> <!-- closing .subtotal -->
@@ -153,97 +148,90 @@
 
 				  	<div class="payment-footer grid">
 				  		<p class="grid-col-2of6"> Payment</p>
-
 				  		<div class="grid-col-3of6 blank"> &nbsp; </div>
-
 				  		<p class="grid-col-1of6"> &#36; 210</p>
-				  	</div> <!-- closes .payment-footer and .grid -->
+				  	</div> <!-- closes <div class="payment-footer grid"> -->
 
 
 				</div> <!-- closes .order-summary -->
 
-			</div> <!-- closes .grid4of10 -->
-
-
+			</div> <!-- closes <div class="grid-col-4of10"> -->
+			<!-- END OF ORDER SUMMARY SECTION  -->
 
 			<div class="grid-col-1of10 blank">
 				&nbsp;
-			</div> <!-- closing .blank and .gri-col-1of10 -->
+			</div> <!-- closing <div class="grid-col-1of10 blank"> -->
 		
 
+			<!-- SHIPPING & BILLING INFORMATION SECTION -->
 			<div class="grid-col-4of10 checkout">
 
 				<div class="shipping-information">
 					<h3> Shipping Information </h3>
 				
 					<input class="form-field" placeholder="Full Name" name="name"> </input>
-
-					 <input class="form-field" placeholder="Address" name="Address"> </input>
-
-					 <input class="form-field" placeholder="City" name="City"> </input>
-
-					 <input class="form-field" placeholder="Province" name="Province"> </input>
-
-					 <input class="form-field" placeholder="Postal Code" name="Postal Code"> </input>
-
-				</div> <!-- closes .shipping-information -->
+					<input class="form-field" placeholder="Address" name="Address"> </input>
+					<input class="form-field" placeholder="City" name="City"> </input>
+					<input class="form-field" placeholder="Province" name="Province"> </input>
+					<input class="form-field" placeholder="Postal Code" name="Postal Code"> </input>
+				</div> <!-- closing <div class="shipping-information"> -->
 
 
 				<div class="billing-information">
-
 					<h3> Billing Information </h3>
-
+					
 					<input class="form-field" placeholder="Full Name on Card" name="name on card"> </input>
+					<input class="form-field" placeholder="Card Number" name="Card Number"> </input>
+					<input class="form-field" placeholder="Security Code" name="Security Code"> </input>
+					<input class="form-field" placeholder="Expiry Date (MM/YY)" name="Expiry Date"> </input>
 
-					 <input class="form-field" placeholder="Card Number" name="Card Number"> </input>
-
-					 <input class="form-field" placeholder="Security Code" name="Security Code"> </input>
-
-					 <input class="form-field" placeholder="Expiry Date (MM/YY)" name="Expiry Date"> </input>
-
-				</div> <!-- closes .billing-information -->
+				</div> <!-- closing <div class="billing-information"> -->
 
 				<a href="#modal-cart" class="button-default" title="place order">Place Order</a>
 
 				<a href="product-details-blackswan.html" class="button-secondary" title="Cancel"> Cancel </a>
 					
-			</div> <!-- closes .4of10 -->
-
+			</div> <!-- closing <div class="grid-col-4of10 checkout"> -->
+			<!-- END OF SHIPPING & BILLING INFORMATION SECTION -->
 
 			<div class="grid-col-1of10 blank">
 				&nbsp;
-			</div> <!-- closing .blank and .gri-col-1of10 -->
+			</div> <!-- closing <div class="grid-col-1of10 blank"> -->
 
 
 		</div> <!--- closes .grid -->
 
 
-			<!-- Cart Modal -->
-			<div class="modal" id="modal-cart" aria-hidden="true">
-			  
-			  <div class="modal-dialog">
-			    
-			    <div class="modal-header">
-					<h3>Order Successful</h3>
-					<a href="#close" class="button-close-modal" aria-hidden="true">×</a>
-			    </div> <!-- closing .modal-head -->
 
-			    <div class="modal-body">
-			    	<h4> Thank you for shopping with us&#33;</h4>
-			    </div> <!-- closing .modal-body -->
 
-			    <div class="modal-footer">
+		<!-- CART MODAL -->
+		<div class="modal" id="modal-cart" aria-hidden="true">
+		  
+		  <div class="modal-dialog">
+		    
+		    <div class="modal-header">
+				<h3>Order Successful</h3>
+				<a href="#close" class="button-close-modal" aria-hidden="true">×</a>
+		    </div> <!-- closing .modal-head -->
 
-					<a href="shop.html" class="button-default">Continue Shopping</a>
+		    <div class="modal-body">
+		    	<h4> Thank you for shopping with us&#33;</h4>
+		    </div> <!-- closing .modal-body -->
 
-			    </div> <!-- closing .modal-footer -->
-			  
-			  </div> <!-- closing <div class="modal-dialog">-->
-			
-			</div> <!-- closing <div class="modal">-->
+		    <div class="modal-footer">
+				<a href="shop.html" class="button-default">Continue Shopping</a>
+		    </div> <!-- closing .modal-footer -->
+		  
+		  </div> <!-- closing <div class="modal-dialog">-->
+		
+		</div> <!-- closing <div class="modal" id="modal-cart"> -->
+
 
 
 	</div> <!-- close <div class="container" div -->
+
+
+
 
 	<!-- FOOTER -->
 	<div class="footer grid">
