@@ -12,51 +12,54 @@
   }
 
 
-/* Styling for the events posts */
-	
-	.coming-up-events {
-		margin-top: 3em; /*temporary needs to be changed */
+/*standard text styling */
+
+
+	h1{
+		margin-left: 9.2em;
+		margin-top: 1em;
+		margin-bottom: .5em;
 	}
 
-	.coming-up-events,
+	h3 {
+		color: #A3A3A0;
+		text-transform: lowercase;
+
+	}
+	
+	p {
+		margin-top:1em;
+		margin-bottom: 2em;
+		margin-right: 5em;
+	}
+
+	
+
+
+#in-text-link ul li {
+  	list-style-type: none;
+  	display: inline;
+  	text-align: center;
+  	padding: 0.5em;
+  }
+
+  #in-text-link ul {
+  	text-align: center;
+  	padding-top: 1em;
+  	padding-bottom: 2em;
+  }
+
+
+
+
+/* Styling for the events posts */
+	
 	.popular-events {
 		text-align: center;
 		margin-bottom: 5em; /*avoid the view more button border bottom getting cut off by the footer*/
 		padding-right: 0; /* reverses gutter */
 	}
-	   
-	.coming-up-events ul.img-list,
-	.popular-events ul.img-list {
-		list-style-type: none;
-		display: block;
-		padding-left: 0;
-	}
 
-	.coming-up-events ul.img-list li,
-	.popular-events ul.img-list li {
-	  padding: 0.5em;
-	  margin-bottom: 1.5em;
-	  display: inline-block;
-	}
-
-	.coming-up-events ul.img-list li img, 
-	.popular-events ul.img-list li img {
-	  margin-bottom: 0.5em;
-	}
-
-	.coming-up-events p,
-	.popular-events p {
-		width:40%;
-		margin: auto;
-		margin-top:1em;
-	}
-
-
-	.coming-up-events ul.img-list li h4,
-	.popular-events ul.img-list li h4 {
-		/*margin-top: 0.2em;*/
-		font-size: 0.70rem; /* replace initial size */
-	}
 
 
 	/*

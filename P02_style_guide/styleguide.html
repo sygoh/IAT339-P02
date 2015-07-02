@@ -13,7 +13,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Events - Pieced</title>
+		<title>Styleguide - Pieced</title>
 
 		<!-- grid.css specifies the grid structure-->
 		<link href="../Pieced/css/grid.css" rel="stylesheet">
@@ -21,7 +21,8 @@
 		<link href="../Pieced/css/main.css" rel="stylesheet">
 
 		<!-- other stylesheets link goes here -->
-		<link href="../Pieced/css/events.css" rel="stylesheet">
+		<link href="css/styleguide.css" rel="stylesheet">
+<!-- 		<link href="../Pieced/css/events.css" rel="stylesheet"> -->
 		<link href="../Pieced/css/breadcrumb.css" rel="stylesheet">
 		<link href="../Pieced/css/modal.css" rel="stylesheet">
 		
@@ -38,7 +39,7 @@
 		<section class="grid">
 
 			<div class="grid-col-2of10 logo">
-				<a href="index.html" class="logo-link">
+				<a href="../Pieced/index.html" class="logo-link">
 					<img src="../Pieced/img/styleguide-logo.png" width="150" height="52.5"></img>
 				</a>
 			</div> <!-- closing <div class="grid-col-2of10"> -->
@@ -46,7 +47,7 @@
 			<div class="grid-col-6of10 main-nav">
 				
 				<ul class="nav-menu">
-					<li><a href="shop.html"><span>Shop</span></a></li>
+					<li><a href="../Pieced/shop.html"><span>Shop</span></a></li>
 					<li><a href="../Pieced/citations.html"><span>Citations</span></a></li>
 				</ul> <!-- closing <ul class="nav-menu"> -->
 			
@@ -76,52 +77,59 @@
 
 
 		<hr class="empty-breadcrumb hidden"/> <!-- empty breadcrumb -->
+<!-- ____________________________________________________________________ -->
 
+		<!-- IN TEXT LINK BUTTONS -->
 
+		<section id="in-text-link"> 
+			<ul>
+				<li><a href="#interactive-elements" class="button-default"title="Interactive Elements"> Interactive Elements</a> </li>
+
+				<li> <a href="#text-elements" class="button-default"title="Text More"> Text  Elements</a> </li>
+
+				<li> <a href="#combined-elements" class="button-default"title="Combined Elements"> Combined Elements</a> </li>
+			</ul>
+
+		</section>
+
+<!-- ____________________________________________________________________ -->
 
 		<!-- COMING UP EVENTS SECTION -->
 
 		
-		<section id="coming-up" class="grid">
+		<section id="interactive-elements">
+			<h1>Navigation Button</h1>
+			<div class="grid">
+				<div class="grid-col-5of10">
+			
+					
+					<h3> CSS Selector </h3>
 
-			<div class="grid-col-1of10 blank">
-				&nbsp;
-			</div> <!-- closing .grid-col-1of10 and blank-->
+					<p> Exciting and festive events around the corner. Our yearly annual competitions are bigger and better yet with coveted prizes. Thanks to our sponsors Red Bull and Coast Capital for supporting us.</p>
 
-			<div class="grid-col-8of10 coming-up-events">
-				<h1>Coming up</h1>
-				<p> Exciting and festive events around the corner. Our yearly annual competitions are bigger and better yet with coveted prizes. Thanks to our sponsors Red Bull and Coast Capital for supporting us.</p>
+					<h3> Sample Code</h3>
+					
+					<p> Exciting and festive events around the corner. Our yearly annual competitions are bigger and better yet with coveted prizes. Thanks to our sponsors Red Bull and Coast Capital for supporting us.</p>
 
-				<ul class="img-list">
-				  	<li>		   
-				    	<img src="img/puzzle-hack-1.jpg" width="250" height="171">
-				    	<h3>Puzzle Hacks</h3>
-	         			<h4>July 14, 2015</h4>
-				    </li>
+				</div> <!-- closes 5of10 -->
 
-				    <li>		   
-				    	<img src="img/minute-to-win-1.jpg" width="250" heigh="171">
-				    	<h3>Minute-to-Win-It</h3>
-	         			<h4>August 24, 2015</h4>
-				    </li>
+				<div class="grid-col-5of10">
 
-				    <li>		   
-				    	<img src="img/couple-building-1.jpg" width="250" height="171">
-				    	<h3>Couple Building</h3>
-	         			<h4>September 2, 2015</h4>
-				    </li>
-				</ul> <!-- <ul class="img-list"> -->
+					<h3> Rendered Element </h3>
+					
+					<ul class="nav-menu">
+						<li><a href="../Pieced/shop.html"><span>Shop</span></a></li>
+					</ul>
+				</div><!-- closes 5of10 -->
+				
 
-			    <a href="#" class="button-default"title="View More">View More</a> 
-			</div> <!-- <div class="grid-col-8of10 coming-up-events"> -->
-
-			<div class="grid-col-1of10 blank">
-				&nbsp;
-			</div> <!-- closing grid-col-1of10 and .blank-->
-
+			</div> <!-- closes grid -->
+			
+			
 		</section> <!-- closing .grid -->
 		<!-- END OF COMING UP EVENTS SECTION -->
 
+<!-- ____________________________________________________________________ -->
 
 
 		<!-- PUPULAR EVENTS SECTION  -->
@@ -136,28 +144,7 @@
 				<h1>Most Popular</h1>
 				<p>Our three most popular events happening this year are: Speediest 3D Puzzler, Blindfold Building and Tag-team Teamwork. In addition, 3 time champion Justin Dale will be joining as guest judge at these events. Be sure to attend! Don't miss it!</p>
 
-				<ul class="img-list">
-				  	<li>		   
-				    	<img src="img/puzzler-1.jpg" width="250" height="171">
-				    	<h3>Speediest Puzzler</h3>
-	         			<h4>June 22, 2015</h4>
-				    </li>
-
-				    <li>		   
-				    	<img src="img/events-blindfolded-1.jpg" width="250" height="171">
-				    	<h3>Blindfold Building</h3>
-	         			<h4>July 1, 2015</h4>
-				    </li>
-
-				    <li>		   
-				    	<img src="img/tag-team-1.jpg" width="250" height="171">
-				    	<h3>Tagteam</h3>
-	         			<h4>August 3, 2015</h4>
-				    </li>
-				</ul> <!-- <ul class="img-list"> -->
-
-			    <a href="#" class="button-default"title="View More">Sign Up Now</a> 
-			
+				
 			</div> <!-- <div class="grid-col-8of10 coming-up-events"> -->
 
 			<div class="grid-col-1of10 blank">
@@ -165,34 +152,15 @@
 			</div> <!-- closing grid-col-1of10 and .blank-->
 
 		</section> <!-- closing <section id="popular" class="grid">-->
-
-
-
-		<!-- EMPTY CART MODAL -->
-		<div class="modal" id="modal-cart" aria-hidden="true">
-		  
-		  <div class="modal-dialog empty-cart">
-		    
-		    <div class="modal-header">
-				<h3>My Cart</h3>
-				<a href="#close" class="button-close-modal" aria-hidden="true">×</a>
-		    </div> <!-- closing .modal-head -->
-
-		    <div class="modal-body">
-		    	<h4> Your cart is currently empty.</h4>
-		    </div> <!-- closing .modal-body -->
-
-		    <div class="modal-footer">
-				<a href="shop.html" class="button-default">Continue Shopping</a>
-		    </div> <!-- closing .modal-footer -->
-		  
-		  </div> <!-- closing <div class="modal-dialog empty-cart">-->
-		
-		</div> <!-- closing <div class="modal" id="modal-cart"> -->
-
+<!-- ____________________________________________________________________ -->
 		
 
 	</div> <!-- close <div class="container" div -->
+
+
+
+
+	<!-- ____________________________________________________________________ -->
 
 
 	<!-- FOOTER -->
