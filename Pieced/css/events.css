@@ -13,15 +13,6 @@
 
 
 /* Styling for the events posts */
-
-	hr {
-      display: block;
-      border: 0;
-      border-top: 35px solid #F2EDE7;
-      margin: 0.7em 0 0 0;
-      padding: 0;
-    }
-
 	
 	.coming-up-events {
 		margin-top: 3em; /*temporary needs to be changed */

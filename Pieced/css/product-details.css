@@ -99,7 +99,7 @@
     */
 
     /* Styling for the section dividing line */
-    hr {
+    hr.section-divider {
       display: block;
       height: 1px;
       border: 0;

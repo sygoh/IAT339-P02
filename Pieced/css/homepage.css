@@ -48,6 +48,13 @@ box-sizing: border-box;
 	}
 
 
+ 	#new-collection p {
+		width: 40%;
+		margin: auto;
+		padding-bottom: 4em;
+	}
+
+
 	/*
 		RESPONSIVE for #new-collection img-listing
 	*/
