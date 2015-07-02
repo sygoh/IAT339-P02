@@ -34,11 +34,6 @@
         height: auto; 
     }
 
-/*    .product-img img {
-      max-width: 100%;
-      width: auto;
-      height: auto; 
-    }*/
 
     .product-gallery {
       width: 500px; /* max width of the main image */
@@ -91,6 +86,45 @@
     .puzzle-level {
       margin: 3em 0 2em 0;
     }
+
+
+    /* 
+      RESPONSIVE for Product Details Content 
+    */
+
+    @media (max-width: 65em) {
+
+      .grid-col-1of10.blank {
+        display: none;
+      }
+
+      #product-details .grid-col-4of10 {
+        width: 45%;
+      }
+
+
+    }
+
+    @media (max-width: 52.875em) {
+
+      #product-details .grid-col-4of10 {
+        width: 50%;
+      }
+
+    }
+
+    @media (max-width: 41em) {
+      #product-details .grid-col-5of10 {
+        width: 100%;
+      }
+
+      #product-details .grid-col-4of10 {
+        width: 100%;
+        margin: 2em 3em;
+      }
+    }
+
+
 
 
 
