@@ -25,6 +25,7 @@
 <!-- 		<link href="../Pieced/css/events.css" rel="stylesheet"> -->
 		<link href="../Pieced/css/breadcrumb.css" rel="stylesheet">
 		<link href="../Pieced/css/modal.css" rel="stylesheet">
+		<link href="../Pieced/css/shop.css" rel="stylesheet">
 		
 	</head>
 
@@ -47,8 +48,10 @@
 			<div class="grid-col-6of10 main-nav">
 				
 				<ul class="nav-menu">
-					<li><a href="../Pieced/shop.html"><span>Shop</span></a></li>
-					<li><a href="../Pieced/citations.html"><span>Citations</span></a></li>
+					<li><a href="#interactive-elements"><span>Interactive </span></a></li>
+					<li><a href="#text-elements"><span>Text </span></a></li>
+					<li><a href="#combined-elements"><span>Combined </span></a></li>
+					<li><a href="#brand"><span>Brand</span></a></li>
 				</ul> <!-- closing <ul class="nav-menu"> -->
 			
 
@@ -68,7 +71,10 @@
 			</div> <!-- closing <div class="grid-col-6of10 main-nav"> -->
 
 			<div class="grid-col-2of10 side-nav">
-				&nbsp;
+				<ul class="nav-menu">
+					<li><a href="#"><span>Pieced Site</span></a></li>
+					<li><a href="#"><span>Citations</span></a></li>
+				</ul> <!-- closing <ul class="nav-menu"> -->
 			</div> <!-- closing <div class="grid-col-2of10 side-nav"> -->
 				
 		</section> <!-- closing <div class="grid"> -->
@@ -77,41 +83,73 @@
 
 
 		<hr class="empty-breadcrumb hidden"/> <!-- empty breadcrumb -->
-<!-- ____________________________________________________________________ -->
-
-		<!-- IN TEXT LINK BUTTONS -->
-
-		<section id="in-text-link"> 
-			<ul>
-				<li><a href="#interactive-elements" class="button-default"title="Interactive Elements"> Interactive Elements</a> </li>
-
-				<li> <a href="#text-elements" class="button-default"title="Text More"> Text  Elements</a> </li>
-
-				<li> <a href="#combined-elements" class="button-default"title="Combined Elements"> Combined Elements</a> </li>
-			</ul>
-
-		</section>
 
 <!-- ____________________________________________________________________ -->
 
-		<!-- COMING UP EVENTS SECTION -->
+		<!-- OPEN GRID  -->
+		<div class="grid">
+
+			<!-- FILTER MENU -->
+		
+			<div class="grid-col-2of10 filter-menu">
+
+				<h3> INTERACTIVE ELEMENTS </h3>
+
+				<ul>
+					<!-- THE #ID WILL TAKE YOU TO THAT SPECIFIC TAG WITH THE ID -->
+			        <li><a href="#nav-button">Navigation Button</a></li>
+		            <li><a href="#in-text-link">In-Text-Link</a></li>
+		            <li><a href="locomotion.html">Locomotion</a></li>
+	       		</ul>
+
+	       		<ul>
+		            <li><a href="animalsandnature.html">Beginner Level</a></li>
+		            <li><a href="dollhouse.html">Intermediate Level</a></li>
+		            <li><a href="locomotion.html">Expert Level</a></li>
+		        </ul>
+
+		        <ul>
+		            <li><a href="animalsandnature.html">Most Popular</a></li>
+		            <li><a href="newcollection.html">New Collection</a></li>
+		            <li><a href="dollhouse.html">Sale Items</a></li>
+	        	</ul>
+
+      		</div>	<!-- closing <div class="grid-col-2of10 filter-menu"> -->
+
+
+<!-- ____________________________________________________________________ -->
+
+		<!-- CSS SELECTOR / SAMPLE CODE / RENDERED ELEMENTS -->
 
 		
-		<section id="interactive-elements">
-			<h1>Navigation Button</h1>
-			<div class="grid">
+		<section id="interactive-elements" class="grid-col-8of10">
+				
+			<!-- NEED TO CHANGE THE CLASS NAME NAV-BUTTON AND/OR ID, DONT KNOW WHAT YOU WANNA CALL IT, THIS IS JUST A FILLER ID -->
+
+			<!-- Open Sub grid-->
+			<div class="grid" id="nav-button">
 				<div class="grid-col-5of10">
-			
-					
-					<h3> CSS Selector </h3>
 
-					<p> Exciting and festive events around the corner. Our yearly annual competitions are bigger and better yet with coveted prizes. Thanks to our sponsors Red Bull and Coast Capital for supporting us.</p>
+						<h1>Navigation Button</h1>
+						
+						<h3> CSS Selector </h3>
 
-					<h3> Sample Code</h3>
-					
-					<p> Exciting and festive events around the corner. Our yearly annual competitions are bigger and better yet with coveted prizes. Thanks to our sponsors Red Bull and Coast Capital for supporting us.</p>
+						<p> .nav-menu, .nav-menu ul, .nav-menu ul li, .nav-menu ul li a</p>
 
-				</div> <!-- closes 5of10 -->
+						<h3> Sample Code</h3>
+						
+						<p> <code> &lt;div class="nav-menu"&gt;</code>
+				            <br>
+				            <code>&lt;ul&gt;</code>
+				            <br>
+				            <code>&lt;li&gt;&lt;a href="shop.html"&gt;&lt;span&gt;Shop&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</code>
+				            <br>
+				            <code>&lt;/ul&gt;</code>
+				            <br>
+				            <code>&lt;/div&gt;</code></p>
+
+				</div> <!-- closing <div class="grid" id="nav-button"> -->
+
 
 				<div class="grid-col-5of10">
 
@@ -120,40 +158,66 @@
 					<ul class="nav-menu">
 						<li><a href="../Pieced/shop.html"><span>Shop</span></a></li>
 					</ul>
-				</div><!-- closes 5of10 -->
-				
 
-			</div> <!-- closes grid -->
+				</div> <!-- closing <div class="grid-col-4of10">-->
+
+	
+			</div> <!-- closing <div class="nav-button" id="nav-button"> -->
+
+
+
+
+			<!-- NEED TO CHANGE THE CLASS NAME In-Text-Link AND/OR ID, DONT KNOW WHAT YOU WANNA CALL IT, THIS IS JUST A FILLER -->
 			
-			
-		</section> <!-- closing .grid -->
-		<!-- END OF COMING UP EVENTS SECTION -->
+			<!-- Open another subgrid  -->
+			<div class="grid" id="in-text-link">
+				<div class="grid-col-5of10">
 
-<!-- ____________________________________________________________________ -->
+						<h1>In-Text Link</h1>
+						
+						<h3> CSS Selector </h3>
+
+						<p> .nav-menu, .nav-menu ul, .nav-menu ul li, .nav-menu ul li a</p>
+
+						<h3> Sample Code</h3>
+						
+						<p> <code> &lt;div class="nav-menu"&gt;</code>
+				            <br>
+				            <code>&lt;ul&gt;</code>
+				            <br>
+				            <code>&lt;li&gt;&lt;a href="shop.html"&gt;&lt;span&gt;Shop&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</code>
+				            <br>
+				            <code>&lt;/ul&gt;</code>
+				            <br>
+				            <code>&lt;/div&gt;</code></p>
+
+					</div> <!-- closing <div class="grid-col-4of10">-->
 
 
-		<!-- PUPULAR EVENTS SECTION  -->
-		<section id="popular" class="grid">
+				<div class="grid-col-5of10">
 
-			<div class="grid-col-1of10 blank">
-				&nbsp;
-			</div> <!-- closing .grid-col-1of10 and blank-->
+					<h3> Rendered Element </h3>
+					
+					<ul class="nav-menu">
+						<li><a href="../Pieced/shop.html"><span>Shop</span></a></li>
+					</ul>
 
-			<div class="grid-col-8of10 popular-events">
+				</div> <!-- closing <div class="grid-col-4of10">-->
 
-				<h1>Most Popular</h1>
-				<p>Our three most popular events happening this year are: Speediest 3D Puzzler, Blindfold Building and Tag-team Teamwork. In addition, 3 time champion Justin Dale will be joining as guest judge at these events. Be sure to attend! Don't miss it!</p>
+	
+			</div><!-- closing <div class="grid" id="in-text-link"> -->
 
-				
-			</div> <!-- <div class="grid-col-8of10 coming-up-events"> -->
 
-			<div class="grid-col-1of10 blank">
-				&nbsp;
-			</div> <!-- closing grid-col-1of10 and .blank-->
 
-		</section> <!-- closing <section id="popular" class="grid">-->
-<!-- ____________________________________________________________________ -->
+
+		</section> <!-- closing <section id="interactive-elements grid-col-8of10"> -->
+
+		<!-- END OF INTERACTIVE ELEMENTS -->
 		
+
+
+	<!-- ____________________________________________________________________ -->
+	
 
 	</div> <!-- close <div class="container" div -->
 

@@ -14,40 +14,50 @@
 
 /*standard text styling */
 
+	
+/*	PRACTICE NOT TO USE GENERIC TAGS 
+	SPECIFY WITH CLASS NAME AND ID*/
 
-	h1{
-		margin-left: 9.2em;
+/*	i wouldn't put the margin-top on the h1, i would put it as the margin for that specific tag that marks up the section*/
+
+/*	margin-bottom is okay because you are separating between that h1 element and the rest*/
+
+	#interactive-elements h1{
 		margin-top: 1em;
 		margin-bottom: .5em;
 	}
 
-	h3 {
+
+	#interactive-elements h3 {
 		color: #A3A3A0;
 		text-transform: lowercase;
 
 	}
 	
-	p {
+	#interactive-elements p {
 		margin-top:1em;
 		margin-bottom: 2em;
 		margin-right: 5em;
 	}
 
+
+/*	this means it is a .grid-col-2of10 and ALSO a .filter-menu so it will only affect that specific one not everything else with the tag of .grid-col-2of10 or .filter-menu*/
+
+	.grid-col-2of10.filter-menu {
+		margin-top:3em;
+	}
+
+	#interactive-elements {
+		margin-top:3em;
+		padding-left: 2em;
+	}
+
+	#interactive-elements ul.nav-menu {
+		text-align:left;
+		margin-top: 0;
+	}
+
 	
-
-
-#in-text-link ul li {
-  	list-style-type: none;
-  	display: inline;
-  	text-align: center;
-  	padding: 0.5em;
-  }
-
-  #in-text-link ul {
-  	text-align: center;
-  	padding-top: 1em;
-  	padding-bottom: 2em;
-  }
 
 
 
