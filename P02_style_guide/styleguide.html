@@ -31,9 +31,7 @@
 		<link href="../Pieced/css/product-details.css" rel="stylesheet">
 		<link href="../Pieced/css/checkout.css" rel="stylesheet">
 		<link href="../Pieced/css/company.css" rel="stylesheet">
-		
-		
-		
+		<link href="../Pieced/css/img-styling.css" rel="stylesheet">
 		
 	</head>
 
@@ -103,25 +101,35 @@
 
 				<h3> INTERACTIVE ELEMENTS </h3>
 
-				<ul>
-					<!-- THE #ID WILL TAKE YOU TO THAT SPECIFIC TAG WITH THE ID -->
-			        <li><a href="#nav-button">Navigation Button</a></li>
-		            <li><a href="#in-text-link">In-Text-Link</a></li>
-		            <li><a href="#submit-reset">Submit/Reset Button</a></li>
-		            <li><a href="#text-input">Text Input Field</a></li>
-	       		</ul>
+					<ul>
+						<!-- THE #ID WILL TAKE YOU TO THAT SPECIFIC TAG WITH THE ID -->
+				        <li><a href="#nav-button">Navigation Button</a></li>
+			            <li><a href="#in-text-link">In-Text-Link</a></li>
+			            <li><a href="#submit-reset">Submit/Reset Button</a></li>
+			            <li><a href="#text-input">Text Input Field</a></li>
+		       		</ul>
 
-	       		<ul>
-		            
-		            <li><a href="dollhouse.html">Intermediate Level</a></li>
-		            <li><a href="locomotion.html">Expert Level</a></li>
-		        </ul>
+	       		<h3> TEXT ELEMENTS </h3>
 
+		       		<ul>
+			            <li><a href="#headings">Headings</a></li>
+			            <li><a href="#pararaphs">Paragraphs</a></li>
+			            <li><a href="#bulleted-list">Bulleted List (Filter option)</a></li>
+			            <li><a href="#numbered-list">Numbered List</a></li>
+			        </ul>
+
+		        <h3> COMBINED ELEMENTS </h3>
+			        <ul>
+			            <li><a href="#main-nav">Main Navigation</a></li>
+			            <li><a href="#product-listing.html">Product Listing</a></li>
+		        	</ul>
+
+	        	<h3> BRAND ELEMENTS </h3>
 		        <ul>
-		            <li><a href="animalsandnature.html">Most Popular</a></li>
-		            <li><a href="newcollection.html">New Collection</a></li>
-		            <li><a href="dollhouse.html">Sale Items</a></li>
+		            <li><a href="#color">Color Palette</a></li>
+		            <li><a href="#grid-system">Grid System</a></li>
 	        	</ul>
+
 
       		</div>	<!-- closing <div class="grid-col-2of10 filter-menu"> -->
 
@@ -255,15 +263,14 @@
 						
 						<h3> CSS Selector </h3>
 
-							<p>  a.button-default, a.button-default:hover,  a.button-secondary, a.button-secondary:hover</p>
+							<p> .form-field, .form-field:focus, .message-box, .message-box:focus</p>
 
 						<h3> Sample Code</h3>
 						
 							<p> 			            
 					            <code> 
 
-					            	&lt;a href="#" class="button-default"title="Shop Now"&gt;Shop Now&lt;/a&gt;
-
+					            	&lt;input class="form-field" placeholder="Name" name="name"&gt; &lt;/input&gt;
 					            </code>
 					            
 					        </p>
@@ -271,21 +278,14 @@
 					</div> <!-- closing <div class="grid-col-4of10">-->
 
 
-				<div class="grid-col-5of10 rendered-element">
+				<div class="grid-col-5of10 rendered-element input">
 
 					<h3> Rendered Element </h3>
 						<input class="form-field" placeholder="Name" name="name"> </input>
 
 				</div> <!-- closing <div class="grid-col-4of10">-->
 
-	
-			</div><!-- closing <div class="grid" id="submit-reset"> -->
-
-
-
-
-
-
+			</div><!-- closing <div class="grid" id="text-input"> -->
 
 		</section> <!-- closing <section id="interactive-elements grid-col-8of10"> -->
 

@@ -84,6 +84,10 @@
 				<li><a href="newcollection.html">New Collection</a></li>
 				<li><a href="#">Black Swan</a></li>
 			</ul>
+			<!-- button allows users to go back to the previous page when breadcrumb is not displayed -->
+			<div class="back-toggle">
+				<a href="newcollection.html" class="button-default">Browse More</a>
+			</div>
 		</section>
 		<!-- END OF BREADCRUMBS -->
 
@@ -96,20 +100,20 @@
 
 					<div class="product-img">
 
-					<!-- <img src="img/swan4.jpg" width="500" height="313"/> -->
-					<picture>
+					<img src="img/swan4.jpg" width="500" height="313"/>
+<!-- 					<picture>
 					 		<source srcset="img/swan4.jpg" media="(min-width: 1000px)">
 
 					      	<img srcset="img/swan4(400px).jpg" alt="">    
-					</picture>
+					</picture> -->
 
 
 					</div> <!-- closing <div class="product-img"> -->
 
 					<div class="product-gallery">
-						<img src="img/swan-close1.jpg" width="150" height="100">
-						<img src="img/swan-close2.jpg" width="150" height="100">
-						<img src="img/swan-close3.jpg" width="150" height="100">
+						<img src="img/swan-close1.jpg">
+						<img src="img/swan-close2.jpg">
+						<img src="img/swan-close3.jpg">
 					</div> <!-- closing <div class="product-gallery"> -->
 
 				</div> <!-- closing <div class="grid-col-5of10">-->
@@ -196,9 +200,21 @@
 		<!-- PRODUCT REVIEW SECTION -->
 		<section class="review grid">
 
-			<div class="grid-col-7of10">
+			<!-- REVIEW HEADER -->
+			<div class="review-header grid">
 
-				<h3>Reviews</h3>
+				<div class="grid-col-2of10"><h3>Reviews</h3></div>
+
+				<div class="grid-col-5of10 blank"> &nbsp; </div>
+
+				<div class="grid-col-3of10"><a href="#modal-review" class="button-default"title="Cart">Write a Review</a></div>
+				
+			</div> <!-- closing <div class="grid"> -->
+			<!-- END OF REVIEW HEADER -->
+
+
+			<!-- REVIEW POSTS SECTION -->
+			<div class="grid-col-7of10">
 
 				<div class="review-posts">
 
@@ -226,7 +242,7 @@
 						</div> <!-- closing <div class="grid-col-8of10"> -->
 
 						<div class="grid-col-1of10 blank">
-								&nbsp;
+							&nbsp;
 						</div> <!-- closing <div class="grid-col-1of10 blank"> -->
 
 					</div> <!-- <div class="grid sub-grid"> -->
@@ -234,10 +250,11 @@
 				</div> <!-- closing <div class="review-posts"> -->
 
 			</div> <!-- closing <div class="grid-col-7of10"> -->
+			<!-- END OF REVIEW POSTS SECTION -->
 
-			<div class="grid-col-3of10">
-				<a href="#modal-review" class="button-default"title="Cart">Write a Review</a>
-			</div> <!-- closing <div class="grid-col-3of10"> -->
+			<div class="grid-col-3of10 blank">
+				&nbsp;
+			</div>  <!-- closing <div class="grid-col-3of10 blank"> -->
 
 		</section> <!-- closing <section class="review grid"> -->
 		<!-- END OF PRODUCT REVIEW SECTION -->
