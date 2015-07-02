@@ -1,5 +1,5 @@
 /*
-  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+  A CSS stylesheet created for Pieced, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
 
   CREATED BY: IAT339 D101 WINONA HUANG 301165181
                           JOANNE GOH 301140652;
@@ -7,7 +7,7 @@
 
 
 /* 
-  DEFAULT STYLING
+  DEFAULT STYLING ----------------------------------
 */
 
   *, *::after, *::before {
@@ -16,99 +16,98 @@
     box-sizing: border-box;
   }
 
-  /* text elements */
+
+  /* 
+    TEXT ELEMENTS 
+  */
   
-  body {
-    font-family: Avenir-Book;
-    font-size: 16px;
-    padding: 1rem;
-  }
-
-  /* Different Levels of Headings */
-  
-  h1 {
-    font-family: AGaramond-Regular;
-    font-size: 1.2rem;
-    letter-spacing: 0.1em;
-    color: #5E5E5E; /* was originally #454545 on style guide */
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  h2 {
-    font-family: Avenir-Heavy;
-    text-transform: uppercase;
-    font-size: 1.1rem;
-    letter-spacing: 0.025em;
-    color: #5E5E5E;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  h3 {
-    font-family: Avenir-Medium;
-    font-size: 1rem;
-    letter-spacing: 0.05em;
-    color: #5e5e5e;
-    text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  h4 {
-    font-family: Avenir-Roman;
-    font-size: 0.875rem;
-    letter-spacing: 0.05em;
-    color: #7d7d7d;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-
-  p {
-    font-family: Avenir-Book;
-    font-size: .81rem;
-    color: #5E5E5E;
-   /* margin: 0 17% 0 17%;*/
-  }
-
-  #new-collection p {
-    width: 40%;
-    margin: auto;
-    padding-bottom: 4em;
-  }
-
-/* loading fonts */
-
-  @font-face {
-      font-family: AGaramond-Regular;
-      src: url(fonts/AGaramondPro-Regular.otf);   
-  }
-
-  @font-face {
-      font-family: AGaramond-Italics;
-      src: url(fonts/AGaramondPro-Italic.otf);   
-  }
-
-  @font-face {
-      font-family: Avenir-Heavy;
-      src: url(fonts/Avenir-Heavy.ttf);   
-  }
-
-  @font-face {
-      font-family: Avenir-Medium;
-      src: url(fonts/Avenir-Medium.ttf);   
-  }
-
-  @font-face {
-      font-family: Avenir-Roman;
-      src: url(fonts/Avenir-Roman.ttf);   
-  }
-
-  @font-face {
+    body {
       font-family: Avenir-Book;
-      src: url(fonts/Avenir-Book.ttf);   
-  }
+      font-size: 16px;
+      padding: 1rem;
+    }
+
+    /* Different Levels of Headings */
+    
+    h1 {
+      font-family: AGaramond-Regular;
+      font-size: 1.2rem;
+      letter-spacing: 0.1em;
+      color: #5E5E5E; /* was originally #454545 on style guide */
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-family: Avenir-Heavy;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      letter-spacing: 0.025em;
+      color: #5E5E5E;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    h3 {
+      font-family: Avenir-Medium;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      color: #5e5e5e;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    h4 {
+      font-family: Avenir-Roman;
+      font-size: 0.875rem;
+      letter-spacing: 0.05em;
+      color: #7d7d7d;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    p {
+      font-family: Avenir-Book;
+      font-size: .81rem;
+      color: #5E5E5E;
+    }
+
+
+  /* 
+    LOADING FONTS 
+  */
+
+    @font-face {
+        font-family: AGaramond-Regular;
+        src: url(fonts/AGaramondPro-Regular.otf);   
+    }
+
+    @font-face {
+        font-family: AGaramond-Italics;
+        src: url(fonts/AGaramondPro-Italic.otf);   
+    }
+
+    @font-face {
+        font-family: Avenir-Heavy;
+        src: url(fonts/Avenir-Heavy.ttf);   
+    }
+
+    @font-face {
+        font-family: Avenir-Medium;
+        src: url(fonts/Avenir-Medium.ttf);   
+    }
+
+    @font-face {
+        font-family: Avenir-Roman;
+        src: url(fonts/Avenir-Roman.ttf);   
+    }
+
+    @font-face {
+        font-family: Avenir-Book;
+        src: url(fonts/Avenir-Book.ttf);   
+    }
 
 
 
@@ -183,7 +182,7 @@
     width: 0;
     background: #C1B087;
     
-    /*animation speed left to right */
+    /* animation speed left to right */
     -webkit-transition: width .25s;
     -moz-transition: width .25s;
     -ms-transition: width .25s;
@@ -405,20 +404,22 @@
   }
 
 
-  /* copyright Tabs N' Blanks*/
+  /* copyright Pieced */
   .footer p {
     font-size: 0.625rem;
     clear: left;
     /*display: inline-block;*/
-    line-height: 4em; /* to vertically align middle */
+    line-height: 4em; /*to vertically align middle */
   }
 
-  .footer .grid-col-6of10 {
+  .footer .grid-col-4of10 {
     padding-right: 0;
   }
+
   .container { 
     padding-bottom: 4em; 
   }
+
 
 
   /* 
@@ -437,6 +438,22 @@
 
       .container {
         padding-bottom: 2em;
+      }
+
+      .footer .grid-col-3of10 {
+        display: none;
+      }
+
+      .footer .grid-col-4of10 {
+        width: 100%;
+      }
+
+      .footer .grid-col-1of10 {
+        display: none;
+      }
+
+      .footer .grid-col-2of10 {
+        display: none;
       }
 
      }
@@ -498,6 +515,7 @@
 
   /* adjusting font-size when resolution gets smaller */
   @media (max-width: 34.438em) {
+    
     a.button-default, a.button-secondary {
       font-size: 1rem;
     }
