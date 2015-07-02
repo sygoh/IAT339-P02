@@ -22,6 +22,6 @@ $(document).ready(
 					$(".nav-combined .nav-menu").slideToggle(500);
 				}
 			);
-	
+		
 	}
 );
