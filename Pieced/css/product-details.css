@@ -36,12 +36,17 @@
 
 
     .product-gallery {
-      width: 500px; /* max width of the main image */
+      max-width: 100%;
       padding: 1em;
       text-align: center; /* aligning 3 additional imgs to center */
       background-color: #F2EDE7;
       margin-left: 5em;
     }
+
+    .product-gallery img {
+      max-width: 30%;
+    }
+
 
 
     /* Styling for Product Details Content */
