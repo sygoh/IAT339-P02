@@ -484,3 +484,62 @@
 			margin: 1.5em;
 		}
 	}
+
+
+
+/*
+	RESPONSIVE for FILTER MODAL 
+*/	
+
+
+/*	@media (min-width: 34.438em) {
+		#modal-filter {
+			display: none;
+		}
+	}*/
+	
+	@media (max-width: 34.438em) {
+
+		#modal-filter {
+			display: block;
+		}
+
+		#modal-filter .modal-dialog {
+			width: 25em;
+			position: fixed;
+			top: 5%;
+			left: 12%;
+		}
+
+		#modal-filter .modal-body.filter-menu {
+			text-align: center;
+			padding: 0;
+		}
+
+		#modal-filter .modal-body ul li a {
+			text-align: center;
+			font-size: 0.875rem;
+		}
+
+		#modal-filter .modal-footer {
+			width: auto;
+			text-align: center;
+			margin: 1.5em 2em;
+		}
+
+	}
+
+	@media (max-width: 25em) {
+
+		#modal-filter .modal-dialog {
+			position: fixed;
+			top: 0;
+			left: 0;
+		}
+
+	@media (max-width: 20em) {
+		
+		#modal-filter .modal-dialog {
+			width: 20em;
+		}
+	}
