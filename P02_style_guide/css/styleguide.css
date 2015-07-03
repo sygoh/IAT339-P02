@@ -13,15 +13,7 @@
 
 
 /*standard text styling */
-	#interactive-elements {
-		margin-top:2em;
-		padding-left: 5em;
-	}
-
-	#text-elements {
-		padding-left:5em;
-		margin-top:2em;
-	}
+	
 
 	section h1{
 		margin-top: 1em;
@@ -41,11 +33,17 @@
 		margin-right: 5em;
 	}
 
+/*interactive elements*/
+
+	#interactive-elements {
+		margin-top:2em;
+		padding-left: 5em;
+	}
+
 	#interactive-elements ul.nav-menu {
 		text-align:left;
 		margin-top: 0;
 	}
-	
 
 	.rendered-element.intextlink a {
     color: #5E5E5E;
@@ -57,7 +55,6 @@
     text-decoration: none;
   	}
 
-
 	.grid-col-5of10.rendered-element h3{
 		padding-top: 3em;
 		padding-bottom:0.5em;
@@ -67,33 +64,38 @@
  		width: 60%;
  	}
 
+			/*	filter menu */
 
+			.grid-col-2of10.filter-menu {
+				margin-top:3em;
+			}
 
-	/*	filter menu */
+			.grid-col-8of10.filter-menu {
+				padding-left: 0;
+				margin-top:0;
+			}
 
-	.grid-col-2of10.filter-menu {
-		margin-top:3em;
+	#breadcrumb ul.breadcrumb {
+		width:60%;
 	}
 
 	/*___________________*/
 
 	
+	/*styling for text elements */
+	#text-elements {
+		padding-left:5em;
+		margin-top:2em;
+	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+	#numbered-lists{
+    font-family: Avenir-Book;
+    font-size: 0.81rem;
+    color: #5E5E5E;
+    padding: 0;
+    margin: 0 0 0 1.5em;
+    list-style-type: lower-alpha;
+  }
 
 
 
