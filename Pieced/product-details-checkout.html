@@ -64,7 +64,7 @@
 			<div class="grid-col-2of10 side-nav">
 				<ul class="nav-menu">
 					<li><a href="#"><span>Search</span></a></li>
-					<li><a href="#modal-cart"><span>Cart</span></a></li>
+					<li><a href="#"><span>Cart</span></a></li>
 				</ul> <!-- closing <ul class="nav-menu"> -->
 			</div> <!-- closing <div class="grid-col-2of10 side-nav"> -->
 				
@@ -87,37 +87,36 @@
 		
 		<div class="grid">
 			<!-- ORDER SUMMARY SECTION  -->
-			<div class="grid-col-4of10">
+			<div class="grid-col-4of10 order">
+				<div class="order-summary">
 			  		
-		  		<div class="order-summary">
-
 				  	<div class="order-summary-header">
 				  		<h3> Order Summary </h3>
 				  	</div> <!-- closes <div class="order-summary-header"> -->
 			  	
 				  	<div class="cart-items grid">
-				  		<div class="grid-col-2of6">
+				  		<div class="grid-col-2of6 product-img">
 				  			<img src="img/swan4.jpg" width="100" height="80">
 				  		</div> <!-- closing <div class="grid-col-2of6"> -->
-						<h4 class="grid-col-2of6">Black Swan</h4>	
+						<h4 class="grid-col-2of6 product-name">Black Swan</h4>	
 						<p class="grid-col-1of6">1X</p>
 						<p class="grid-col-1of6"> &#36; 45</p>
 				  	</div> <!-- <div class="cart-items grid"> -->
 
 				  	<div class="cart-items grid">
-				  		<div class="grid-col-2of6">
+				  		<div class="grid-col-2of6 product-img">
 				  			<img src="img/angelfish.jpg" width="100" height="80">
 				  		</div> <!-- closing <div class="grid-col-2of6"> -->
-						<h4 class="grid-col-2of6">Elegant Angelfish</h4>	
+						<h4 class="grid-col-2of6 product-name">Elegant Angelfish</h4>	
 						<p class="grid-col-1of6">1X</p>
 						<p class="grid-col-1of6"> &#36; 60</p>
 				  	</div> <!-- closes <div class="cart-items grid"> -->
 
 				  	<div class="cart-items grid">
-				  		<div class="grid-col-2of6">
+				  		<div class="grid-col-2of6 product-img">
 				  			<img src="img/southern-mansion.jpg" width="100" height="80">
 				  		</div> <!-- closing .grid-col-2of6 -->
-						<h4 class="grid-col-2of6">Southern Mansion</h4>	
+						<h4 class="grid-col-2of6 product-name">Southern Mansion</h4>	
 						<p class="grid-col-1of6">1X</p>
 						<p class="grid-col-1of6"> &#36; 100</p>
 				  	</div> <!-- closes <div class="cart-items grid"> -->
@@ -151,11 +150,8 @@
 				  		<div class="grid-col-3of6 blank"> &nbsp; </div>
 				  		<p class="grid-col-1of6"> &#36; 210</p>
 				  	</div> <!-- closes <div class="payment-footer grid"> -->
-
-
-				</div> <!-- closes .order-summary -->
-
-			</div> <!-- closes <div class="grid-col-4of10"> -->
+				</div> <!-- closing <div class="order-summary"> -->
+			</div> <!-- closes <div class="grid-col-4of10 order"> -->
 			<!-- END OF ORDER SUMMARY SECTION  -->
 
 			<div class="grid-col-1of10 blank">
@@ -187,10 +183,16 @@
 
 				</div> <!-- closing <div class="billing-information"> -->
 
-				<a href="#modal-cart" class="button-default" title="place order">Place Order</a>
+				<div class="grid">
+					<div class="submit grid-col-5of10">
+						<a href="#modal-cart" class="button-default" title="place order">Place Order</a>
+					</div>
 
-				<a href="product-details-blackswan.html" class="button-secondary" title="Cancel"> Cancel </a>
-					
+					<div class="cancel grid-col-4of10">
+						<a href="product-details-blackswan.html" class="button-secondary" title="Cancel"> Cancel </a>
+					</div>
+				</div>
+
 			</div> <!-- closing <div class="grid-col-4of10 checkout"> -->
 			<!-- END OF SHIPPING & BILLING INFORMATION SECTION -->
 
