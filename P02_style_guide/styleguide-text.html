@@ -111,9 +111,6 @@
 
 
 	<!-- START OF TEXT ELEMENTS -->
-
-
-
 		<section id="text-elements" class="grid-col-8of10">
 
 			<!-- Open Sub grid-->
@@ -159,15 +156,11 @@
 							<p> p</p>
 
 						<h3> Sample Code</h3>
-						
 							<p> 			            
 					            <code> 
 					            	&lt;p&gt; Exciting and festive events around the corner. Our yearly annual competitions are bigger and better yet with coveted prizes. Thanks to our sponsors Red Bull and Coast Capital for supporting us.&lt;/p&gt;
 					            </code>
-					          
 					        </p>
-
-
 
 					</div> <!-- closing <div class="grid-col-4of10">-->
 
@@ -176,29 +169,32 @@
 
 					<h3> Rendered Element </h3>
 						<p>Exciting and festive events around the corner. Our yearly annual competitions are bigger and better yet with coveted prizes. Thanks to our sponsors Red Bull and Coast Capital for supporting us</p>
-
 				</div> <!-- closing <div class="grid-col-4of10">-->
-			</div><!-- closing <div class="grid" id="in-text-link"> -->
+			</div><!-- closing <div class="grid" id="paragraphs"> -->
 
 
 
 			<!-- Open another subgrid  -->
-			<div class="grid" id="submit-reset">
+			<div class="grid" id="bulleted-list">
 				<div class="grid-col-5of10">
 
-						<h1>Submit/Reset Button</h1>
+						<h1>Bulleted List (Filter Option)</h1>
 						
 						<h3> CSS Selector </h3>
 
-							<p>  a.button-default, a.button-default:hover,  a.button-secondary, a.button-secondary:hover</p>
+							<p> .filter-menu, .filter-menu ul, .filter-menu li, .filter-menu li a, .filter-menu li a:hover, .filter-menu li a:active</p>
 
 						<h3> Sample Code</h3>
 						
 							<p> 			            
 					            <code> 
-
-					            	&lt;a href="#" class="button-default"title="Shop Now"&gt;Shop Now&lt;/a&gt;
-
+					            	&lt;div class="grid-col-2of10 filter-menu"&gt;
+										<br>&lt;ul&gt;<br> 
+									        &lt;li&gt;&lt;a href="animalsandnature.html"&gt;Animals &amp; Nature&lt;/a&gt;&lt;/li&gt;<br>
+								            &lt;li&gt;&lt;a href="dollhouse.html"&gt;Dollhouse&lt;/a&gt;&lt;/li&gt;
+								            <br>
+								            &lt;li&gt;&lt;a href="locomotion.html"&gt;Locomotion&lt;/a&gt;&lt;/li&gt;<br>
+							       		&lt;/ul&gt;
 					            </code>
 					            
 					        </p>
@@ -209,30 +205,47 @@
 				<div class="grid-col-5of10 rendered-element">
 
 					<h3> Rendered Element </h3>
-						<a href="#" class="button-default"title="Shop Now">Shop Now</a>
+					<div class="grid-col-8of10 filter-menu">
 
-						<a href="#" class="button-secondary" title="Cancel"> Cancel </a>
+							<ul>
+						        <li><a href="../Pieced/animalsandnature.html">Animals &amp; Nature</a></li>
+					            <li><a href="../Pieced/dollhouse.html">Dollhouse</a></li>
+					            <li><a href="../Pieced/locomotion.html">Locomotion</a></li>
+				       		</ul>
 
+				       		<ul>
+					            <li><a href="../Pieced/animalsandnature.html">Beginner Level</a></li>
+					            <li><a href="../Pieced/dollhouse.html">Intermediate Level</a></li>
+					            <li><a href="../Pieced/locomotion.html">Expert Level</a></li>
+					        </ul>
+
+
+      				</div>	<!-- closing <div class="grid-col-2of10 filter-menu"> -->
+					
 				</div> <!-- closing <div class="grid-col-4of10">-->
-			</div><!-- closing <div class="grid" id="submit-reset"> -->
+			</div><!-- closing <div class="grid" id="bulleted-list"> -->
 
 
-			<!-- Open another subgrid  -->
-			<div class="grid" id="text-input">
+			<!-- Open another subgrid // Numbered List  -->
+			<div class="grid" id="numbered-list">
 				<div class="grid-col-5of10">
 
-						<h1>Text Input Field</h1>
+						<h1>Numbered List</h1>
 						
 						<h3> CSS Selector </h3>
 
-							<p> .form-field, .form-field:focus, .message-box, .message-box:focus</p>
+							<p> #numbered-lists </p>
 
 						<h3> Sample Code</h3>
 						
 							<p> 			            
 					            <code> 
 
-					            	&lt;input class="form-field" placeholder="Name" name="name"&gt; &lt;/input&gt;
+					            	 &lt;ol id="numbered-lists"&gt;</code>
+						            <br>
+						            <code>&lt;li&gt;Beginner Level&lt;/li&gt;</code>
+						            <br>
+						            <code>&lt;/ol&gt;
 					            </code>
 					            
 					        </p>
@@ -240,16 +253,19 @@
 					</div> <!-- closing <div class="grid-col-4of10">-->
 
 
-				<div class="grid-col-5of10 rendered-element input">
+				<div class="grid-col-5of10 rendered-element">
 
 					<h3> Rendered Element </h3>
-						<input class="form-field" placeholder="Name" name="name"> </input>
-
+						<ol id="numbered-lists">
+				            <li>Beginner Level</li>
+				            <li>Intermediate Level</li>
+				            <li>Professional Level</li>
+				        </ol>
 				</div> <!-- closing <div class="grid-col-4of10">-->
 
-			</div><!-- closing <div class="grid" id="text-input"> -->
+			</div><!-- closing <div class="grid" id="numbered-list"> -->
 
-		</section> <!-- closing <section id="interactive-elements grid-col-8of10"> -->
+		</section> <!-- closing <section id="text-elements grid-col-8of10"> -->
 
 
 
