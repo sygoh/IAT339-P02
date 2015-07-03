@@ -102,6 +102,9 @@
 			        <ul>
 			            <li><a href="#main-nav">Main Navigation</a></li>
 			            <li><a href="#product-listing-shop">Product Listing</a></li>
+			            <li><a href="#product-gallery">Product Gallery</a></li>
+			            <li><a href="#homepage-list">Homepage List</a></li>
+			            <li><a href="#event-list">Event List</a></li>
 			             <li><a href="#modal">Modal</a></li>
 
 		        	</ul>
@@ -149,7 +152,7 @@
 							<li><a href="events.html"><span>Events</span></a></li>
 							<li><a href="company.html"><span>Company</span></a></li>
 						</ul> <!-- closing <ul class="nav-menu"> -->
-				</div> <!-- closing <div class="grid-col-5of10">-->
+				</div> <!-- closing <div class="grid-col-5of10" .rendered element>-->
 			</div> <!-- closing <div id="main-nav"> -->
 
 
@@ -198,8 +201,146 @@
 				            </li>
 				        </ul>
 				    </section>
-				</div> <!-- closing <div class="grid-col-4of10">-->
+				</div> <!-- closing <div class="grid-col-5of10" .elementlisting>-->
 			</div><!-- closing <div class="grid" id="product-listing-shop"> -->
+
+
+			<!-- Open another subgrid  -->
+			<div class="grid" id="product-gallery">
+				<div class="grid-col-5of10">
+
+						<h1>Product Gallery</h1>
+						
+						<h3> CSS Selector </h3>
+
+							<p> .product-gallery, .product-gallery img </p>
+
+						<h3> Sample Code</h3>
+							<p> 			            
+					            <code> 
+					            	 &lt;div class="product-gallery"&gt;
+											&lt;img src="../Pieced/img/angelfish-close1.jpg" alt="close up of a puzzle angelfish"&gt;
+									&lt;/div&gt;
+
+					            </code>
+					        </p>
+
+					</div> <!-- closing <div class="grid-col-4of10">-->
+
+
+				<div class="grid-col-5of10 rendered-element">
+					<h3> Rendered Element </h3>
+					<section class="grid-col-8of10 product-listing">
+
+			      			<div class="product-gallery">
+								<img src="../Pieced/img/angelfish-close1.jpg" alt="close up of a puzzle angelfish">
+								<img src="../Pieced/img/angelfish-close2.jpg" alt="close up of a puzzle angelfish">
+								<img src="../Pieced/img/angelfish-close3.jpg" alt="close up of a puzzle angelfish">
+							</div> <!-- closing <div class="product-gallery"> -->
+				    </section>
+				</div> <!-- closing <div class="grid-col-5of10" .elementlisting>-->
+			</div><!-- closing <div class="grid" id="product-gallery"> -->
+
+
+
+
+			<!-- Open Sub grid-->
+			<div class="grid" id="homepage-list">
+				<div class="grid-col-5of10">
+
+						<h1>Homepage List</h1>
+						
+						<h3> CSS Selector </h3>
+
+						<p> #new-collection ul.img-list li a, .text-content</p>
+
+						<h3> Sample Code</h3>
+						
+						<p><code>
+
+							&lt;ul class="img-list"&gt; <br>
+
+						  	&lt;li>	<br>	   
+						    	&lt;a href="#"&gt; &lt;img src="../Pieced/img/swan4.jpg" width="250" height="171" alt="an image of a 3D wooden puzzle black swan under the new collection section"/&gt; <br>
+							    	&lt;div class="text-content"&gt;
+							    		&lt;h2&gt;Black Swan&lt;/h2&gt;
+							    	&lt;/div&gt;<br>
+						    	&lt;/a&gt;<br>
+						    &lt;/li&gt;
+						    &lt;/ul&gt;
+
+						</code></p>
+
+				</div> <!-- closing grid col 5of10 -->
+
+
+				<div class="grid-col-5of10 rendered-element">
+
+					<h3> Rendered Element </h3>
+					
+						<ul class="img-list">
+
+						  	<li>		   
+						    	<a href="#"> <img src="../Pieced/img/swan4.jpg" width="250" height="171" alt="an image of a 3D wooden puzzle black swan under the new collection section"/>
+							    	<div class="text-content">
+							    		<h2>Black Swan</h2>
+							    	</div>
+						    	</a>
+						    </li>
+
+						    <li>		   
+						    	<a href="#"> <img src="../Pieced/img/angelfish.jpg" width="250" height="171" alt="an image of a 3D wooden puzzle angelfish under the new collection section">
+							    	<div class="text-content">
+							    		<h2>Elegant Angelfish</h2>
+							    	</div>
+						    	</a>
+						    </li>
+						</ul>
+
+				</div> <!-- closing <div class="grid-col-5of10" .rendered element>-->
+			</div> <!-- closing <div id="homepage list"> -->
+
+
+			<!-- Open Sub grid-->
+			<div class="grid" id="event-list">
+				<div class="grid-col-5of10">
+
+						<h1>Event List</h1>
+						
+						<h3> CSS Selector </h3>
+
+						<p> .coming-up-events ul.img-list, .coming-up-events ul.img-list li, .coming-up-events ul.img-list li img</p>
+
+						<h3> Sample Code</h3>
+						
+						<p><code>
+
+							&lt;ul class="img-list"&gt; <br>
+
+						  	&lt;li>	<br>	   
+						    	&lt;a href="#"&gt; &lt;img src="../Pieced/img/puzzle-hack-1.jpg" width="250" height="171" alt="puzzle hacks event photo/&gt; <br>
+							    	&lt;h3&gt;Puzzle Hacks &lt;/h3&gt;
+							    		&lt;h2&gt;July 14, 2015&lt;/h2&gt;
+						    &lt;/li&gt;
+						    &lt;/ul&gt;
+
+						</code></p>
+
+				</div> <!-- closing grid col 5of10 -->
+
+
+				<div class="grid-col-5of10 rendered-element-events">
+					
+						<ul class="img-list">
+						  	<li>		   
+						    	<img src="../Pieced/img/puzzle-hack-1.jpg" width="250" height="171" alt="puzzle hacks event photo">
+						    	<h3>Puzzle Hacks</h3>
+			         			<h4>July 14, 2015</h4>
+						    </li>
+						</ul>
+				</div> <!-- closing <div class="grid-col-5of10" .rendered element>-->
+			</div> <!-- closing <div id="event list"> -->
+
 
 
 
