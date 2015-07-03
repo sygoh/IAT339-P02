@@ -130,3 +130,24 @@
 		padding-left: 5em;
 	}
 
+	#myCanvas-gold {
+		background-color: #C1B087;
+	}
+
+	#myCanvas-darkgrey {
+		background-color: #5e5e5e;
+	}
+
+	#myCanvas-medgrey {
+		background-color: #7d7d7d;
+	}
+
+	#myCanvas-lightgrey {
+		background-color: #d8d8d8;
+	}
+
+	#myCanvas-grid {
+		background-color: #d8d8d8;
+		margin-right: .5em;
+	}
+
