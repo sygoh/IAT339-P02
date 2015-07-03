@@ -132,6 +132,42 @@
       margin-bottom: 0;
 	}
 
+	
+	 #modal-cart .modal-dialog {
+		background: white;
+		border: #C1B087 solid 1px;
+		display: block;
+		/*position: fixed; *//* listen to the viewport */
+		/*top: 0;
+		left: 25%;*/
+/*
+		z-index: 11;*/
+		width: 40em; /* width of the modal */
+
+	}
+
+	 #modal-cart .modal-header {
+		border-bottom: #F2EDE7 solid 1px;
+	    padding: 1.5em 0;
+		width: 90%;
+		margin-left: 2em;
+	}
+
+
+	/* Styling for the "X" on the top right to close modal */
+
+	 #modal-cart .button-close-modal {
+		color: #7D7D7D;
+		font-size: 2rem;
+		text-decoration: none;
+	/*	position: fixed;*/
+		top: 0.4em;
+		right: 1em;
+	}
+
+
+
+/*-------------------------------*/
 
 	/*styling for brand*/
 	#brand {
