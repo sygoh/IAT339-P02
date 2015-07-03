@@ -1,5 +1,5 @@
 /*
-  A CSS stylesheet created from Tabs N' Blanks, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
+  A CSS stylesheet created from Pieced, a hypothetical store selling 3D woodcraft puzzles, for the purpose of a web design course project
 
   CREATED BY: IAT339 D101 WINONA HUANG 301165181
                           JOANNE GOH 301140652;
@@ -14,13 +14,6 @@
 
 /*standard text styling */
 
-	
-/*	PRACTICE NOT TO USE GENERIC TAGS 
-	SPECIFY WITH CLASS NAME AND ID*/
-
-/*	i wouldn't put the margin-top on the h1, i would put it as the margin for that specific tag that marks up the section*/
-
-/*	margin-bottom is okay because you are separating between that h1 element and the rest*/
 
 	#interactive-elements h1{
 		margin-top: 1em;
@@ -40,19 +33,25 @@
 		margin-right: 5em;
 	}
 
+	#interactive-elements ul.nav-menu {
+		text-align:left;
+		margin-top: 0;
+	}
+	
+
 	.rendered-element.intextlink a {
     color: #5E5E5E;
-  }
+  	}
 
   	.rendered-element.intextlink a:hover {
     color: #A47D81;
     color: #C1B087;
     text-decoration: none;
-  }
+  	}
 
 
 
-/*	this means it is a .grid-col-2of10 and ALSO a .filter-menu so it will only affect that specific one not everything else with the tag of .grid-col-2of10 or .filter-menu*/
+/*	filter menu */
 
 	.grid-col-2of10.filter-menu {
 		margin-top:3em;
@@ -63,14 +62,7 @@
 		padding-left: 2em;
 	}
 
-	#interactive-elements ul.nav-menu {
-		text-align:left;
-		margin-top: 0;
-	}
 
-	.grid-col-5of10.rendered-element {
-	}
-	
 	.grid-col-5of10.rendered-element h3{
 		padding-top: 3em;
 		padding-bottom:0.5em;
