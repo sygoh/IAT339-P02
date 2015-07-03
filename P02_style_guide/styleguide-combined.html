@@ -13,7 +13,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Styleguide (Text Elements) - Pieced</title>
+		<title>Styleguide - Combined Elements - Pieced</title>
 
 		<!-- grid.css specifies the grid structure-->
 		<link href="../Pieced/css/grid.css" rel="stylesheet">
@@ -65,10 +65,10 @@
 					<a href="#" class="nav-toggle">Menu</a>
 
 					<ul class="nav-menu">
-						<li><a href="#interactive-elements"><span>Interactive</span></a></li>
-						<li><a href="#text-elements"><span>Text</span></a></li>
-						<li><a href="#combined-elements"><span>Combined</span></a></li>
-						<li><a href="#brand"><span>Brand</span></a></li>
+						<li><a href="styleguide.html"><span>Interactive</span></a></li>
+						<li><a href="styleguide-text.html"><span>Text</span></a></li>
+						<li><a href="styleguide-combined.html"><span>Combined</span></a></li>
+						<li><a href="styleguide-brand.html"><span>Brand</span></a></li>
 					</ul> <!-- closing <ul class="nav-menu"> -->
 
 				</div> <!-- closing <div class="nav-combined"-->
@@ -104,30 +104,18 @@
 			            <li><a href="#product-listing.html">Product Listing</a></li>
 		        	</ul>
 
-	        	<h3> BRAND ELEMENTS </h3>
-		        <ul>
-		            <li><a href="#color">Color Palette</a></li>
-		            <li><a href="#grid-system">Grid System</a></li>
-	        	</ul>
-
-
       		</div>	<!-- closing <div class="grid-col-2of10 filter-menu"> -->
 
 
 <!-- ____________________________________________________________________ -->
 
-		<!-- CSS SELECTOR / SAMPLE CODE / RENDERED ELEMENTS -->
-
+		<section id="combined-elements" class="grid-col-8of10">
 		
-		<section id="interactive-elements" class="grid-col-8of10">
-				
-			<!-- NEED TO CHANGE THE CLASS NAME NAV-BUTTON AND/OR ID, DONT KNOW WHAT YOU WANNA CALL IT, THIS IS JUST A FILLER ID -->
-
 			<!-- Open Sub grid-->
-			<div class="grid" id="nav-button">
+			<div class="grid" id="main-nav">
 				<div class="grid-col-5of10">
 
-						<h1>Navigation Button</h1>
+						<h1>Main Navigation</h1>
 						
 						<h3> CSS Selector </h3>
 
@@ -135,36 +123,39 @@
 
 						<h3> Sample Code</h3>
 						
-						<p> <code> &lt;div class="nav-menu"&gt;</code>
-				            <br>
-				            <code>&lt;ul&gt;</code>
-				            <br>
-				            <code>&lt;li&gt;&lt;a href="shop.html"&gt;&lt;span&gt;Shop&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;</code>
-				            <br>
-				            <code>&lt;/ul&gt;</code>
-				            <br>
-				            <code>&lt;/div&gt;</code></p>
+						<p><code>
 
-				</div> <!-- closing <div class="grid" id="nav-button"> -->
+							&lt;div class="grid-col-6of10 main-nav">
+								<br>
+								&lt;ul class="nav-menu"&gt;<br>
+									&lt;li&gt;&lt;a href="shop.html"&gt;&lt;span&gt;Shop&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>
+									&lt;li>&lt;a href="events.html"&gt;&lt;span&gt;Events&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;<br>
+									&lt;li&gt;&lt;a href="company.html"&gt;&lt;span&gt;Company&lt;/span&gt;&lt;/a&gt;&lt;/li><br>
+								&lt;/ul&gt;
+
+						</code></p>
+
+				</div> <!-- closing grid col 5of10 -->
 
 
 				<div class="grid-col-5of10 rendered-element">
 
 					<h3> Rendered Element </h3>
 					
-					<ul class="nav-menu">
-						<li><a href="../Pieced/shop.html"><span>Shop</span></a></li>
-					</ul>
+						<ul class="nav-menu">
+							<li><a href="shop.html"><span>Shop</span></a></li>
+							<li><a href="events.html"><span>Events</span></a></li>
+							<li><a href="company.html"><span>Company</span></a></li>
+						</ul> <!-- closing <ul class="nav-menu"> -->
+				
+					
 
-				</div> <!-- closing <div class="grid-col-4of10">-->
+				</div> <!-- closing <div class="grid-col-5of10">-->
 
 	
-			</div> <!-- closing <div class="nav-button" id="nav-button"> -->
+			</div> <!-- closing <div id="main-nav"> -->
 
 
-
-
-			<!-- NEED TO CHANGE THE CLASS NAME In-Text-Link AND/OR ID, DONT KNOW WHAT YOU WANNA CALL IT, THIS IS JUST A FILLER -->
 			
 			<!-- Open another subgrid  -->
 			<div class="grid" id="in-text-link">
@@ -199,241 +190,10 @@
 			</div><!-- closing <div class="grid" id="in-text-link"> -->
 
 
-
-			<!-- Open another subgrid  -->
-			<div class="grid" id="submit-reset">
-				<div class="grid-col-5of10">
-
-						<h1>Submit/Reset Button</h1>
-						
-						<h3> CSS Selector </h3>
-
-							<p>  a.button-default, a.button-default:hover,  a.button-secondary, a.button-secondary:hover</p>
-
-						<h3> Sample Code</h3>
-						
-							<p> 			            
-					            <code> 
-
-					            	&lt;a href="#" class="button-default"title="Shop Now"&gt;Shop Now&lt;/a&gt;
-
-					            </code>
-					            
-					        </p>
-
-					</div> <!-- closing <div class="grid-col-4of10">-->
-
-
-				<div class="grid-col-5of10 rendered-element">
-
-					<h3> Rendered Element </h3>
-						<a href="#" class="button-default"title="Shop Now">Shop Now</a>
-
-						<a href="#" class="button-secondary" title="Cancel"> Cancel </a>
-
-				</div> <!-- closing <div class="grid-col-4of10">-->
-			</div><!-- closing <div class="grid" id="submit-reset"> -->
-
-
-			<!-- Open another subgrid  -->
-			<div class="grid" id="text-input">
-				<div class="grid-col-5of10">
-
-						<h1>Text Input Field</h1>
-						
-						<h3> CSS Selector </h3>
-
-							<p> .form-field, .form-field:focus, .message-box, .message-box:focus</p>
-
-						<h3> Sample Code</h3>
-						
-							<p> 			            
-					            <code> 
-
-					            	&lt;input class="form-field" placeholder="Name" name="name"&gt; &lt;/input&gt;
-					            </code>
-					            
-					        </p>
-
-					</div> <!-- closing <div class="grid-col-4of10">-->
-
-
-				<div class="grid-col-5of10 rendered-element input">
-
-					<h3> Rendered Element </h3>
-						<input class="form-field" placeholder="Name" name="name"> </input>
-
-				</div> <!-- closing <div class="grid-col-4of10">-->
-
-			</div><!-- closing <div class="grid" id="text-input"> -->
-
 		</section> <!-- closing <section id="interactive-elements grid-col-8of10"> -->
 
 		<!-- END OF INTERACTIVE ELEMENTS -->
 		
-
-	
-	<!-- START OF COMBINED ELEMENTS -->
-
-		<section id="text-elements" class="grid-col-8of10">
-
-			<!-- Open Sub grid-->
-			<div class="grid" id="headings">
-				<div class="grid-col-5of10">
-
-						<h1>Headings</h1>
-						
-						<h5> CSS Selector </h5> 
-
-						<p> h1, h2, h3, h4 </p>
-
-						<h3> Sample Code</h3>
-						
-						<p> <code> &lt;h1&gt; New Collection &lt; /h1 &gt;</code></p>
-
-				</div> <!-- closing <div class="grid" id="nav-button"> -->
-
-
-				<div class="grid-col-5of10 rendered-element">
-
-					<h3> Rendered Element </h3>
-					
-						<h1> New Collection </h1>
-						<h2> Black Swan </h2>
-						<h4> Intermediate Level </h4>
-					
-
-				</div> <!-- closing <div class="grid-col-4of10">-->
-
-	
-			</div> <!-- closing <div class="grid" id="headings"> -->
-
-			
-			<!-- Open another subgrid  -->
-			<div class="grid" id="paragraphs">
-				<div class="grid-col-5of10">
-
-						<h1>Paragraphs</h1>
-						
-						<h3> CSS Selector </h3>
-
-							<p> p</p>
-
-						<h3> Sample Code</h3>
-						
-							<p> 			            
-					            <code> 
-					            	&lt;p&gt;Exciting and festive events around the corner. Our yearly annual competitions are bigger and better yet with coveted prizes. Thanks to our sponsors Red Bull and Coast Capital for supporting us.&lt;/p&gt;
-					            </code>
-					          
-					        </p>
-
-
-
-					</div> <!-- closing <div class="grid-col-4of10">-->
-
-
-				<div class="grid-col-5of10 rendered-element intextlink">
-
-					<h3> Rendered Element </h3>
-						<p>This is a sample paragraph. <a href="#">Visit our shop</a> to browse through the puzzle products we have available. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. </p>
-
-				</div> <!-- closing <div class="grid-col-4of10">-->
-			</div><!-- closing <div class="grid" id="in-text-link"> -->
-
-
-
-			<!-- Open another subgrid  -->
-			<div class="grid" id="submit-reset">
-				<div class="grid-col-5of10">
-
-						<h1>Submit/Reset Button</h1>
-						
-						<h3> CSS Selector </h3>
-
-							<p>  a.button-default, a.button-default:hover,  a.button-secondary, a.button-secondary:hover</p>
-
-						<h3> Sample Code</h3>
-						
-							<p> 			            
-					            <code> 
-
-					            	&lt;a href="#" class="button-default"title="Shop Now"&gt;Shop Now&lt;/a&gt;
-
-					            </code>
-					            
-					        </p>
-
-					</div> <!-- closing <div class="grid-col-4of10">-->
-
-
-				<div class="grid-col-5of10 rendered-element">
-
-					<h3> Rendered Element </h3>
-						<a href="#" class="button-default"title="Shop Now">Shop Now</a>
-
-						<a href="#" class="button-secondary" title="Cancel"> Cancel </a>
-
-				</div> <!-- closing <div class="grid-col-4of10">-->
-			</div><!-- closing <div class="grid" id="submit-reset"> -->
-
-
-			<!-- Open another subgrid  -->
-			<div class="grid" id="text-input">
-				<div class="grid-col-5of10">
-
-						<h1>Text Input Field</h1>
-						
-						<h3> CSS Selector </h3>
-
-							<p> .form-field, .form-field:focus, .message-box, .message-box:focus</p>
-
-						<h3> Sample Code</h3>
-						
-							<p> 			            
-					            <code> 
-
-					            	&lt;input class="form-field" placeholder="Name" name="name"&gt; &lt;/input&gt;
-					            </code>
-					            
-					        </p>
-
-					</div> <!-- closing <div class="grid-col-4of10">-->
-
-
-				<div class="grid-col-5of10 rendered-element input">
-
-					<h3> Rendered Element </h3>
-						<input class="form-field" placeholder="Name" name="name"> </input>
-
-				</div> <!-- closing <div class="grid-col-4of10">-->
-
-			</div><!-- closing <div class="grid" id="text-input"> -->
-
-		</section> <!-- closing <section id="interactive-elements grid-col-8of10"> -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	</div> <!-- close <div class="container" div -->
 
