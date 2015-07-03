@@ -47,7 +47,7 @@
 
 			<div class="grid-col-2of10 logo">
 				<a href="../Pieced/index.html" class="logo-link">
-					<img src="../Pieced/img/styleguide-logo.png" width="150" height="52.5"></img>
+					<img src="../Pieced/img/styleguide-logo.png" width="150" height="53"></img>
 				</a>
 			</div> <!-- closing <div class="grid-col-2of10"> -->
 
@@ -101,7 +101,9 @@
 		        <h3> COMBINED ELEMENTS </h3>
 			        <ul>
 			            <li><a href="#main-nav">Main Navigation</a></li>
-			            <li><a href="#product-listing.html">Product Listing</a></li>
+			            <li><a href="#product-listing-shop">Product Listing</a></li>
+			             <li><a href="#modal">Modal</a></li>
+
 		        	</ul>
 
       		</div>	<!-- closing <div class="grid-col-2of10 filter-menu"> -->
@@ -147,21 +149,16 @@
 							<li><a href="events.html"><span>Events</span></a></li>
 							<li><a href="company.html"><span>Company</span></a></li>
 						</ul> <!-- closing <ul class="nav-menu"> -->
-				
-					
-
 				</div> <!-- closing <div class="grid-col-5of10">-->
-
-	
 			</div> <!-- closing <div id="main-nav"> -->
 
 
 			
 			<!-- Open another subgrid  -->
-			<div class="grid" id="in-text-link">
+			<div class="grid" id="product-listing-shop">
 				<div class="grid-col-5of10">
 
-						<h1>In-Text Link</h1>
+						<h1>Product Listing - Shop</h1>
 						
 						<h3> CSS Selector </h3>
 
@@ -173,7 +170,6 @@
 					            <code> 
 					            	&lt;p&gt;This is a sample paragraph. &lt;a href=""&gt;Visit our shop&lt;/a&gt; to browse through the puzzle products we have available.&lt;/p&gt;
 					            </code>
-					          
 					        </p>
 
 
@@ -181,13 +177,29 @@
 					</div> <!-- closing <div class="grid-col-4of10">-->
 
 
-				<div class="grid-col-5of10 rendered-element intextlink">
+				<div class="grid-col-5of10 rendered-element-listing">
+					<section class="grid-col-8of10 product-listing">
+		      			<ul>
+		      				<li>
+				              <a href="#"><img src="../Pieced/img/swan4.jpg" height="171" width="250" alt="product listing image of black swan"></a>
+				              <h3> Black Swan</h3>
+				              <h4> Intermediate Level</h4>
+				            </li>
 
-					<h3> Rendered Element </h3>
-						<p>This is a sample paragraph. <a href="#">Visit our shop</a> to browse through the puzzle products we have available. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. </p>
+				            <li>
+				              <a href="#"><img src="../Pieced/img/buffalo.jpg" height="171" width="250" alt="product image of buffalo"></a>
+				              <h3> Buff Buffalo</h3>
+				              <h4> Expert Level</h4>
+				            </li>
+				        </ul>
+				    </section>
+
 
 				</div> <!-- closing <div class="grid-col-4of10">-->
-			</div><!-- closing <div class="grid" id="in-text-link"> -->
+			</div><!-- closing <div class="grid" id="product-listing-shop"> -->
+
+
+
 
 
 		</section> <!-- closing <section id="interactive-elements grid-col-8of10"> -->

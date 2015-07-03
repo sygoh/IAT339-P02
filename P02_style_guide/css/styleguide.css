@@ -106,6 +106,10 @@
 	}
 
 
+	.grid-col-8of10.product-listing {
+		padding-left:0;
+	}
+
 
 /* Styling for the events posts */
 	
