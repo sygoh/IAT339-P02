@@ -139,18 +139,20 @@
 	}
 
 
-	#modal-cart .modal-footer a.button-default {
+	#modal-cart .modal-footer a.button-default,
+	 #modal-order-placed .modal-footer a.button-default {
 		float: right;
 		margin: 2em 3.5em 2em 0;
 	}
 
 	/* 
-		RESPONSIVE for cart modal 
+		RESPONSIVE for cart modal & order-placed modal
 	*/
 
 	@media (max-width: 70em) {
 		
-		#modal-cart .modal-dialog {
+		#modal-cart .modal-dialog,
+		 #modal-order-placed .modal-dialog {
 			position: fixed;
 			left: 20%;
 		}
@@ -158,7 +160,8 @@
 
 	@media (max-width: 62.5em) {
 		
-		#modal-cart .modal-dialog {
+		#modal-cart .modal-dialog,
+		 #modal-order-placed .modal-dialog {
 			position: fixed;
 			left: 10%;
 		}
@@ -166,7 +169,8 @@
 
 	@media (max-width: 53.875em) {
 		
-		#modal-cart .modal-dialog {
+		#modal-cart .modal-dialog,
+		 #modal-order-placed .modal-dialog {
 			width: 30em;
 			position: fixed;
 			left: 20%;
@@ -176,7 +180,8 @@
 			width: 40%;
 		}
 
-		#modal-cart .modal-body h4.grid-col-3of10 {
+		#modal-cart .modal-body h4.grid-col-3of10,
+		 #modal-order-placed .modal-body h4.grid-col-3of10 {
 			width: 60%;
 			margin-top: 0.5em; 
 		}
@@ -211,7 +216,8 @@
 
 	@media (max-width: 43em) {
 		
-		#modal-cart .modal-dialog {
+		#modal-cart .modal-dialog,
+		 #modal-order-placed .modal-dialog {
 			position: fixed;
 			left: 10%;
 		}
@@ -219,21 +225,22 @@
 
 	@media (max-width: 34.438em) {
 
-		#modal-cart .modal-dialog {
+		#modal-cart .modal-dialog,
+		 #modal-order-placed .modal-dialog {
 			width: 25em;
 			position: fixed;
 			top: 5%;
 			left: 12%;
-			/*height: 100%;*/
-			/*overflow: hidden;*/
 		}
 
-		#modal-cart .modal-header {
+		#modal-cart .modal-header,
+		 #modal-order-placed .modal-header {
 			margin-left: 1.5em;
 			width: 82%;
 		}
 
-		#modal-cart .modal-body {
+		#modal-cart .modal-body,
+		 #modal-order-placed .modal-body {
 			margin: 1.5em;
 		}
 
@@ -250,11 +257,17 @@
 
 		#modal-cart .modal-body p.grid-col-1of10 {
 			margin: 0.5em 0;
-			font-size: 1rem;
+			font-size: 0.875rem;
 		}
 
 		#modal-cart .modal-body .grid-col-2of10 {
-			display: none;
+			width: 100%;
+			margin-top: 0;
+			margin-left: 0.5em;
+		}
+
+		#modal-cart .modal-body a.button-secondary {
+			font-size: 0.75rem;
 		}
 
 		#modal-cart .modal-footer .grid-col-7of10.blank {
@@ -269,7 +282,8 @@
 			width: 50%;
 		}
 
-		#modal-cart .modal-footer {
+		#modal-cart .modal-footer,
+		 #modal-order-placed .modal-footer {
 			text-align: center;
 			font-size: 1rem;
 		}
@@ -278,11 +292,16 @@
   			margin-right: 7em;
 		}
 
+		#modal-order-placed .modal-footer a.button-default {
+  			margin-right: 3.5em;
+		}
+
 	}
 
 	@media (max-width: 29.375em) {
 
-		#modal-cart .modal-dialog {
+		#modal-cart .modal-dialog,
+		 #modal-order-placed .modal-dialog {
 			position: fixed;
 			top: 5%;
 			left: 5%;
@@ -291,13 +310,15 @@
 
 	@media (max-width: 25em) {
 
-		#modal-cart .modal-dialog {
+		#modal-cart .modal-dialog, 
+		 #modal-order-placed .modal-dialog {
 			position: fixed;
 			top: 0;
 			left: 0;
 		}
 
-		#modal-cart .modal-footer {
+		#modal-cart .modal-footer,
+		 #modal-order-placed .modal-footer {
 			margin: 1.5em 1em;
 		}
 
@@ -305,20 +326,30 @@
   			margin-right: 6em;
 		}
 
+		#modal-order-placed .modal-footer a.button-default {
+  			margin-right: 3em;
+		}
+
 
 	}
 
 	@media (max-width: 20em) {
 		
-		#modal-cart .modal-dialog {
+		#modal-cart .modal-dialog,
+		 #modal-order-placed .modal-dialog {
 			width: 20em;
 		}
 
-		#modal-cart .modal-footer {
+		#modal-cart .modal-footer,
+		 #modal-order-placed .modal-footer {
 			margin: 1.5em;
 		}
 
 		#modal-cart .modal-footer a.button-default {
+  			margin-right: 5em;
+		}
+
+		#modal-order-placed .modal-footer a.button-default {
   			margin-right: 5em;
 		}
 	}
