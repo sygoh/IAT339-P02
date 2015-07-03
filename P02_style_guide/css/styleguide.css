@@ -79,6 +79,8 @@
 		width:60%;
 	}
 
+	
+
 	/*___________________*/
 
 	
@@ -97,6 +99,11 @@
     list-style-type: lower-alpha;
   }
 
+  /*styling for combined elements*/
+  #combined-elements {
+		margin-top:2em;
+		padding-left: 5em;
+	}
 
 
 
