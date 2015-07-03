@@ -442,6 +442,7 @@
 		#modal-review .modal-body .review-form {
 			margin: 0 2.5em;
 		}
+	}
 
 
 	/* adjust positioning of modal-cart */
@@ -573,6 +574,7 @@
 			top: 0;
 			left: 0;
 		}
+	}
 
 	@media (max-width: 20em) {
 		
