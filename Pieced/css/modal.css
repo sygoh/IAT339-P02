@@ -62,6 +62,8 @@
 		position: fixed; /* listen to the viewport */
 		top: 0;
 		left: 25%;
+		bottom: 0;
+		overflow-y: auto;
 
 		z-index: 11;
 		width: 40em; /* width of the modal */
