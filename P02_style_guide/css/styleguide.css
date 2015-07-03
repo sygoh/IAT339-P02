@@ -112,9 +112,18 @@
 	}
 
 
-
 .grid-col-8of10.product-listing h3 {
 	font-family: Avenir-Medium;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      color: #5e5e5e;
+      text-transform: uppercase;
+      margin-top: 0;
+      margin-bottom: 0;
+	}
+
+	.grid-col-5of10.rendered-element-events h3 {
+      font-family: Avenir-Medium;
       font-size: 1rem;
       letter-spacing: 0.05em;
       color: #5e5e5e;
