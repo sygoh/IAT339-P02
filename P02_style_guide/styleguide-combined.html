@@ -162,22 +162,27 @@
 						
 						<h3> CSS Selector </h3>
 
-							<p> #interactive-elements a, #interactive-elements a:hover</p>
+							<p> .product-listing, .product-listing ul, .product-listing li, .product-listing li a , .product-listing li img, .product-listing ul li h3,  .product-listing ul li h4 </p>
 
 						<h3> Sample Code</h3>
-						
 							<p> 			            
 					            <code> 
-					            	&lt;p&gt;This is a sample paragraph. &lt;a href=""&gt;Visit our shop&lt;/a&gt; to browse through the puzzle products we have available.&lt;/p&gt;
+					            	&lt;section class="grid-col-8of10 product-listing"&gt;
+						      			&lt;ul&gt;
+						      				&lt;li&gt;
+								              &lt;a href="product-details-blackswan.html">&lt;img src="img/swan4.jpg" height="171" width="250" alt="product listing image of black swan">&lt;/a&gt;
+								              &lt;h3&gt; Black Swan&lt;/h3&gt;
+								              &lt;h4&gt; Intermediate Level&lt;/h4&gt;
+								            &lt;/li&gt;
+
 					            </code>
 					        </p>
-
-
 
 					</div> <!-- closing <div class="grid-col-4of10">-->
 
 
 				<div class="grid-col-5of10 rendered-element-listing">
+
 					<section class="grid-col-8of10 product-listing">
 		      			<ul>
 		      				<li>
@@ -193,10 +198,43 @@
 				            </li>
 				        </ul>
 				    </section>
-
-
 				</div> <!-- closing <div class="grid-col-4of10">-->
 			</div><!-- closing <div class="grid" id="product-listing-shop"> -->
+
+
+
+			<!-- Open another subgrid  -->
+			<div class="grid" id="modal">
+				<div class="grid-col-5of10">
+
+						<h1>Modal</h1>
+						
+						<h3> CSS Selector </h3>
+
+							<p> .modal::before, .modal:target .modal-dialog,  </p>
+
+						<h3> Sample Code</h3>
+							<p> 			            
+					            <code> 
+					            	&lt;section class="grid-col-8of10 product-listing"&gt;
+						      			&lt;ul&gt;
+						      				&lt;li&gt;
+								              &lt;a href="product-details-blackswan.html">&lt;img src="img/swan4.jpg" height="171" width="250" alt="product listing image of black swan">&lt;/a&gt;
+								              &lt;h3&gt; Black Swan&lt;/h3&gt;
+								              &lt;h4&gt; Intermediate Level&lt;/h4&gt;
+								            &lt;/li&gt;
+
+					            </code>
+					        </p>
+
+					</div> <!-- closing <div class="grid-col-4of10">-->
+
+
+				<div class="grid-col-5of10 rendered-element">
+
+
+				</div> <!-- closing <div class="grid-col-5of10">-->
+			</div><!-- closing <div class="grid" id="modal"> -->
 
 
 
