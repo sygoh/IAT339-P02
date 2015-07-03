@@ -289,6 +289,10 @@
     /* Logo / Main Nav / Side Nav sit on its own row */
     @media (max-width: 52.875em) {
 
+        .logo img {
+          margin-left: 0;
+        }
+
         .grid-col-2of10.logo {
           width: 100%;
           text-align: center;
