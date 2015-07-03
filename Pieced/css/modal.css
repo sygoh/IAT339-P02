@@ -62,8 +62,6 @@
 		position: fixed; /* listen to the viewport */
 		top: 0;
 		left: 25%;
-		bottom: 0;
-		overflow-y: auto;
 
 		z-index: 11;
 		width: 40em; /* width of the modal */
@@ -233,6 +231,8 @@
 			position: fixed;
 			top: 5%;
 			left: 12%;
+			bottom: 0;
+			overflow-y: auto;
 		}
 
 		#modal-cart .modal-header,
@@ -307,6 +307,8 @@
 			position: fixed;
 			top: 5%;
 			left: 5%;
+			bottom: 0;
+			overflow-y: auto;
 		}
 	}
 
@@ -317,6 +319,8 @@
 			position: fixed;
 			top: 0;
 			left: 0;
+			bottom: 0;
+			overflow-y: auto;
 		}
 
 		#modal-cart .modal-footer,
