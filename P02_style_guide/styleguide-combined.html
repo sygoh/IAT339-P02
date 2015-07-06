@@ -25,7 +25,7 @@
 		<link href="../Pieced/css/homepage.css" rel="stylesheet">
 		<link href="../Pieced/css/events.css" rel="stylesheet">
 		<link href="../Pieced/css/breadcrumb.css" rel="stylesheet">
-		<link href="../Pieced/css/modal.css" rel="stylesheet">
+<!-- 		<link href="../Pieced/css/modal.css" rel="stylesheet"> -->
 		<link href="../Pieced/css/shop.css" rel="stylesheet">
 		<link href="../Pieced/css/form.css" rel="stylesheet">
 		<link href="../Pieced/css/product-details.css" rel="stylesheet">
@@ -33,6 +33,7 @@
 		<link href="../Pieced/css/company.css" rel="stylesheet">
 		<link href="../Pieced/css/img-styling.css" rel="stylesheet">
 		<link href="css/styleguide.css" rel="stylesheet">
+		<link href="css/styleguide-modal.css" rel="stylesheet">
 		
 	</head>
 
@@ -338,10 +339,53 @@
 						    </li>
 						</ul>
 				</div> <!-- closing <div class="grid-col-5of10" .rendered element>-->
-			</div> <!-- closing <div id="event list"> -->
+			</div> <!-- closing <div id="event-list"> -->
 
 
-		</section> <!-- closing <section id="color" grid-col-8of10"> -->
+					<!-- Open Sub grid-->
+			<div class="grid" id="modal">
+				<div class="grid-col-5of10 rendered-element-modal">
+
+						<h1>Modal</h1>
+						
+						<h3> CSS Selector </h3>
+
+						<p> .modal-dialogue, .modal::target::before, .modal-header, .modal-header h3, .modal-body, .button-close-modal</p>
+
+						<h3> Sample Code</h3>
+						
+						<p><code>
+
+							&lt;div class="modal" id="modal-cart" aria-hidden="false"&gt;
+							  
+							  &lt;div class="modal-dialog"&gt;
+							    
+							    &lt;div class="modal-header"&gt;
+									&lt;h3>My Cart</h3>
+									&lt;a href="#close" class="button-close-modal" aria-hidden="false"&gt;×&lt;/a&gt;
+							    &lt;/div&gt;
+							&lt;/div&gt;
+
+						
+
+						</code></p>
+
+						
+
+				</div> <!-- closing grid col 5of10 .rendered element -->
+
+				<div class="grid-col-5of10 rendered-element-modal-2">
+					<h3> Rendered Element </h3>
+					<a href="../Pieced/styleguide-modal.html"> Click here to see Modal </a>
+				</div> <!-- closing <div class="grid-col-5of10" .rendered element>-->
+			</div> <!-- closing .grid #modal -->
+
+		
+
+
+
+
+		</section> <!-- closing <section id="combined" grid-col-8of10"> -->
 
 
 
