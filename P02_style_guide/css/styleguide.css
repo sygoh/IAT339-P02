@@ -148,7 +148,29 @@
 	.rendered-element-events ul.img-list{
 		width: 0;
 	}
-	
+
+	.rendered-element-modal-2 a {
+		color: #B8B4B4;
+		text-decoration: none;
+		font-size: 0.81rem;
+	}
+
+	.rendered-element-modal-2 a:visited {
+		color: #B8B4B4;
+		text-decoration: none;
+	}
+	.rendered-element-modal-2 a:active {
+		color: #B8B4B4;
+		text-decoration: none;
+	}
+
+	.rendered-element-modal-2 a:hover {
+		color: #C1B087;
+		text-decoration: underline;
+	}
+	.rendered-element-modal-2 h3 {
+		padding-top: 3em;
+	}
 
 	/*styling for brand --------------*/
 	#brand {
